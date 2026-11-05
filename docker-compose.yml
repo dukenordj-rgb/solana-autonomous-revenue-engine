@@ -1,0 +1,7 @@
+services:
+  solagent:
+    build: .
+    restart: always
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python engine.py
