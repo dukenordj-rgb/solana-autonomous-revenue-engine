@@ -1,7 +1,7 @@
 # 🟢 Web3 Cloud Autonomous Revenue Agent
 
 > **Status:** 100% Autônomo na Nuvem (Executando via GitHub Actions 24/7 sem necessidade de PC local ligado)  
-> **Última Execução:** `2026-11-06 01:33:17 UTC`
+> **Última Execução:** `2026-11-06 01:49:05 UTC`
 
 ---
 
@@ -12,7 +12,8 @@
 ---
 
 ## 🚀 Ativos & Pull Requests em Disputa
-Total de PRs/Repositórios Monitorados: **9**
+Total de PRs/Repositórios Monitorados: **10**
+- **[fix(installer): include plus sign in latest release tag extraction (fixes #3778)](https://github.com/limitlessprojects/Go-Hybrid/pull/3782)** — Status: `OPEN`
 - **[test: add offline judge payout-rule scenario test suite (#10)](https://github.com/Vasqq/BounTEE/pull/41)** — Status: `CLOSED`
 - **[docs: add README, threat model and automated step checker script (#34)](https://github.com/Vasqq/BounTEE/pull/40)** — Status: `CLOSED`
 - **[docs(agents): add instructions file for coding agents and autonomous claim key run (#33)](https://github.com/Vasqq/BounTEE/pull/39)** — Status: `CLOSED`

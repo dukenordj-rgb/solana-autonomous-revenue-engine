@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06 01:33:17 UTC",
+  "timestamp": "2026-11-06 01:49:05 UTC",
   "agent": "Cloud Revenue Agent v1.0 (GitHub Actions)",
   "wallets": {
     "solana_primary": {
@@ -12,6 +12,13 @@
     }
   },
   "dispatched_prs": [
+    {
+      "title": "fix(installer): include plus sign in latest release tag extraction (fixes #3778)",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/pull/3782",
+      "state": "open",
+      "created_at": "2026-11-06T01:47:56Z",
+      "closed_at": null
+    },
     {
       "title": "test: add offline judge payout-rule scenario test suite (#10)",
       "url": "https://github.com/Vasqq/BounTEE/pull/41",
