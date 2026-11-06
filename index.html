@@ -62,6 +62,113 @@
             .radar-item { flex-direction: column; align-items: flex-start; gap: 4px; }
         }
         details summary::-webkit-details-marker { display: none; }
+
+        /* NEWS TICKER TELEJORNAL - HORIZONTAL */
+        .news-ticker-container {
+            display: flex;
+            align-items: center;
+            background: #090e17;
+            border: 1px solid #1e293b;
+            border-left: 3px solid #38bdf8;
+            border-radius: 6px;
+            height: 36px;
+            overflow: hidden;
+            margin-bottom: 8px;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .ticker-badge {
+            background: #0f172a;
+            color: #38bdf8;
+            padding: 0 10px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 10.5px;
+            font-weight: 800;
+            white-space: nowrap;
+            border-right: 1px solid #1e293b;
+            z-index: 5;
+            letter-spacing: 0.5px;
+            flex-shrink: 0;
+        }
+        .ticker-dot {
+            width: 7px;
+            height: 7px;
+            background: #ef4444;
+            border-radius: 50%;
+            animation: pulse-dot 1s infinite;
+        }
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.3; transform: scale(0.85); }
+        }
+        .ticker-wrapper {
+            flex: 1;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+            mask-image: linear-gradient(to right, transparent, black 15px, black 95%, transparent);
+            -webkit-mask-image: linear-gradient(to right, transparent, black 15px, black 95%, transparent);
+        }
+        .ticker-track {
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            will-change: transform;
+            animation: ticker-anim 65s linear infinite;
+        }
+        .ticker-track:hover {
+            animation-play-state: paused;
+        }
+        @keyframes ticker-anim {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .ticker-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 0 8px;
+            font-size: 11px;
+            white-space: nowrap;
+        }
+        .ticker-proj {
+            background: #1e1b4b;
+            color: #c7d2fe;
+            border: 1px solid #3730a3;
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-size: 9.5px;
+            font-weight: 700;
+        }
+        .ticker-icon { font-size: 12px; }
+        .ticker-title { color: #f1f5f9; font-weight: 600; }
+        .ticker-status { font-size: 9px; color: #ffffff; padding: 1px 5px; border-radius: 3px; font-weight: 800; text-transform: uppercase; }
+        .ticker-impact { color: #34d399; font-weight: 700; font-size: 11px; }
+        .ticker-time { color: #64748b; font-size: 9.5px; }
+        .ticker-sep { color: #334155; padding: 0 8px; font-size: 10px; }
+        .ticker-pause-hint {
+            font-size: 9.5px;
+            color: #64748b;
+            padding: 0 8px;
+            white-space: nowrap;
+            background: #0f172a;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            border-left: 1px solid #1e293b;
+            flex-shrink: 0;
+            z-index: 5;
+        }
+        @media (max-width: 768px) {
+            .ticker-badge span:last-child { display: none; }
+            .ticker-pause-hint { display: none; }
+        }
+
     </style>
 </head>
 <body>
@@ -75,14 +182,14 @@
         </div>
         <div style="text-align:right;">
             <div class="badge"><span class="dot"></span> AO VIVO (Sincronização Contínua)</div>
-            <div style="font-size:11px; color:#64748b; margin-top:3px;">Hora Local: <span id="live-clock" style="color:#10b981; font-weight:bold;">--:--:--</span> &bull; Último Sync: <span id="last-sync" style="color:#38bdf8; font-weight:600;">06/11/2026 11:47:31</span></div>
+            <div style="font-size:11px; color:#64748b; margin-top:3px;">Hora Local: <span id="live-clock" style="color:#10b981; font-weight:bold;">--:--:--</span> &bull; Último Sync: <span id="last-sync" style="color:#38bdf8; font-weight:600;">06/11/2026 19:00:19</span></div>
         </div>
     </div>
 
     <div class="top-info">
 
         <div style="display:flex; flex-wrap:wrap; gap:6px; align-items:center;">
-            <span class="tag-wallet" style="background:#047857; color:#ecfdf5; font-size:11px;">📱 Celular 5G / Qualquer Lugar: https://erik-cia-jill-merely.trycloudflare.com</span>
+            <span class="tag-wallet" style="background:#047857; color:#ecfdf5; font-size:11px;">📱 Celular 5G / Qualquer Lugar: https://injuries-barnes-tigers-salt.trycloudflare.com</span>
             <a href="https://dukenordj-rgb.github.io/solana-autonomous-revenue-engine" target="_blank" style="text-decoration:none;">
                 <span class="tag-pix" style="background:#1e1b4b; color:#c7d2fe; border:1px solid #4338ca; font-size:11px;">☁️ Celular 4G/Nuvem (GitHub Pages) &rarr;</span>
             </a>
@@ -97,131 +204,227 @@
             <span class="tag-pix">🔑 Pix: 11947600504</span>
         </div>
         <div id="connection-status" style="color:#10b981; font-weight:700;">
-            ⚡ Status: 15 Frentes em Disputa Ativa ($16.100,00 USD)
+            ⚡ Status: 25 Frentes em Disputa Ativa ($16.850,00 USD)
         </div>
     </div>
 
-    <!-- CENTRAL DE NOTIFICACOES EM TEMPO REAL -->
-    <div style="background:#0f172a; border:1px solid #38bdf8; border-radius:8px; padding:10px 14px; margin-bottom:12px;">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-            <div style="display:flex; align-items:center; gap:6px;">
-                <span style="font-size:14px;">🔔</span>
-                <strong style="color:#38bdf8; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">Central de Notificações Imediatas & Alertas de Saldo</strong>
-            </div>
-            <span style="font-size:10px; background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid #0284c7; padding:2px 8px; border-radius:9999px; font-weight:700;">TRANSPARÊNCIA TOTAL</span>
+    <!-- TICKER DE NOTÍCIAS AO VIVO (ESTILO NOTICIÁRIO TELEJORNAL) -->
+    <div class="news-ticker-container">
+        <div class="ticker-badge">
+            <span class="ticker-dot"></span>
+            <span>ALERTAS AO VIVO</span>
         </div>
-        <div id="events-list">
-            
-        <div style="background:rgba(15, 23, 42, 0.85); border:1px solid #1e293b; border-left:4px solid #10b981; border-radius:6px; padding:8px 12px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
-            <div>
-                <div style="font-weight:700; font-size:12px; color:#f8fafc; display:flex; align-items:center; gap:6px;">
-                    <span>⚡</span>
-                    <span>Novo Chamado Atacado: Vasqq/BounTEE#43</span>
-                    <span style="font-size:10px; background:#10b981; color:#ffffff; padding:1px 6px; border-radius:4px; font-weight:800;">SUBMETIDO COM SUCESSO</span>
-                </div>
-                <div style="font-size:11px; color:#94a3b8; margin-top:3px; line-height:1.4;">Análise técnica sintetizada e protocolada diretamente no repositório. Concorrendo a $45,00 a $75,00 USDC.</div>
-                <div style="font-size:10px; color:#64748b; margin-top:2px;">Data/Hora: 06/11/2026 11:47 &bull; <strong style="color:#34d399;">+ $45,00 a $75,00 USDC em Disputa</strong></div>
+        <div class="ticker-wrapper">
+            <div class="ticker-track">
+                <div class="ticker-item"><span class="ticker-proj">Paraloom</span><span class="ticker-icon">⚡</span><span class="ticker-title">paraloom-labs/paraloom-core#1410</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:05)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Paraloom</span><span class="ticker-icon">⚡</span><span class="ticker-title">paraloom-labs/paraloom-core#1416</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:04)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Paraloom</span><span class="ticker-icon">⚡</span><span class="ticker-title">paraloom-labs/paraloom-core#1418</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:03)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Paraloom</span><span class="ticker-icon">⚡</span><span class="ticker-title">paraloom-labs/paraloom-core#1412</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:03)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">BounTEE</span><span class="ticker-icon">⚡</span><span class="ticker-title">Vasqq/BounTEE#36</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:02)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3903</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:02)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3908</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:01)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3915</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:01)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">BounTEE</span><span class="ticker-icon">⚡</span><span class="ticker-title">Vasqq/BounTEE#35</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:48)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">BounTEE</span><span class="ticker-icon">⚡</span><span class="ticker-title">Vasqq/BounTEE#37</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:47)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">BounTEE</span><span class="ticker-icon">⚡</span><span class="ticker-title">Vasqq/BounTEE#43</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:47)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3888</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $250,00 a $500,00 USD em Disputa</span><span class="ticker-time">(11:46)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3891</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:46)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3893</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:46)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3895</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $250,00 a $500,00 USD em Disputa</span><span class="ticker-time">(11:45)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Paraloom</span><span class="ticker-icon">⚡</span><span class="ticker-title">paraloom-labs/paraloom-core#1410</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:05)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Paraloom</span><span class="ticker-icon">⚡</span><span class="ticker-title">paraloom-labs/paraloom-core#1416</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:04)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Paraloom</span><span class="ticker-icon">⚡</span><span class="ticker-title">paraloom-labs/paraloom-core#1418</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:03)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Paraloom</span><span class="ticker-icon">⚡</span><span class="ticker-title">paraloom-labs/paraloom-core#1412</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:03)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">BounTEE</span><span class="ticker-icon">⚡</span><span class="ticker-title">Vasqq/BounTEE#36</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:02)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3903</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:02)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3908</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:01)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3915</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(17:01)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">BounTEE</span><span class="ticker-icon">⚡</span><span class="ticker-title">Vasqq/BounTEE#35</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:48)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">BounTEE</span><span class="ticker-icon">⚡</span><span class="ticker-title">Vasqq/BounTEE#37</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:47)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">BounTEE</span><span class="ticker-icon">⚡</span><span class="ticker-title">Vasqq/BounTEE#43</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:47)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3888</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $250,00 a $500,00 USD em Disputa</span><span class="ticker-time">(11:46)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3891</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:46)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3893</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $45,00 a $75,00 USDC em Disputa</span><span class="ticker-time">(11:46)</span></div><span class="ticker-sep">✦</span><div class="ticker-item"><span class="ticker-proj">Go-Hybrid</span><span class="ticker-icon">⚡</span><span class="ticker-title">limitlessprojects/Go-Hybrid#3895</span><span class="ticker-status" style="background:#10b981;">SUBMETIDO COM SUCESSO</span><span class="ticker-impact">+ $250,00 a $500,00 USD em Disputa</span><span class="ticker-time">(11:45)</span></div><span class="ticker-sep">✦</span>
             </div>
         </div>
-        
-        <div style="background:rgba(15, 23, 42, 0.85); border:1px solid #1e293b; border-left:4px solid #10b981; border-radius:6px; padding:8px 12px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
-            <div>
-                <div style="font-weight:700; font-size:12px; color:#f8fafc; display:flex; align-items:center; gap:6px;">
-                    <span>⚡</span>
-                    <span>Novo Chamado Atacado: limitlessprojects/Go-Hybrid#3888</span>
-                    <span style="font-size:10px; background:#10b981; color:#ffffff; padding:1px 6px; border-radius:4px; font-weight:800;">SUBMETIDO COM SUCESSO</span>
-                </div>
-                <div style="font-size:11px; color:#94a3b8; margin-top:3px; line-height:1.4;">Análise técnica sintetizada e protocolada diretamente no repositório. Concorrendo a $250,00 a $500,00 USD.</div>
-                <div style="font-size:10px; color:#64748b; margin-top:2px;">Data/Hora: 06/11/2026 11:46 &bull; <strong style="color:#34d399;">+ $250,00 a $500,00 USD em Disputa</strong></div>
-            </div>
-        </div>
-        
-        <div style="background:rgba(15, 23, 42, 0.85); border:1px solid #1e293b; border-left:4px solid #10b981; border-radius:6px; padding:8px 12px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
-            <div>
-                <div style="font-weight:700; font-size:12px; color:#f8fafc; display:flex; align-items:center; gap:6px;">
-                    <span>⚡</span>
-                    <span>Novo Chamado Atacado: limitlessprojects/Go-Hybrid#3891</span>
-                    <span style="font-size:10px; background:#10b981; color:#ffffff; padding:1px 6px; border-radius:4px; font-weight:800;">SUBMETIDO COM SUCESSO</span>
-                </div>
-                <div style="font-size:11px; color:#94a3b8; margin-top:3px; line-height:1.4;">Análise técnica sintetizada e protocolada diretamente no repositório. Concorrendo a $45,00 a $75,00 USDC.</div>
-                <div style="font-size:10px; color:#64748b; margin-top:2px;">Data/Hora: 06/11/2026 11:46 &bull; <strong style="color:#34d399;">+ $45,00 a $75,00 USDC em Disputa</strong></div>
-            </div>
-        </div>
-        
-        <div style="background:rgba(15, 23, 42, 0.85); border:1px solid #1e293b; border-left:4px solid #10b981; border-radius:6px; padding:8px 12px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
-            <div>
-                <div style="font-weight:700; font-size:12px; color:#f8fafc; display:flex; align-items:center; gap:6px;">
-                    <span>⚡</span>
-                    <span>Novo Chamado Atacado: limitlessprojects/Go-Hybrid#3893</span>
-                    <span style="font-size:10px; background:#10b981; color:#ffffff; padding:1px 6px; border-radius:4px; font-weight:800;">SUBMETIDO COM SUCESSO</span>
-                </div>
-                <div style="font-size:11px; color:#94a3b8; margin-top:3px; line-height:1.4;">Análise técnica sintetizada e protocolada diretamente no repositório. Concorrendo a $45,00 a $75,00 USDC.</div>
-                <div style="font-size:10px; color:#64748b; margin-top:2px;">Data/Hora: 06/11/2026 11:46 &bull; <strong style="color:#34d399;">+ $45,00 a $75,00 USDC em Disputa</strong></div>
-            </div>
-        </div>
-        
-        <div style="background:rgba(15, 23, 42, 0.85); border:1px solid #1e293b; border-left:4px solid #10b981; border-radius:6px; padding:8px 12px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
-            <div>
-                <div style="font-weight:700; font-size:12px; color:#f8fafc; display:flex; align-items:center; gap:6px;">
-                    <span>⚡</span>
-                    <span>Novo Chamado Atacado: limitlessprojects/Go-Hybrid#3895</span>
-                    <span style="font-size:10px; background:#10b981; color:#ffffff; padding:1px 6px; border-radius:4px; font-weight:800;">SUBMETIDO COM SUCESSO</span>
-                </div>
-                <div style="font-size:11px; color:#94a3b8; margin-top:3px; line-height:1.4;">Análise técnica sintetizada e protocolada diretamente no repositório. Concorrendo a $250,00 a $500,00 USD.</div>
-                <div style="font-size:10px; color:#64748b; margin-top:2px;">Data/Hora: 06/11/2026 11:45 &bull; <strong style="color:#34d399;">+ $250,00 a $500,00 USD em Disputa</strong></div>
-            </div>
-        </div>
-        
-        <div style="background:rgba(15, 23, 42, 0.85); border:1px solid #1e293b; border-left:4px solid #0284c7; border-radius:6px; padding:8px 12px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
-            <div>
-                <div style="font-weight:700; font-size:12px; color:#f8fafc; display:flex; align-items:center; gap:6px;">
-                    <span>⏳</span>
-                    <span>PR #3673 Registrado na Fila de Desembolso Go-Hybrid</span>
-                    <span style="font-size:10px; background:#0284c7; color:#ffffff; padding:1px 6px; border-radius:4px; font-weight:800;">EM FILA DE LIQUIDAÇÃO</span>
-                </div>
-                <div style="font-size:11px; color:#94a3b8; margin-top:3px; line-height:1.4;">Claim oficial postado na Discussion #295 vinculando a carteira Base USDC (0x3a39...). Commit de merge oficial 41f1b609 registrado pelo mantenedor. Aguardando processamento do lote.</div>
-                <div style="font-size:10px; color:#64748b; margin-top:2px;">Data/Hora: 05/11/2026 22:48 &bull; <strong style="color:#34d399;">+$45,00 a $75,00 USDC Previsto</strong></div>
-            </div>
-        </div>
-        
-        <div style="background:rgba(15, 23, 42, 0.85); border:1px solid #1e293b; border-left:4px solid #10b981; border-radius:6px; padding:8px 12px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
-            <div>
-                <div style="font-weight:700; font-size:12px; color:#f8fafc; display:flex; align-items:center; gap:6px;">
-                    <span>🚀</span>
-                    <span>Novo PR #3782 Aberto com Sucesso no Go-Hybrid</span>
-                    <span style="font-size:10px; background:#10b981; color:#ffffff; padding:1px 6px; border-radius:4px; font-weight:800;">100% GREEN (SUBMETIDO)</span>
-                </div>
-                <div style="font-size:11px; color:#94a3b8; margin-top:3px; line-height:1.4;">Correção de bug no install.sh (#3778). Teste de regressão com 8/8 suites aprovadas no GitHub. Registrado no Ladder oficial.</div>
-                <div style="font-size:10px; color:#64748b; margin-top:2px;">Data/Hora: 05/11/2026 22:47 &bull; <strong style="color:#34d399;">+$45,00 a $60,00 USDC em Disputa</strong></div>
-            </div>
-        </div>
-        
-        <div style="background:rgba(15, 23, 42, 0.85); border:1px solid #1e293b; border-left:4px solid #ef4444; border-radius:6px; padding:8px 12px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
-            <div>
-                <div style="font-weight:700; font-size:12px; color:#f8fafc; display:flex; align-items:center; gap:6px;">
-                    <span>⚠️</span>
-                    <span>BounTEE PRs #39, #40, #41 Encerrados sem Pagamento</span>
-                    <span style="font-size:10px; background:#ef4444; color:#ffffff; padding:1px 6px; border-radius:4px; font-weight:800;">MOTIVO AUDITADO E DESCARTADO</span>
-                </div>
-                <div style="font-size:11px; color:#94a3b8; margin-top:3px; line-height:1.4;">Motivo da Perda/Descarte: O repositório Vasqq/BounTEE era um projeto acadêmico de hackathon sem pool de liquidez financiado em Mainnet no encerramento. PRs fechados e descartados para evitar perda de tempo.</div>
-                <div style="font-size:10px; color:#64748b; margin-top:2px;">Data/Hora: 04/11/2026 18:53 &bull; <strong style="color:#34d399;">$0.00 (Descartado com motivo registrado)</strong></div>
-            </div>
-        </div>
-        
+        <div class="ticker-pause-hint">
+            <span>⏸️ Passe o cursor p/ ler</span>
         </div>
     </div>
+
+    <!-- HISTÓRICO EXPANSÍVEL COMPACTO (ZERO POLUIÇÃO DE TELA) -->
+    <details style="margin-top:-4px; margin-bottom:10px;">
+        <summary style="font-size:10.5px; color:#64748b; cursor:pointer; text-align:right; user-select:none;">
+            📜 Ver histórico de alertas em lista (15 alertas) ▾
+        </summary>
+        <div style="max-height:160px; overflow-y:auto; background:#0b1120; border:1px solid #1e293b; border-radius:6px; padding:6px 12px; margin-top:4px;">
+            
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Paraloom</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">paraloom-labs/paraloom-core#1410</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 17:05
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Paraloom</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">paraloom-labs/paraloom-core#1416</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 17:04
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Paraloom</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">paraloom-labs/paraloom-core#1418</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 17:03
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Paraloom</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">paraloom-labs/paraloom-core#1412</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 17:03
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">BounTEE</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">Vasqq/BounTEE#36</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 17:02
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Go-Hybrid</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">limitlessprojects/Go-Hybrid#3903</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 17:02
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Go-Hybrid</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">limitlessprojects/Go-Hybrid#3908</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 17:01
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Go-Hybrid</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">limitlessprojects/Go-Hybrid#3915</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 17:01
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">BounTEE</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">Vasqq/BounTEE#35</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 11:48
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">BounTEE</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">Vasqq/BounTEE#37</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 11:47
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">BounTEE</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">Vasqq/BounTEE#43</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 11:47
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Go-Hybrid</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">limitlessprojects/Go-Hybrid#3888</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $250,00 a $500,00 USD em Disputa</span> &bull; 06/11/2026 11:46
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Go-Hybrid</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">limitlessprojects/Go-Hybrid#3891</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 11:46
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Go-Hybrid</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">limitlessprojects/Go-Hybrid#3893</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $45,00 a $75,00 USDC em Disputa</span> &bull; 06/11/2026 11:46
+            </div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding:4px 0; font-size:11px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span class="pill pill-mid" style="font-size:9px; padding:1px 5px;">Go-Hybrid</span>
+                <span>⚡</span>
+                <strong style="color:#f1f5f9;">limitlessprojects/Go-Hybrid#3895</strong>
+                <span style="font-size:9.5px; background:#10b981; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700;">SUBMETIDO COM SUCESSO</span>
+            </div>
+            <div style="color:#94a3b8; font-size:10px;">
+                <span style="color:#34d399; font-weight:700;">+ $250,00 a $500,00 USD em Disputa</span> &bull; 06/11/2026 11:45
+            </div>
+        </div>
+        
+        </div>
+    </details>
 
     <!-- RESUMO EXECUTIVO DOS KPIS (PRÉ-RENDERIZADO NO SERVIDOR) -->
     <div class="grid-summary">
         <div class="card-stat">
             <h4>Total Mapeados</h4>
-            <div class="val" id="kpi-mapeados">321</div>
+            <div class="val" id="kpi-mapeados">331</div>
             <div class="sub" id="kpi-entrantes">~24 novos / hora</div>
         </div>
         <div class="card-stat" style="border-color: #0284c7;">
             <h4 style="color:#38bdf8;">Avançados & Em Disputa</h4>
-            <div class="val" id="kpi-avancados" style="color:#38bdf8;">15 em Disputa</div>
-            <div class="sub" id="kpi-valor-disputa" style="color:#7dd3fc; font-weight:600;">$16.100,00 USD</div>
+            <div class="val" id="kpi-avancados" style="color:#38bdf8;">25 em Disputa</div>
+            <div class="sub" id="kpi-valor-disputa" style="color:#7dd3fc; font-weight:600;">$16.850,00 USD</div>
         </div>
         <div class="card-stat" style="border: 1px solid #10b981; background: #062d22;">
             <h4 style="color:#34d399;">Aprovados (Fila de Pagamento)</h4>
@@ -268,18 +471,18 @@
         
         <div style="display:flex; flex-direction:column; align-items:center; gap:3px; flex:1;">
             <span style="font-size:9.5px; color:#64748b; font-weight:normal;">169 (+4)</span>
-            <div style="width:100%; height:23px; background:#0284c7; border-radius:3px;"></div>
+            <div style="width:100%; height:22px; background:#0284c7; border-radius:3px;"></div>
             <span style="font-size:9.5px; color:#94a3b8; font-weight:normal;">04/11</span>
         </div>
         
         <div style="display:flex; flex-direction:column; align-items:center; gap:3px; flex:1;">
             <span style="font-size:9.5px; color:#64748b; font-weight:normal;">286 (+10)</span>
-            <div style="width:100%; height:39px; background:#334155; border-radius:3px;"></div>
+            <div style="width:100%; height:38px; background:#334155; border-radius:3px;"></div>
             <span style="font-size:9.5px; color:#94a3b8; font-weight:normal;">05/11</span>
         </div>
         
         <div style="display:flex; flex-direction:column; align-items:center; gap:3px; flex:1;">
-            <span style="font-size:9.5px; color:#10b981; font-weight:bold;">321 (+18)</span>
+            <span style="font-size:9.5px; color:#10b981; font-weight:bold;">331 (+28)</span>
             <div style="width:100%; height:44px; background:#10b981; border-radius:3px;"></div>
             <span style="font-size:9.5px; color:#34d399; font-weight:bold;">06/11 (Hoje)</span>
         </div>
@@ -319,7 +522,7 @@
     <!-- TIMELINE DE ENTREGAS E SERVIÇOS EM DISPUTA (PRÉ-RENDERIZADA NO SERVIDOR) -->
     <div class="timeline-section" style="border-color: #10b981;">
         <div class="timeline-header">
-            <h2>📅 Timeline de Entregas Ativas, Valores & Previsão de Pagamento (19 Entregas Mapeadas)</h2>
+            <h2>📅 Timeline de Entregas Ativas, Valores & Previsão de Pagamento (29 Entregas Mapeadas)</h2>
             <span class="pill pill-high">ORDENADO POR VALOR & PROBABILIDADE</span>
         </div>
         <div class="table-container">
@@ -337,6 +540,106 @@
                 </thead>
                 <tbody id="timeline-tbody">
                     
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#1410)</span><br><small style="color:#64748b;">06/11 17:05</small></td>
+            <td><strong>paraloom-labs/paraloom-core</strong><br><a href="https://github.com/paraloom-labs/paraloom-core/issues/1410#issuecomment-6694280425" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #1410 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">[BUG BOUNTY] Medium: Request-response codecs omit outbound MAX_*_PAYLO...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#1416)</span><br><small style="color:#64748b;">06/11 17:04</small></td>
+            <td><strong>paraloom-labs/paraloom-core</strong><br><a href="https://github.com/paraloom-labs/paraloom-core/issues/1416#issuecomment-6694272679" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #1416 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">[BUG BOUNTY] Medium: swap_router::route_handler accepts same-asset swa...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#1418)</span><br><small style="color:#64748b;">06/11 17:03</small></td>
+            <td><strong>paraloom-labs/paraloom-core</strong><br><a href="https://github.com/paraloom-labs/paraloom-core/issues/1418#issuecomment-6694256673" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #1418 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">[BUG BOUNTY] Medium: Settings::from_file accepts >100% resource limits...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#1412)</span><br><small style="color:#64748b;">06/11 17:03</small></td>
+            <td><strong>paraloom-labs/paraloom-core</strong><br><a href="https://github.com/paraloom-labs/paraloom-core/issues/1412#issuecomment-6694243628" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #1412 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">[BUG BOUNTY] Medium: prover-wasm proving-key loads accept trailing byt...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#36)</span><br><small style="color:#64748b;">06/11 17:02</small></td>
+            <td><strong>Vasqq/BounTEE</strong><br><a href="https://github.com/Vasqq/BounTEE/issues/36" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #36 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">Mainnet: withdraw winnings to another chain...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#3903)</span><br><small style="color:#64748b;">06/11 17:02</small></td>
+            <td><strong>limitlessprojects/Go-Hybrid</strong><br><a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3903#issuecomment-6694228199" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #3903 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">hy-check: reject named/folded float constants assigned to int (HYB-E60...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#3908)</span><br><small style="color:#64748b;">06/11 17:01</small></td>
+            <td><strong>limitlessprojects/Go-Hybrid</strong><br><a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3908#issuecomment-6694221086" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #3908 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">[buildable] hy-check(foreign): foreign_method_surface omits curated by...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#3915)</span><br><small style="color:#64748b;">06/11 17:01</small></td>
+            <td><strong>limitlessprojects/Go-Hybrid</strong><br><a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3915#issuecomment-6694208373" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #3915 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">[buildable] hy-check(foreign): foreign_method_surface omits curated bu...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#35)</span><br><small style="color:#64748b;">06/11 11:48</small></td>
+            <td><strong>Vasqq/BounTEE</strong><br><a href="https://github.com/Vasqq/BounTEE/issues/35" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #35 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">Mainnet: deploy and win the demo bounty...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
+        <tr>
+            <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#37)</span><br><small style="color:#64748b;">06/11 11:47</small></td>
+            <td><strong>Vasqq/BounTEE</strong><br><a href="https://github.com/Vasqq/BounTEE/issues/37" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #37 &rarr;</a></td>
+            <td style="max-width:280px; font-size:11.5px;">Mainnet: fund a Protocol's NEAR account from Base...</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$45,00 a $75,00 USDC</td>
+            <td><strong style="color:#f1f5f9;">Ciclo Ativo Go-Hybrid (Novembro 2026)</strong><br><small style="color:#fbbf24;">⏱️ Recém Submetido</small><br><small style="color:#94a3b8;">Probabilidade: 85% (ANÁLISE SINTETIZADA)</small></td>
+            <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Base (0x3a391d8a...)</small></td>
+            <td><span class="pill pill-mid">🟢 ATUADO (SUBMETIDO NA PLATAFORMA)</span></td>
+        </tr>
+        
         <tr>
             <td><span class="pill pill-mid">SUBMISSÃO TÉCNICA (#43)</span><br><small style="color:#64748b;">06/11 11:47</small></td>
             <td><strong>Vasqq/BounTEE</strong><br><a href="https://github.com/Vasqq/BounTEE/issues/43" target="_blank" style="color:#38bdf8; text-decoration:none; font-size:11px;">🔗 Submissão #43 &rarr;</a></td>
@@ -535,8 +838,8 @@
     <!-- NOVAS FRENTES DE RECEITA DESCOBERTAS (PRÉ-RENDERIZADAS NO SERVIDOR: 114+ ITENS) -->
     <div class="timeline-section" style="border-color: #0284c7;">
         <div class="timeline-header">
-            <h2 style="color:#38bdf8;">🌐 Novas Oportunidades & Bounties na Web (152 Oportunidades Mapeadas)</h2>
-            <span class="pill pill-mid" id="total-opps-badge">152 OPORTUNIDADES ATIVAS</span>
+            <h2 style="color:#38bdf8;">🌐 Novas Oportunidades & Bounties na Web (162 Oportunidades Mapeadas)</h2>
+            <span class="pill pill-mid" id="total-opps-badge">162 OPORTUNIDADES ATIVAS</span>
         </div>
         <div class="table-container" style="max-height:360px;">
             <table>
@@ -2719,7 +3022,7 @@
                 <a href="https://github.com/IES-BoilerRoom/asyncpg-savepoint-harness/issues/2" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
             </td>
             <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
-            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório IES-BoilerRoom/asyncpg-savepoint-harness#2 (2 concorrentes)</td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório IES-BoilerRoom/asyncpg-savepoint-harness#2 (3 concorrentes)</td>
             <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
             <td>
                 <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
@@ -2891,7 +3194,7 @@
         <tr>
             <td>
                 <strong style="color:#38bdf8;">zhangjiayang6835-cyber/bounty-plaza</strong><br>
-                <small style="color:#94a3b8;">GitHub (Base USDC Tasks)</small><br>
+                <small style="color:#94a3b8;">GitHub (Polar.sh Micro-Bounties)</small><br>
                 <a href="https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4237" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
             </td>
             <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
@@ -2901,7 +3204,7 @@
                 <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
                 <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
             </td>
-            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+            <td><span class="pill pill-mid">🟢 100% LIBERADO VIA GITHUB</span></td>
         </tr>
         
         <tr>
@@ -2984,6 +3287,166 @@
             <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
         </tr>
         
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">rroland10/dex223-bug-bounty</strong><br>
+                <small style="color:#94a3b8;">GitHub (Base USDC Tasks)</small><br>
+                <a href="https://github.com/rroland10/dex223-bug-bounty/issues/51" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório rroland10/dex223-bug-bounty#51 (1 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">limitlessprojects/Go-Hybrid</strong><br>
+                <small style="color:#94a3b8;">GitHub (Solana Web3 Bounties)</small><br>
+                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3895" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório limitlessprojects/Go-Hybrid#3895 (1 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">limitlessprojects/Go-Hybrid</strong><br>
+                <small style="color:#94a3b8;">GitHub (Solana Web3 Bounties)</small><br>
+                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3888" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório limitlessprojects/Go-Hybrid#3888 (1 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">paraloom-labs/paraloom-core</strong><br>
+                <small style="color:#94a3b8;">GitHub (Solana Web3 Bounties)</small><br>
+                <a href="https://github.com/paraloom-labs/paraloom-core/issues/1418" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório paraloom-labs/paraloom-core#1418 (1 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">paraloom-labs/paraloom-core</strong><br>
+                <small style="color:#94a3b8;">GitHub (Solana Web3 Bounties)</small><br>
+                <a href="https://github.com/paraloom-labs/paraloom-core/issues/1416" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório paraloom-labs/paraloom-core#1416 (1 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">paraloom-labs/paraloom-core</strong><br>
+                <small style="color:#94a3b8;">GitHub (Solana Web3 Bounties)</small><br>
+                <a href="https://github.com/paraloom-labs/paraloom-core/issues/1414" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório paraloom-labs/paraloom-core#1414 (0 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">paraloom-labs/paraloom-core</strong><br>
+                <small style="color:#94a3b8;">GitHub (Solana Web3 Bounties)</small><br>
+                <a href="https://github.com/paraloom-labs/paraloom-core/issues/1412" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório paraloom-labs/paraloom-core#1412 (1 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">paraloom-labs/paraloom-core</strong><br>
+                <small style="color:#94a3b8;">GitHub (Solana Web3 Bounties)</small><br>
+                <a href="https://github.com/paraloom-labs/paraloom-core/issues/1430" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório paraloom-labs/paraloom-core#1430 (0 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">paraloom-labs/paraloom-core</strong><br>
+                <small style="color:#94a3b8;">GitHub (Solana Web3 Bounties)</small><br>
+                <a href="https://github.com/paraloom-labs/paraloom-core/issues/1428" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório paraloom-labs/paraloom-core#1428 (0 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <strong style="color:#38bdf8;">zhangjiayang6835-cyber/bounty-plaza</strong><br>
+                <small style="color:#94a3b8;">GitHub (Rust & AI Bounties)</small><br>
+                <a href="https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1301" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar Oportunidade &rarr;</a>
+            </td>
+            <td><span class="pill pill-mid">Bug Bounty & Repositório</span></td>
+            <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Triagem de código & PR corretivo no repositório zhangjiayang6835-cyber/bounty-plaza#1301 (7 concorrentes)</td>
+            <td style="color:#10b981; font-weight:bold; font-size:12.5px;">$50 - $500 USD</td>
+            <td>
+                <small style="color:#f1f5f9; font-family:monospace;">USDC / Bounty Escrow</small><br>
+                <small style="color:#64748b; font-family:monospace;">Destino: 0x3a391d8a...</small>
+            </td>
+            <td><span class="pill pill-high">🟢 100% AUTÔNOMO (PRONTO)</span></td>
+        </tr>
+        
                 </tbody>
             </table>
         </div>
@@ -2997,50 +3460,11 @@
         </div>
         <div id="radar-list">
             
-        <div class="radar-item" style="border-left-color: #38bdf8;">
-            <div>
-                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3896" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [wildcard] Self-Hosted Native Go Hybrid Engine (hy-go): Replacing Rust Staticlib FFI </a>
-                <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#3896</code> &bull; Descoberto às 11:47:19 &bull; 0 comentário(s)
-                </div>
-            </div>
-            <div style="text-align:right;">
-                <span class="pill pill-mid">LIVRE / SEM CONCORRENTES (OPORTUNIDADE ABERTA)</span>
-                
-            </div>
-        </div>
-        
         <div class="radar-item" style="border-left-color: #f59e0b;">
             <div>
-                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3895" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [wildcard] Compile-Time Linear Capability Tokens: Deleting the Alias/Loan/Freeze Grap</a>
+                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3923" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [buildable] hy-check(foreign): foreign_method_surface omits curated http.client, http</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#3895</code> &bull; Descoberto às 11:47:19 &bull; 1 comentário(s)
-                </div>
-            </div>
-            <div style="text-align:right;">
-                <span class="pill pill-low">EM DISPUTA (1 comentários de outros devs)</span>
-                
-            </div>
-        </div>
-        
-        <div class="radar-item" style="border-left-color: #f59e0b;">
-            <div>
-                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3893" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [soundness] hy-check(sendability): recurse into set[T] in has_non_sendable_leaf, bind</a>
-                <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#3893</code> &bull; Descoberto às 11:47:19 &bull; 1 comentário(s)
-                </div>
-            </div>
-            <div style="text-align:right;">
-                <span class="pill pill-low">EM DISPUTA (1 comentários de outros devs)</span>
-                
-            </div>
-        </div>
-        
-        <div class="radar-item" style="border-left-color: #f59e0b;">
-            <div>
-                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3891" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [soundness] hy-check(loans): extend outer A2/A3 loan windows across loops and track m</a>
-                <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#3891</code> &bull; Descoberto às 11:47:19 &bull; 1 comentário(s)
+                    Key: <code>limitlessprojects/Go-Hybrid#3923</code> &bull; Descoberto às 19:00:18 &bull; 1 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -3051,9 +3475,22 @@
         
         <div class="radar-item" style="border-left-color: #38bdf8;">
             <div>
-                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3889" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [wildcard] In-Source Static Capability Annotations: Eliminating the .hy/.go Split via</a>
+                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3921" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [buildable] hy-check(foreign): foreign_method_surface omits curated io handles method</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#3889</code> &bull; Descoberto às 11:47:19 &bull; 0 comentário(s)
+                    Key: <code>limitlessprojects/Go-Hybrid#3921</code> &bull; Descoberto às 19:00:18 &bull; 0 comentário(s)
+                </div>
+            </div>
+            <div style="text-align:right;">
+                <span class="pill pill-mid">LIVRE / SEM CONCORRENTES (OPORTUNIDADE ABERTA)</span>
+                
+            </div>
+        </div>
+        
+        <div class="radar-item" style="border-left-color: #38bdf8;">
+            <div>
+                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3919" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [buildable] hy-check(foreign): foreign_method_surface omits curated os.file method su</a>
+                <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
+                    Key: <code>limitlessprojects/Go-Hybrid#3919</code> &bull; Descoberto às 19:00:18 &bull; 0 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -3064,9 +3501,35 @@
         
         <div class="radar-item" style="border-left-color: #f59e0b;">
             <div>
-                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3888" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [wildcard] Direct Go SSA Lowering via hy-ssa: Eliminating Source Code String Emission</a>
+                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3917" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [buildable] hy-check(foreign): foreign_method_surface omits curated net.conn, net.lis</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#3888</code> &bull; Descoberto às 11:47:19 &bull; 1 comentário(s)
+                    Key: <code>limitlessprojects/Go-Hybrid#3917</code> &bull; Descoberto às 19:00:18 &bull; 1 comentário(s)
+                </div>
+            </div>
+            <div style="text-align:right;">
+                <span class="pill pill-low">EM DISPUTA (1 comentários de outros devs)</span>
+                
+            </div>
+        </div>
+        
+        <div class="radar-item" style="border-left-color: #f59e0b;">
+            <div>
+                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3915" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [buildable] hy-check(foreign): foreign_method_surface omits curated bufio.reader, buf</a>
+                <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
+                    Key: <code>limitlessprojects/Go-Hybrid#3915</code> &bull; Descoberto às 19:00:18 &bull; 1 comentário(s)
+                </div>
+            </div>
+            <div style="text-align:right;">
+                <span class="pill pill-low">EM DISPUTA (1 comentários de outros devs)</span>
+                
+            </div>
+        </div>
+        
+        <div class="radar-item" style="border-left-color: #f59e0b;">
+            <div>
+                <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/3910" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [buildable] hy-check(foreign): foreign_method_surface omits curated sync.cond, sync.p</a>
+                <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
+                    Key: <code>limitlessprojects/Go-Hybrid#3910</code> &bull; Descoberto às 19:00:18 &bull; 1 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -3079,7 +3542,7 @@
             <div>
                 <a href="https://github.com/Vasqq/BounTEE/issues/44" target="_blank">🎯 [Vasqq/BounTEE] Mainnet: create and fund the accounts</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>Vasqq/BounTEE#44</code> &bull; Descoberto às 11:47:20 &bull; 1 comentário(s)
+                    Key: <code>Vasqq/BounTEE#44</code> &bull; Descoberto às 19:00:19 &bull; 1 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -3092,7 +3555,7 @@
             <div>
                 <a href="https://github.com/Vasqq/BounTEE/issues/43" target="_blank">🎯 [Vasqq/BounTEE] Mainnet support in the judge and command-line tool</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>Vasqq/BounTEE#43</code> &bull; Descoberto às 11:47:20 &bull; 0 comentário(s)
+                    Key: <code>Vasqq/BounTEE#43</code> &bull; Descoberto às 19:00:19 &bull; 0 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -3128,10 +3591,10 @@
                 
                 if (data.kpis) {
                     const k = data.kpis;
-                    if (document.getElementById('kpi-mapeados')) document.getElementById('kpi-mapeados').textContent = k.total_servicos_mapeados || '321';
+                    if (document.getElementById('kpi-mapeados')) document.getElementById('kpi-mapeados').textContent = k.total_servicos_mapeados || '331';
                     if (document.getElementById('kpi-entrantes')) document.getElementById('kpi-entrantes').textContent = '~' + (k.entrantes_por_hora || 24) + ' novos / hora';
-                    if (document.getElementById('kpi-avancados')) document.getElementById('kpi-avancados').textContent = (k.servicos_avancados_em_disputa || 15) + ' em Disputa';
-                    if (document.getElementById('kpi-valor-disputa')) document.getElementById('kpi-valor-disputa').textContent = k.valor_em_disputa_usd || '$16.100,00 USD';
+                    if (document.getElementById('kpi-avancados')) document.getElementById('kpi-avancados').textContent = (k.servicos_avancados_em_disputa || 25) + ' em Disputa';
+                    if (document.getElementById('kpi-valor-disputa')) document.getElementById('kpi-valor-disputa').textContent = k.valor_em_disputa_usd || '$16.850,00 USD';
                     if (document.getElementById('kpi-aprovados-fila')) document.getElementById('kpi-aprovados-fila').textContent = (k.servicos_aprovados_aguardando_pagamento || 2) + ' Aprovado';
                     if (document.getElementById('kpi-aprovados-sub')) document.getElementById('kpi-aprovados-sub').textContent = k.valor_em_fila_de_pagamento_usd || '$45 - $75 USDC (Go-Hybrid #3673 Aprovado)';
                     if (document.getElementById('kpi-descartados')) document.getElementById('kpi-descartados').textContent = (k.servicos_descartados_sem_retorno || 1) + ' Descartados';
