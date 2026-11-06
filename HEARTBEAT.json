@@ -1,0 +1,6 @@
+{
+  "last_local_heartbeat_iso": "2026-11-06T02:03:00+00:00",
+  "local_status": "ACTIVE_PRIMARY",
+  "machine": "WORKSTATION_LOCAL_NILSON",
+  "handover_policy": "If heartbeat > 20 min, Cloud Actions triggers Active Primary mode"
+}

@@ -25,9 +25,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run Cloud Revenue Agent
+      - name: Run Argon Cloud Hunter (Auto Handover & Gemini Brain)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python cloud_revenue_agent.py
 
@@ -35,5 +36,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add CLOUD_DISPATCH_LEDGER.json LATEST_STATUS.md
+          git add CLOUD_DISPATCH_LEDGER.json LATEST_STATUS.md COMPLIANCE_AND_CONTRACT_AUDIT.md HEARTBEAT.json || true
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore(telemetry): 24/7 cloud agent automated cycle [skip ci]" && git push)
