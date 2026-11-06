@@ -1,0 +1,39 @@
+name: 24/7 Autonomous Cloud Revenue Agent
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Runs every 30 minutes 24/7 on GitHub Cloud
+  workflow_dispatch:        # Can be triggered manually anytime
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  run-autonomous-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Cloud Revenue Agent
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python cloud_revenue_agent.py
+
+      - name: Commit and Push Real-Time Telemetry
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add CLOUD_DISPATCH_LEDGER.json LATEST_STATUS.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(telemetry): 24/7 cloud agent automated cycle [skip ci]" && git push)
