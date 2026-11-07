@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-11-07 01:43:45 UTC",
+  "timestamp": "2026-11-07 02:06:02 UTC",
   "agent": "Argon Cloud Hunter (Web3 Autonomous Revenue Agent v2.0)",
-  "handover_mode": "ACTIVE_PRIMARY_CLOUD (PC Local DESLIGADO há 217m — Nuvem Assumiu Comando Total)",
-  "is_cloud_primary": true,
+  "handover_mode": "SENTINEL_STANDBY (PC Local ATIVO há 0m)",
+  "is_cloud_primary": false,
   "ai_cloud_status": "Gemini Brain Ativo na Nuvem",
   "wallets": {
     "solana_primary": {
