@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794095399",
+    "timestamp": "07/11/2026 23:49:59",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (ACTIVE_PRIMARY_CLOUD (PC Local DESLIGADO há 85m — Nuvem Assumiu Comando Total)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "cloud_1794090324",
     "timestamp": "07/11/2026 22:25:24",
     "category": "SERVICE_MAPPED",
