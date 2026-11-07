@@ -256,6 +256,35 @@ def run_agent_cycle():
     with open("LATEST_STATUS.md", "w", encoding="utf-8") as f:
         f.write(audit_md)
 
+    # Update activity_audit_log.json and dashboard_state.json when running in GitHub Cloud (PC OFF support)
+    try:
+        import subprocess
+        br_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+        if os.path.exists("dashboard_state.json"):
+            with open("dashboard_state.json", "r", encoding="utf-8") as fs:
+                st = json.load(fs)
+            st["updated_at"] = br_time
+            with open("dashboard_state.json", "w", encoding="utf-8") as fs:
+                json.dump(st, fs, indent=2, ensure_ascii=False)
+        if os.path.exists("activity_audit_log.json"):
+            with open("activity_audit_log.json", "r", encoding="utf-8") as fl:
+                alog = json.load(fl)
+            alog.insert(0, {
+                "id": f"cloud_{int(time.time())}",
+                "timestamp": br_time,
+                "category": "SERVICE_MAPPED",
+                "badge": "☁️ NUVEM 24/7",
+                "badge_color": "#0284c7",
+                "platform": "Consolidado",
+                "ref": f"Ciclo Cloud ({len(prs)} PRs)",
+                "summary": f"Varredura 24/7 na nuvem concluída ({mode_str}) ➔ E-mails e carteiras auditados"
+            })
+            with open("activity_audit_log.json", "w", encoding="utf-8") as fl:
+                json.dump(alog[:300], fl, indent=2, ensure_ascii=False)
+        subprocess.run("git add index.html dashboard_state.json activity_audit_log.json", shell=True)
+    except Exception as e:
+        print("[WARN] Cloud state sync error:", e)
+
     print(f"[{now_utc}] Ciclo finalizado com sucesso. Ledger e auditoria de compliance gerados.")
 
 if __name__ == "__main__":
