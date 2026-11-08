@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794176392",
+    "timestamp": "08/11/2026 19:19:52",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "cloud_1794176329",
     "timestamp": "08/11/2026 19:18:49",
     "category": "SERVICE_MAPPED",
@@ -2988,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "paraloom-labs/paraloom-core#1502",
     "summary": "Serviço entregue (paraloom-labs/paraloom-core#1502) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4046_27",
-    "timestamp": "07/11 10:31",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4046",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4046) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4042_29",
-    "timestamp": "07/11 10:28",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4042",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4042) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
   }
 ]
