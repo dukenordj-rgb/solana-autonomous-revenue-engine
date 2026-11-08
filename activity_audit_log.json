@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794180329",
+    "timestamp": "08/11/2026 20:25:29",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "out_08/11/2026 20:22_limitlessprojects/Go-Hybrid#4210",
     "timestamp": "08/11/2026 20:22",
     "category": "DELIVERY_OUT",
