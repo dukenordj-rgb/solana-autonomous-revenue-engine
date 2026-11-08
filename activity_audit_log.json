@@ -1,13 +1,13 @@
 [
   {
-    "id": "cloud_1794174531",
-    "timestamp": "08/11/2026 18:48:51",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+    "id": "in_08/11/2026 18:50_limitlessprojects/Go-Hybrid",
+    "timestamp": "08/11/2026 18:50",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#475569",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid",
+    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado: Sem necessidade de resposta"
   },
   {
     "id": "out_08/11/2026 18:47_[Radicle] radicle-job (rad:z2UcCU)",
