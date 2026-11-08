@@ -1,5 +1,25 @@
 [
   {
+    "id": "in_08/11/2026 15:31_limitlessprojects/Go-Hybrid",
+    "timestamp": "08/11/2026 15:31",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#0284c7",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid",
+    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado e Respondido"
+  },
+  {
+    "id": "out_08/11/2026 15:30_limitlessprojects/Go-Hybrid#4197",
+    "timestamp": "08/11/2026 15:30",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4197",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4197) ➔ Código e proposta enviados"
+  },
+  {
     "id": "out_08/11/2026 14:46_[Codeberg] import-benjamin/.dotfiles",
     "timestamp": "08/11/2026 14:46",
     "category": "DELIVERY_OUT",
@@ -2978,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "paraloom-labs/paraloom-core#1516",
     "summary": "Serviço entregue (paraloom-labs/paraloom-core#1516) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1512_18",
-    "timestamp": "07/11 12:08",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1512",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1512) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4060_19",
-    "timestamp": "07/11 11:52",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4060",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4060) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
   }
 ]
