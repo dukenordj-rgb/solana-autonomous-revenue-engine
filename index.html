@@ -186,7 +186,7 @@
         </div>
         <div style="text-align:right;">
             <div class="badge"><span class="dot"></span> AO VIVO (Sincronização Contínua)</div>
-            <div style="font-size:11px; color:#64748b; margin-top:3px;">Hora Local: <span id="live-clock" style="color:#10b981; font-weight:bold;">--:--:--</span> &bull; Último Sync: <span id="last-sync" style="color:#38bdf8; font-weight:600;">08/11/2026 13:25:21</span></div>
+            <div style="font-size:11px; color:#64748b; margin-top:3px;">Hora Local: <span id="live-clock" style="color:#10b981; font-weight:bold;">--:--:--</span> &bull; Último Sync: <span id="last-sync" style="color:#38bdf8; font-weight:600;">08/11/2026 13:27:01</span></div>
         </div>
     </div>
 
@@ -216,7 +216,7 @@
     <!-- BARRA DE NAVEGAÇÃO POR ABAS DE PROJETO/SERVIÇO (SOMENTE PRIMEIRO NOME + VISÃO CONSOLIDADA) -->
     <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px; overflow-x:auto; padding-bottom:4px; border-bottom:1px solid #1e293b;">
         <button class="tab-btn active-tab" id="tab-btn-consolidado" onclick="switchPlatformTab('consolidado')" style="background:#0284c7; color:#ffffff; border:1px solid #38bdf8; padding:7px 14px; border-radius:7px; font-weight:800; font-size:12px; cursor:pointer; display:flex; align-items:center; gap:6px; white-space:nowrap; box-shadow:0 2px 10px rgba(2,132,199,0.4);">
-            🌐 Consolidado <span style="background:rgba(0,0,0,0.3); padding:1px 6px; border-radius:4px; font-size:10px;">464</span>
+            🌐 Consolidado <span style="background:rgba(0,0,0,0.3); padding:1px 6px; border-radius:4px; font-size:10px;">465</span>
         </button>
         <button class="tab-btn" id="tab-btn-github" onclick="switchPlatformTab('github')" style="background:#0f172a; color:#94a3b8; border:1px solid #1e293b; padding:7px 14px; border-radius:7px; font-weight:800; font-size:12px; cursor:pointer; display:flex; align-items:center; gap:6px; white-space:nowrap;">
             🐙 GitHub <span style="background:#1e293b; color:#38bdf8; padding:1px 6px; border-radius:4px; font-size:10px;">444</span>
@@ -225,7 +225,7 @@
             🦊 GitLab <span style="background:#1e293b; color:#fc6d26; padding:1px 6px; border-radius:4px; font-size:10px;">0</span>
         </button>
         <button class="tab-btn" id="tab-btn-codeberg" onclick="switchPlatformTab('codeberg')" style="background:#0f172a; color:#94a3b8; border:1px solid #1e293b; padding:7px 14px; border-radius:7px; font-weight:800; font-size:12px; cursor:pointer; display:flex; align-items:center; gap:6px; white-space:nowrap;">
-            🏔️ Codeberg <span style="background:#1e293b; color:#2185d0; padding:1px 6px; border-radius:4px; font-size:10px;">3</span>
+            🏔️ Codeberg <span style="background:#1e293b; color:#2185d0; padding:1px 6px; border-radius:4px; font-size:10px;">4</span>
         </button>
         <button class="tab-btn" id="tab-btn-bitbucket" onclick="switchPlatformTab('bitbucket')" style="background:#0f172a; color:#94a3b8; border:1px solid #1e293b; padding:7px 14px; border-radius:7px; font-weight:800; font-size:12px; cursor:pointer; display:flex; align-items:center; gap:6px; white-space:nowrap;">
             🪣 Bitbucket <span style="background:#1e293b; color:#3b82f6; padding:1px 6px; border-radius:4px; font-size:10px;">9</span>
@@ -5467,6 +5467,16 @@
                 <td><span class="pill pill-high">CONFORMIDADE NO-CRYPTO OK</span></td>
             </tr>
             
+            <tr class="platform-row" data-platform="codeberg">
+                <td><span class="pill pill-mid" style="border-color:#2185d0; color:#2185d0;">FILA FOSS / GRANT</span><br><small style="color:#64748b;">Sincronizado Hoje</small></td>
+                <td><strong>[Codeberg] VBR/.build-tool</strong><br><a href="https://codeberg.org/VBR/.build-tool/issues" target="_blank" style="color:#2185d0; text-decoration:none; font-size:11px;">🔗 Abrir em Codeberg (2 issues) &rarr;</a></td>
+                <td style="max-width:280px; font-size:11.5px;">[Codeberg FOSS] Very experimental</td>
+                <td style="color:#10b981; font-weight:bold; font-size:12.5px;">€50 a €200 EUR (NLnet / FOSS Grants)</td>
+                <td><strong style="color:#f1f5f9;">Ciclo Europeu FOSS / NLnet</strong><br><small style="color:#fbbf24;">⏱️ Monitoramento Ativo 24/7</small><br><small style="color:#94a3b8;">Probabilidade: MÉDIA (35%)</small></td>
+                <td><small style="color:#cbd5e1; font-family:monospace; font-size:10.5px;">Pix / SEPA / Euro Grant</small></td>
+                <td><span class="pill pill-high">CONFORMIDADE NO-CRYPTO OK</span></td>
+            </tr>
+            
             <tr class="platform-row" data-platform="bitbucket">
                 <td><span class="pill pill-mid" style="border-color:#3b82f6; color:#3b82f6;">AUDITORIA / BUG BASH</span><br><small style="color:#64748b;">Sincronizado Hoje</small></td>
                 <td><strong>[Bitbucket] atlassian/atlassian-event</strong><br><a href="https://bitbucket.org/atlassian/atlassian-event" target="_blank" style="color:#3b82f6; text-decoration:none; font-size:11px;">🔗 Abrir em Bitbucket (Jira/BB) &rarr;</a></td>
@@ -10112,6 +10122,22 @@ This repository has been migrated to Git</td>
                 <td><span class="pill pill-high">1 ISSUES ABERTAS</span></td>
             </tr>
             
+            <tr class="platform-opp-row" data-platform="codeberg">
+                <td>
+                    <strong style="color:#2185d0;">Codeberg</strong><br>
+                    <small style="color:#94a3b8;">VBR/.build-tool</small><br>
+                    <a href="https://codeberg.org/VBR/.build-tool/issues" target="_blank" style="color:#34d399; font-size:10.5px; text-decoration:none; font-weight:600;">🔗 Acessar no Codeberg &rarr;</a>
+                </td>
+                <td><span class="pill pill-mid">FOSS / Forgejo</span></td>
+                <td style="max-width:280px; font-size:11.5px; color:#cbd5e1;">Very experimental</td>
+                <td style="color:#10b981; font-weight:bold; font-size:12.5px;">€50 - €200 EUR</td>
+                <td>
+                    <small style="color:#f1f5f9; font-family:monospace;">API Automática Codeberg</small><br>
+                    <small style="color:#64748b; font-family:monospace;">Destino: Pix: 11947600504 (Compliance FOSS)</small>
+                </td>
+                <td><span class="pill pill-high">2 ISSUES ABERTAS</span></td>
+            </tr>
+            
             <tr class="platform-opp-row" data-platform="bitbucket">
                 <td>
                     <strong style="color:#3b82f6;">Bitbucket</strong><br>
@@ -10403,7 +10429,7 @@ This repository has been migrated t</td>
             <div>
                 <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/4193" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [wildcard] Versioned task regions: checked live upgrades across a state-and-mailbox c</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#4193</code> &bull; Descoberto às 13:18:34 &bull; 1 comentário(s)
+                    Key: <code>limitlessprojects/Go-Hybrid#4193</code> &bull; Descoberto às 13:27:00 &bull; 1 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -10416,7 +10442,7 @@ This repository has been migrated t</td>
             <div>
                 <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/4190" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [soundness] hy-check(go_keyword_names): reject default/none on Decl::Enum, associated</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#4190</code> &bull; Descoberto às 13:18:34 &bull; 1 comentário(s)
+                    Key: <code>limitlessprojects/Go-Hybrid#4190</code> &bull; Descoberto às 13:27:00 &bull; 1 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -10429,7 +10455,7 @@ This repository has been migrated t</td>
             <div>
                 <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/4188" target="_blank">🎯 [limitlessprojects/Go-Hybrid] [soundness] hy-check(buildable): rust crate functions (sha3, regex, serde_json) bypas</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#4188</code> &bull; Descoberto às 13:18:34 &bull; 1 comentário(s)
+                    Key: <code>limitlessprojects/Go-Hybrid#4188</code> &bull; Descoberto às 13:27:00 &bull; 1 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -10442,7 +10468,7 @@ This repository has been migrated t</td>
             <div>
                 <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/4186" target="_blank">🎯 [limitlessprojects/Go-Hybrid] hy-check(buildable): foreign package bytes call arity bypass and non-callable member </a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#4186</code> &bull; Descoberto às 13:18:34 &bull; 1 comentário(s)
+                    Key: <code>limitlessprojects/Go-Hybrid#4186</code> &bull; Descoberto às 13:27:00 &bull; 1 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -10455,7 +10481,7 @@ This repository has been migrated t</td>
             <div>
                 <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/4184" target="_blank">🎯 [limitlessprojects/Go-Hybrid] hy-check(buildable): foreign package strings call arity bypass and non-callable membe</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#4184</code> &bull; Descoberto às 13:18:34 &bull; 1 comentário(s)
+                    Key: <code>limitlessprojects/Go-Hybrid#4184</code> &bull; Descoberto às 13:27:00 &bull; 1 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -10468,7 +10494,7 @@ This repository has been migrated t</td>
             <div>
                 <a href="https://github.com/limitlessprojects/Go-Hybrid/issues/4182" target="_blank">🎯 [limitlessprojects/Go-Hybrid] hy-check(buildable): foreign package time call arity bypass and non-callable member r</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>limitlessprojects/Go-Hybrid#4182</code> &bull; Descoberto às 13:18:34 &bull; 1 comentário(s)
+                    Key: <code>limitlessprojects/Go-Hybrid#4182</code> &bull; Descoberto às 13:27:00 &bull; 1 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -10481,7 +10507,7 @@ This repository has been migrated t</td>
             <div>
                 <a href="https://github.com/Vasqq/BounTEE/issues/59" target="_blank">🎯 [Vasqq/BounTEE] Mainnet prep: rehearse the new vault's claims on mainnet state</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>Vasqq/BounTEE#59</code> &bull; Descoberto às 13:18:34 &bull; 0 comentário(s)
+                    Key: <code>Vasqq/BounTEE#59</code> &bull; Descoberto às 13:27:00 &bull; 0 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -10494,7 +10520,7 @@ This repository has been migrated t</td>
             <div>
                 <a href="https://github.com/Vasqq/BounTEE/issues/58" target="_blank">🎯 [Vasqq/BounTEE] Mainnet prep: a local mainnet-state harness for the new vault</a>
                 <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                    Key: <code>Vasqq/BounTEE#58</code> &bull; Descoberto às 13:18:34 &bull; 0 comentário(s)
+                    Key: <code>Vasqq/BounTEE#58</code> &bull; Descoberto às 13:27:00 &bull; 0 comentário(s)
                 </div>
             </div>
             <div style="text-align:right;">
@@ -10507,7 +10533,7 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://codeberg.org/import-benjamin/.dotfiles/issues" target="_blank" style="color:#2185d0;">🎯 [Codeberg • import-benjamin/.dotfiles] Linux dotfiles of tools I use daily, i.e. alacritty, fish, starsh (1 issues abertas)</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>codeberg:import-benjamin/.dotfiles</code> &bull; Descoberto às 13:16:01 &bull; 1 interação(ões)
+                        Key: <code>codeberg:import-benjamin/.dotfiles</code> &bull; Descoberto às 13:25:46 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10519,7 +10545,7 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://codeberg.org/MorsMortium/0x0Uploader/issues" target="_blank" style="color:#2185d0;">🎯 [Codeberg • MorsMortium/0x0Uploader] Uploader for the 0x0 file sharing service. (1 issues abertas)</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>codeberg:MorsMortium/0x0Uploader</code> &bull; Descoberto às 13:16:01 &bull; 1 interação(ões)
+                        Key: <code>codeberg:MorsMortium/0x0Uploader</code> &bull; Descoberto às 13:25:46 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10531,7 +10557,19 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://codeberg.org/maxkeyscore/10000/issues" target="_blank" style="color:#2185d0;">🎯 [Codeberg • maxkeyscore/10000] The dice game Ten Thousand (aka Farkle) for CLI (1 issues abertas)</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>codeberg:maxkeyscore/10000</code> &bull; Descoberto às 13:16:01 &bull; 1 interação(ões)
+                        Key: <code>codeberg:maxkeyscore/10000</code> &bull; Descoberto às 13:25:46 &bull; 1 interação(ões)
+                    </div>
+                </div>
+                <div style="text-align:right;">
+                    <span class="pill pill-high">FOSS VERIFICADO</span>
+                </div>
+            </div>
+            
+            <div class="radar-item platform-radar-item" data-platform="codeberg" style="border-left-color: #2185d0;">
+                <div>
+                    <a href="https://codeberg.org/VBR/.build-tool/issues" target="_blank" style="color:#2185d0;">🎯 [Codeberg • VBR/.build-tool] Very experimental (2 issues abertas)</a>
+                    <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
+                        Key: <code>codeberg:VBR/.build-tool</code> &bull; Descoberto às 13:25:54 &bull; 2 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10543,7 +10581,7 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://bitbucket.org/atlassian/atlassian-event" target="_blank" style="color:#3b82f6;">🎯 [Bitbucket • atlassian/atlassian-event] Repositório Corporativo Atlassian/Bitbucket (atlassian/atlassian-event</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>bb:atlassian/atlassian-event</code> &bull; Descoberto às 13:16:22 &bull; 1 interação(ões)
+                        Key: <code>bb:atlassian/atlassian-event</code> &bull; Descoberto às 13:26:04 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10555,7 +10593,7 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://bitbucket.org/atlassian/atlassian-plugins" target="_blank" style="color:#3b82f6;">🎯 [Bitbucket • atlassian/atlassian-plugins] Repositório Corporativo Atlassian/Bitbucket (atlassian/atlassian-plugi</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>bb:atlassian/atlassian-plugins</code> &bull; Descoberto às 13:16:22 &bull; 1 interação(ões)
+                        Key: <code>bb:atlassian/atlassian-plugins</code> &bull; Descoberto às 13:26:04 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10567,7 +10605,7 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://bitbucket.org/atlassian/atlassian-refapp" target="_blank" style="color:#3b82f6;">🎯 [Bitbucket • atlassian/atlassian-refapp] Repositório Corporativo Atlassian/Bitbucket (atlassian/atlassian-refap</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>bb:atlassian/atlassian-refapp</code> &bull; Descoberto às 13:16:22 &bull; 1 interação(ões)
+                        Key: <code>bb:atlassian/atlassian-refapp</code> &bull; Descoberto às 13:26:04 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10579,7 +10617,7 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://bitbucket.org/atlassian/atlassian-rest" target="_blank" style="color:#3b82f6;">🎯 [Bitbucket • atlassian/atlassian-rest] You can use the REST plugin module to create plugin points easily in A</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>bb:atlassian/atlassian-rest</code> &bull; Descoberto às 13:16:22 &bull; 1 interação(ões)
+                        Key: <code>bb:atlassian/atlassian-rest</code> &bull; Descoberto às 13:26:04 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10591,7 +10629,7 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://bitbucket.org/atlassian/atlassian-template-renderer" target="_blank" style="color:#3b82f6;">🎯 [Bitbucket • atlassian/atlassian-template-renderer] This is a public open source repository</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>bb:atlassian/atlassian-template-renderer</code> &bull; Descoberto às 13:16:22 &bull; 1 interação(ões)
+                        Key: <code>bb:atlassian/atlassian-template-renderer</code> &bull; Descoberto às 13:26:04 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10603,7 +10641,7 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://bitbucket.org/pypy/numpy" target="_blank" style="color:#3b82f6;">🎯 [Bitbucket • pypy/numpy] Fork of numpy 1.10 from 2015 for pypy. Outdated and not supported. Do </a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>bb:pypy/numpy</code> &bull; Descoberto às 13:16:23 &bull; 1 interação(ões)
+                        Key: <code>bb:pypy/numpy</code> &bull; Descoberto às 13:26:04 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10615,7 +10653,7 @@ This repository has been migrated t</td>
                 <div>
                     <a href="https://bitbucket.org/tortoisehg/tortoisehg.bitbucket.io" target="_blank" style="color:#3b82f6;">🎯 [Bitbucket • tortoisehg/tortoisehg.bitbucket.io] Repositório Corporativo Atlassian/Bitbucket (tortoisehg/tortoisehg.bit</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>bb:tortoisehg/tortoisehg.bitbucket.io</code> &bull; Descoberto às 13:16:23 &bull; 1 interação(ões)
+                        Key: <code>bb:tortoisehg/tortoisehg.bitbucket.io</code> &bull; Descoberto às 13:26:05 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10629,7 +10667,7 @@ This repository has been migrated t</td>
 
 This repository has been migra</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>bb:multicoreware/x265_git</code> &bull; Descoberto às 13:16:24 &bull; 1 interação(ões)
+                        Key: <code>bb:multicoreware/x265_git</code> &bull; Descoberto às 13:26:05 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10641,7 +10679,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://bitbucket.org/multicoreware/x265_vnova_git" target="_blank" style="color:#3b82f6;">🎯 [Bitbucket • multicoreware/x265_vnova_git] Repositório Corporativo Atlassian/Bitbucket (multicoreware/x265_vnova_</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>bb:multicoreware/x265_vnova_git</code> &bull; Descoberto às 13:16:24 &bull; 1 interação(ões)
+                        Key: <code>bb:multicoreware/x265_vnova_git</code> &bull; Descoberto às 13:26:05 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10653,7 +10691,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z3gqcJUoA1n9HaHKufZs5FCSGazv5/issues/e51871a8e7c4c8296a062d63d530f266383d779c" target="_blank" style="color:#a855f7;">🎯 [Radicle • heartwood (core)] Refs announcements bypass `rad block`</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:heartwood#e51871a8e7</code> &bull; Descoberto às 13:16:26 &bull; 1 interação(ões)
+                        Key: <code>rad:heartwood#e51871a8e7</code> &bull; Descoberto às 13:26:07 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10665,7 +10703,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z3gqcJUoA1n9HaHKufZs5FCSGazv5/issues/4dc73ac9cce8ff63dc02187b091b54b5357caf67" target="_blank" style="color:#a855f7;">🎯 [Radicle • heartwood (core)] Blocking a delegate makes every fetch of their repository fail</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:heartwood#4dc73ac9cc</code> &bull; Descoberto às 13:16:26 &bull; 1 interação(ões)
+                        Key: <code>rad:heartwood#4dc73ac9cc</code> &bull; Descoberto às 13:26:07 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10677,7 +10715,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z3gqcJUoA1n9HaHKufZs5FCSGazv5/issues/ad4e8c0568897b9f8a1eb87b9e763141f14d561c" target="_blank" style="color:#a855f7;">🎯 [Radicle • heartwood (core)] `rad block <NID>` does not disconnect from the node</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:heartwood#ad4e8c0568</code> &bull; Descoberto às 13:16:26 &bull; 1 interação(ões)
+                        Key: <code>rad:heartwood#ad4e8c0568</code> &bull; Descoberto às 13:26:07 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10689,7 +10727,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z3gqcJUoA1n9HaHKufZs5FCSGazv5/issues/4f43ad148d27250bc5aaab06b1e2161758823076" target="_blank" style="color:#a855f7;">🎯 [Radicle • heartwood (core)] Blocking a node keeps, and keeps serving, what was already fetched</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:heartwood#4f43ad148d</code> &bull; Descoberto às 13:16:26 &bull; 1 interação(ões)
+                        Key: <code>rad:heartwood#4f43ad148d</code> &bull; Descoberto às 13:26:07 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10701,7 +10739,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z3gqcJUoA1n9HaHKufZs5FCSGazv5/issues/00c68c84aa43211738c1b415cdbac12d0e22f637" target="_blank" style="color:#a855f7;">🎯 [Radicle • heartwood (core)] Gossip and sync ignore `rad block`</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:heartwood#00c68c84aa</code> &bull; Descoberto às 13:16:26 &bull; 1 interação(ões)
+                        Key: <code>rad:heartwood#00c68c84aa</code> &bull; Descoberto às 13:26:07 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10713,7 +10751,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z3gqcJUoA1n9HaHKufZs5FCSGazv5/issues/fc087e00df8abcce89e0a26f62e2580ffdd4352e" target="_blank" style="color:#a855f7;">🎯 [Radicle • heartwood (core)] A blocked key is both a node and an author</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:heartwood#fc087e00df</code> &bull; Descoberto às 13:16:26 &bull; 1 interação(ões)
+                        Key: <code>rad:heartwood#fc087e00df</code> &bull; Descoberto às 13:26:07 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10725,7 +10763,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:zwTxygwuz5LDGBq255RA2CbNGrz8" target="_blank" style="color:#a855f7;">🎯 [Radicle • radicle-ci-broker (rad:zwTxygwuz5...)] Radicle CI broker (77 issues / 0 patches)</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:zwTxygwuz5LDGBq255RA2CbNGrz8</code> &bull; Descoberto às 13:16:25 &bull; 77 interação(ões)
+                        Key: <code>rad:zwTxygwuz5LDGBq255RA2CbNGrz8</code> &bull; Descoberto às 13:26:06 &bull; 77 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10737,7 +10775,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z254T5p17bdFPmzfDojsdjo4HjpoZ" target="_blank" style="color:#a855f7;">🎯 [Radicle • radicle-infra (rad:z254T5p17b...)] Radicle Infrastructure as Code (NixOS, OpenTofu, …) (0 issues / 1 patches)</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:z254T5p17bdFPmzfDojsdjo4HjpoZ</code> &bull; Descoberto às 13:16:25 &bull; 1 interação(ões)
+                        Key: <code>rad:z254T5p17bdFPmzfDojsdjo4HjpoZ</code> &bull; Descoberto às 13:26:06 &bull; 1 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10749,7 +10787,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z2UcCU1LgMshWvXj6hXSDDrwB8q8M" target="_blank" style="color:#a855f7;">🎯 [Radicle • radicle-job (rad:z2UcCU1LgM...)] Radicle Job Collaborative Object (12 issues / 3 patches)</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:z2UcCU1LgMshWvXj6hXSDDrwB8q8M</code> &bull; Descoberto às 13:16:25 &bull; 15 interação(ões)
+                        Key: <code>rad:z2UcCU1LgMshWvXj6hXSDDrwB8q8M</code> &bull; Descoberto às 13:26:06 &bull; 15 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10761,7 +10799,7 @@ This repository has been migra</a>
                 <div>
                     <a href="https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z371PVmDHdjJucejRoRYJcDEvD5pp" target="_blank" style="color:#a855f7;">🎯 [Radicle • radicle.xyz (rad:z371PVmDHd...)] Radicle website including documentation and guides (15 issues / 12 patches)</a>
                     <div style="font-size:10.5px; color:#94a3b8; margin-top:3px;">
-                        Key: <code>rad:z371PVmDHdjJucejRoRYJcDEvD5pp</code> &bull; Descoberto às 13:16:25 &bull; 27 interação(ões)
+                        Key: <code>rad:z371PVmDHdjJucejRoRYJcDEvD5pp</code> &bull; Descoberto às 13:26:06 &bull; 27 interação(ões)
                     </div>
                 </div>
                 <div style="text-align:right;">
@@ -10807,9 +10845,9 @@ This repository has been migra</a>
                 color: '#0284c7',
                 desc: 'Exibindo o somatório em tempo real de <b>GitHub, GitLab, Codeberg, Bitbucket e Radicle P2P</b>. Todas as configurações de radar e monitoramento de e-mails ativas.',
                 inbox: '100% ATIVO (GitHub + GitLab + Codeberg + Bitbucket + Radicle)',
-                mapeados: '464',
+                mapeados: '465',
                 entrantes: '~36 novos / hora (5 Redes)',
-                disputa: '245 em Disputa',
+                disputa: '246 em Disputa',
                 valor_disputa: '$35.325,00 USD (Soma 5 Redes)',
                 aprovados: '2 Aprovado',
                 valor_aprovado: '$45 - $75 USDC (Go-Hybrid #3673 Aprovado)',
@@ -10849,9 +10887,9 @@ This repository has been migra</a>
                 color: '#2185d0',
                 desc: 'Personalização Codeberg: Filtro de conformidade estrito (bloqueia temas cripto e opera em modo FOSS puro respeitando os Termos de Uso do Codeberg).',
                 inbox: 'ATIVO (Forgejo Notifications & Issue Tracker)',
-                mapeados: '3',
+                mapeados: '4',
                 entrantes: '~2 novos / hora',
-                disputa: '3 em Disputa',
+                disputa: '4 em Disputa',
                 valor_disputa: '$950,00 USD (Equiv. EUR Grants)',
                 aprovados: '0 Aprovado',
                 valor_aprovado: '$0,00 USD (Ciclo NLnet / FOSS)',
