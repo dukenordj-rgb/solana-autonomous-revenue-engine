@@ -259,8 +259,9 @@ def run_agent_cycle():
     # Update activity_audit_log.json and dashboard_state.json when running in GitHub Cloud (PC OFF support)
     try:
         import subprocess
-        br_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        if os.path.exists("dashboard_state.json"):
+        from datetime import timedelta
+        br_time = datetime.now(timezone(timedelta(hours=-3))).strftime("%d/%m/%Y %H:%M:%S")
+        if is_cloud_primary and os.path.exists("dashboard_state.json"):
             with open("dashboard_state.json", "r", encoding="utf-8") as fs:
                 st = json.load(fs)
             st["updated_at"] = br_time
