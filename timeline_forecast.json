@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "08/11 13:53",
+    "repo": "Vasqq/BounTEE",
+    "pr_number": 60,
+    "pr_url": "https://github.com/Vasqq/BounTEE/issues/60",
+    "deliverables": "Spec: a claim can be proven on any covered chain (ADR-0020)...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#60)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "08/11 12:54",
     "repo": "Vasqq/BounTEE",
     "pr_number": 57,

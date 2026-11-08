@@ -1,5 +1,15 @@
 [
   {
+    "id": "out_08/11/2026 13:53_Vasqq/BounTEE#60",
+    "timestamp": "08/11/2026 13:53",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "Vasqq/BounTEE#60",
+    "summary": "Resposta/Entrega de saída (Vasqq/BounTEE#60) ➔ Código e proposta enviados"
+  },
+  {
     "id": "out_08/11/2026 13:42_[Radicle] radicle-job (rad:z2UcCU)",
     "timestamp": "08/11/2026 13:42",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4046",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4046) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4042_30",
-    "timestamp": "07/11 10:28",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4042",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4042) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
   }
 ]
