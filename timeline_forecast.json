@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "08/11 14:25",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4195,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4195#issuecomment-6724654552",
+    "deliverables": "hyb check passes fmt printf with statically-known non-string format op...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#4195)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "08/11 13:53",
     "repo": "Vasqq/BounTEE",
     "pr_number": 60,
