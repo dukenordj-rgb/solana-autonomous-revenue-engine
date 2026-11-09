@@ -1,5 +1,15 @@
 [
   {
+    "id": "in_09/11/2026 13:26_limitlessprojects/Go-Hybrid",
+    "timestamp": "09/11/2026 13:26",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#0284c7",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid",
+    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado e Respondido"
+  },
+  {
     "id": "out_09/11/2026 13:24_[Bitbucket] atlassian/atlassian-refapp",
     "timestamp": "09/11/2026 13:24",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4076",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4076) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4073_8",
-    "timestamp": "07/11 14:42",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4073",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4073) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
   }
 ]
