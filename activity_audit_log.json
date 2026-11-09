@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794192913",
+    "timestamp": "08/11/2026 23:55:13",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "map_08/11/2026 23:49_GitLab API v4 Sincronizada (43 frentes)",
     "timestamp": "08/11/2026 23:49",
     "category": "SERVICE_MAPPED",
