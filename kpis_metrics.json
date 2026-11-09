@@ -101,28 +101,28 @@
       "status": "Fix #3782 Registrado + Operação Ativa"
     },
     {
-      "dia": "Hoje",
+      "dia": "08/11",
       "dia_num": 8,
+      "is_today": false,
+      "is_projection": false,
+      "mapeados": 473,
+      "entregues": 229,
+      "prev_pagamento_usd": 150,
+      "prev_pagamento_num": 150,
+      "acumulado_usd": 300,
+      "status": "Operação Multicanal ao Vivo (5 Redes)"
+    },
+    {
+      "dia": "Hoje",
+      "dia_num": 9,
       "is_today": true,
       "is_projection": false,
       "mapeados": 461,
       "entregues": 241,
-      "prev_pagamento_usd": 150,
-      "prev_pagamento_num": 150,
-      "acumulado_usd": 300,
-      "status": "Operação ao Vivo — 08/11/2026"
-    },
-    {
-      "dia": "09/11",
-      "dia_num": 9,
-      "is_today": false,
-      "is_projection": true,
-      "mapeados": 510,
-      "entregues": 240,
       "prev_pagamento_usd": 250,
       "prev_pagamento_num": 250,
       "acumulado_usd": 550,
-      "status": "Previsão Bounties Fim de Semana"
+      "status": "Operação ao Vivo — 09/11/2026"
     },
     {
       "dia": "10/11",
@@ -257,5 +257,5 @@
       "status": "Total em Disputa Liquidado"
     }
   ],
-  "updated_at": "08/11/2026 23:59:58"
+  "updated_at": "09/11/2026 00:01:04"
 }
