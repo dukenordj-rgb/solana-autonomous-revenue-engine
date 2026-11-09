@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794245796",
+    "timestamp": "09/11/2026 14:36:36",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "out_09/11/2026 14:24_[Bitbucket] atlassian/atlassian-refapp",
     "timestamp": "09/11/2026 14:24",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Radicle",
     "ref": "Nó Radicle P2P Inicializado (did:key:z6Mkr...",
     "summary": "Novo serviço mapeado (Nó Radicle P2P Inicializado (did:key:z6Mkr...) ➔ Registrado no painel"
-  },
-  {
-    "id": "in_07/11/2026 18:35_limitlessprojects/Go-Hybrid",
-    "timestamp": "07/11/2026 18:35",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#0284c7",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid",
-    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado e Respondido"
   }
 ]
