@@ -1,5 +1,85 @@
 [
   {
+    "id": "map_09/11/2026 20:27_Nó Radicle P2P Sincronizado (8 frentes)",
+    "timestamp": "09/11/2026 20:27",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Radicle",
+    "ref": "Nó Radicle P2P Sincronizado (8 frentes)",
+    "summary": "Novo serviço mapeado (Nó Radicle P2P Sincronizado (8 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_09/11/2026 20:27_[Bitbucket] atlassian/atlassian-refapp",
+    "timestamp": "09/11/2026 20:27",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-refapp",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-refapp) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_09/11/2026 20:27_[Bitbucket] atlassian/atlassian-plugins",
+    "timestamp": "09/11/2026 20:27",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-plugins",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-plugins) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_09/11/2026 20:27_[Bitbucket] atlassian/atlassian-event",
+    "timestamp": "09/11/2026 20:27",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-event",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-event) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_09/11/2026 20:27_Bitbucket Cloud Sincronizado (10 frentes)",
+    "timestamp": "09/11/2026 20:27",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Bitbucket",
+    "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
+    "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_09/11/2026 20:27_[Codeberg] maxkeyscore/10000",
+    "timestamp": "09/11/2026 20:27",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Codeberg",
+    "ref": "[Codeberg] maxkeyscore/10000",
+    "summary": "Resposta/Entrega de saída ([Codeberg] maxkeyscore/10000) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_09/11/2026 20:27_[Codeberg] MorsMortium/0x0Uploader",
+    "timestamp": "09/11/2026 20:27",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Codeberg",
+    "ref": "[Codeberg] MorsMortium/0x0Uploader",
+    "summary": "Resposta/Entrega de saída ([Codeberg] MorsMortium/0x0Uploader) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_09/11/2026 20:27_[GitLab] OpenMW/openmw",
+    "timestamp": "09/11/2026 20:27",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitLab",
+    "ref": "[GitLab] OpenMW/openmw",
+    "summary": "Resposta/Entrega de saída ([GitLab] OpenMW/openmw) ➔ Código e proposta enviados"
+  },
+  {
     "id": "out_09/11/2026 20:02_limitlessprojects/Go-Hybrid#4308",
     "timestamp": "09/11/2026 20:02",
     "category": "DELIVERY_OUT",
@@ -2918,85 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4163",
     "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4163) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 04:14_limitlessprojects/Go-Hybrid#4159",
-    "timestamp": "08/11/2026 04:14",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4159",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4159) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 03:59_limitlessprojects/Go-Hybrid#4157",
-    "timestamp": "08/11/2026 03:59",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4157",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4157) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 03:58_paraloom-labs/paraloom-core#1541",
-    "timestamp": "08/11/2026 03:58",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1541",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1541) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "in_08/11/2026 03:29_limitlessprojects/Go-Hybrid",
-    "timestamp": "08/11/2026 03:29",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#475569",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid",
-    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado: Sem necessidade de resposta"
-  },
-  {
-    "id": "out_08/11/2026 03:28_limitlessprojects/Go-Hybrid#4153",
-    "timestamp": "08/11/2026 03:28",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4153",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4153) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 03:17_limitlessprojects/Go-Hybrid#4151",
-    "timestamp": "08/11/2026 03:17",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4151",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4151) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "in_08/11/2026 03:12_limitlessprojects/Go-Hybrid",
-    "timestamp": "08/11/2026 03:12",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#475569",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid",
-    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado: Sem necessidade de resposta"
-  },
-  {
-    "id": "out_08/11/2026 03:11_limitlessprojects/Go-Hybrid#4149",
-    "timestamp": "08/11/2026 03:11",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4149",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4149) ➔ Código e proposta enviados"
   }
 ]
