@@ -1,5 +1,5 @@
 # 🌅 Relatório Matinal Executivo — Operações Noturnas & Lucros
-**Data e Hora do Relatório:** 09/11/2026 11:48:27  
+**Data e Hora do Relatório:** 09/11/2026 11:49:36  
 **Status do Sistema:** 🟢 100% Autônomo e Ativo (Local + Nuvem GitHub Actions)  
 **Túnel Celular 5G:** [https://injuries-barnes-tigers-salt.trycloudflare.com](https://injuries-barnes-tigers-salt.trycloudflare.com)  
 
@@ -16,8 +16,8 @@
 
 ## 2. 📊 Métricas Consolidadas do Pipeline
 * **Total de Oportunidades Mapeadas:** **474**
-* **Frentes Ativas em Disputa Aberta:** **252**
-* **Valor Financeiro Total em Disputa:** **$38.550,00 USD**
+* **Frentes Ativas em Disputa Aberta:** **253**
+* **Valor Financeiro Total em Disputa:** **$38.625,00 USD**
 * **Entregas de Código & Submissões Hoje:** **41**
 * **Oportunidades Web3 Elegíveis Mapeadas:** **305**
 
