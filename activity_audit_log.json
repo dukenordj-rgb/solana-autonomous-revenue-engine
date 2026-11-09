@@ -2988,5 +2988,15 @@
     "platform": "Bitbucket",
     "ref": "Bitbucket Cloud (9 repos)",
     "summary": "Novos serviços mapeados no Bitbucket ➔ 9 repositórios Atlassian monitorados"
+  },
+  {
+    "id": "hist_out_gohybrid_3782",
+    "timestamp": "07/11/2026 02:15",
+    "category": "EMAIL_OUT",
+    "badge": "📤 E-MAIL / RESPOSTA SAÍDA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "Go-Hybrid#3782 (Discussion #295)",
+    "summary": "E-mail/Resposta de saída (Go-Hybrid#3782) ➔ Fix SemVer submetido e carteira registrada"
   }
 ]
