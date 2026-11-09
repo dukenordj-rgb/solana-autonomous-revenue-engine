@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794244054",
+    "timestamp": "09/11/2026 14:07:34",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "out_09/11/2026 14:06_limitlessprojects/Go-Hybrid#4272",
     "timestamp": "09/11/2026 14:06",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitLab",
     "ref": "GitLab API v4 (8 bounties)",
     "summary": "Novos serviços mapeados no GitLab ➔ 8 issues de recompensa adicionadas à fila"
-  },
-  {
-    "id": "hist_map_codeberg_init",
-    "timestamp": "07/11/2026 19:06",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 NOVO SERVIÇO",
-    "badge_color": "#2185d0",
-    "platform": "Codeberg",
-    "ref": "Codeberg FOSS (4 projetos)",
-    "summary": "Novos serviços mapeados no Codeberg ➔ 4 projetos FOSS (No-Crypto) catalogados"
   }
 ]
