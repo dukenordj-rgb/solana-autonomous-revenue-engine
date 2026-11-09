@@ -1,15 +1,5 @@
 [
   {
-    "id": "cloud_1794238069",
-    "timestamp": "09/11/2026 12:27:49",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
-  },
-  {
     "id": "in_09/11/2026 12:24_limitlessprojects/Go-Hybrid",
     "timestamp": "09/11/2026 12:24",
     "category": "EMAIL_IN",
@@ -2991,6 +2981,16 @@
   },
   {
     "id": "tl_limitlessprojects/Go-Hybrid_4042_26",
+    "timestamp": "07/11 10:28",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4042",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4042) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4042_27",
     "timestamp": "07/11 10:28",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
