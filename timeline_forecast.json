@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "09/11 17:48",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4297,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4297#issuecomment-6751074582",
+    "deliverables": "[wildcard] The managed hatch asserts an invariant nobody writes: make ...",
+    "value_estimate_usd": "$250,00 a $500,00 USD",
+    "stage": "PROPOSTA REGISTRADA (#4297)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "09/11 17:46",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4295,
