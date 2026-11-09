@@ -1,5 +1,33 @@
 [
   {
+    "submitted_at": "09/11 19:58",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4304,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4304#issuecomment-6753745624",
+    "deliverables": "[buildable] hy-check(foreign): foreign_method_surface and package_resu...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#4304)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
+    "submitted_at": "09/11 19:58",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4306,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4306#issuecomment-6753741398",
+    "deliverables": "[buildable] hy-check(foreign): foreign_method_surface and package_resu...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#4306)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "09/11 17:53",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4298,
