@@ -1,5 +1,55 @@
 [
   {
+    "id": "out_10/11/2026 12:31_Vasqq/BounTEE#71",
+    "timestamp": "10/11/2026 12:31",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "Vasqq/BounTEE#71",
+    "summary": "Resposta/Entrega de saída (Vasqq/BounTEE#71) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_10/11/2026 12:31_Vasqq/BounTEE#72",
+    "timestamp": "10/11/2026 12:31",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "Vasqq/BounTEE#72",
+    "summary": "Resposta/Entrega de saída (Vasqq/BounTEE#72) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_10/11/2026 12:31_Vasqq/BounTEE#73",
+    "timestamp": "10/11/2026 12:31",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "Vasqq/BounTEE#73",
+    "summary": "Resposta/Entrega de saída (Vasqq/BounTEE#73) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_10/11/2026 12:30_Vasqq/BounTEE#74",
+    "timestamp": "10/11/2026 12:30",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "Vasqq/BounTEE#74",
+    "summary": "Resposta/Entrega de saída (Vasqq/BounTEE#74) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_10/11/2026 12:30_Vasqq/BounTEE#75",
+    "timestamp": "10/11/2026 12:30",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "Vasqq/BounTEE#75",
+    "summary": "Resposta/Entrega de saída (Vasqq/BounTEE#75) ➔ Código e proposta enviados"
+  },
+  {
     "id": "map_10/11/2026 12:29_Codeberg Forgejo Sincronizado (56 frentes)",
     "timestamp": "10/11/2026 12:29",
     "category": "SERVICE_MAPPED",
@@ -2948,55 +2998,5 @@
     "platform": "GitLab",
     "ref": "[GitLab] OpenMW/openmw",
     "summary": "Resposta/Entrega de saída ([GitLab] OpenMW/openmw) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_08/11/2026 14:15_GitLab API v4 Sincronizada (36 frentes)",
-    "timestamp": "08/11/2026 14:15",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (36 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (36 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_08/11/2026 13:53_Vasqq/BounTEE#60",
-    "timestamp": "08/11/2026 13:53",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "Vasqq/BounTEE#60",
-    "summary": "Resposta/Entrega de saída (Vasqq/BounTEE#60) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 13:42_[Radicle] radicle-job (rad:z2UcCU)",
-    "timestamp": "08/11/2026 13:42",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-job (rad:z2UcCU)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-job (rad:z2UcCU)) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 13:42_[Radicle] radicle-infra (rad:z254T5)",
-    "timestamp": "08/11/2026 13:42",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-infra (rad:z254T5)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-infra (rad:z254T5)) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 13:42_[Radicle] radicle-ci-broker (rad:zwTxyg)",
-    "timestamp": "08/11/2026 13:42",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-ci-broker (rad:zwTxyg)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-ci-broker (rad:zwTxyg)) ➔ Código e proposta enviados"
   }
 ]
