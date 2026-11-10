@@ -1,13 +1,53 @@
 [
   {
-    "id": "cloud_1794308146",
-    "timestamp": "10/11/2026 07:55:46",
+    "id": "map_10/11/2026 07:56_Nó Radicle P2P Sincronizado (8 frentes)",
+    "timestamp": "10/11/2026 07:56",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Radicle",
+    "ref": "Nó Radicle P2P Sincronizado (8 frentes)",
+    "summary": "Novo serviço mapeado (Nó Radicle P2P Sincronizado (8 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_10/11/2026 07:56_[Bitbucket] atlassian/atlassian-refapp",
+    "timestamp": "10/11/2026 07:56",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-refapp",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-refapp) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_10/11/2026 07:56_[Bitbucket] atlassian/atlassian-plugins",
+    "timestamp": "10/11/2026 07:56",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-plugins",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-plugins) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_10/11/2026 07:56_[Bitbucket] atlassian/atlassian-event",
+    "timestamp": "10/11/2026 07:56",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-event",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-event) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_10/11/2026 07:56_Bitbucket Cloud Sincronizado (10 frentes)",
+    "timestamp": "10/11/2026 07:56",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Bitbucket",
+    "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
+    "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
   },
   {
     "id": "in_10/11/2026 07:31_limitlessprojects/Go-Hybrid",
@@ -2958,45 +2998,5 @@
     "platform": "GitLab",
     "ref": "GitLab API v4 Sincronizada (36 frentes)",
     "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (36 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_08/11/2026 13:16_Bitbucket / Atlassian API Token Ativo",
-    "timestamp": "08/11/2026 13:16",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Bitbucket",
-    "ref": "Bitbucket / Atlassian API Token Ativo",
-    "summary": "Novo serviço mapeado (Bitbucket / Atlassian API Token Ativo) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_08/11/2026 13:16_Codeberg Forgejo API v1 Sincronizada",
-    "timestamp": "08/11/2026 13:16",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo API v1 Sincronizada",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo API v1 Sincronizada) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_08/11/2026 13:15_GitLab API v4 (@dukenordj-rgb) Sincronizad...",
-    "timestamp": "08/11/2026 13:15",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 (@dukenordj-rgb) Sincronizad...",
-    "summary": "Novo serviço mapeado (GitLab API v4 (@dukenordj-rgb) Sincronizad...) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_08/11/2026 13:16_Nó Radicle P2P Inicializado (did:key:z6Mkr...",
-    "timestamp": "08/11/2026 13:16",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Radicle",
-    "ref": "Nó Radicle P2P Inicializado (did:key:z6Mkr...",
-    "summary": "Novo serviço mapeado (Nó Radicle P2P Inicializado (did:key:z6Mkr...) ➔ Registrado no painel"
   }
 ]
