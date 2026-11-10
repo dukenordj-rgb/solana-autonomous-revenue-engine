@@ -1,5 +1,55 @@
 [
   {
+    "id": "out_10/11/2026 14:31_[Codeberg] MorsMortium/0x0Uploader",
+    "timestamp": "10/11/2026 14:31",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Codeberg",
+    "ref": "[Codeberg] MorsMortium/0x0Uploader",
+    "summary": "Resposta/Entrega de saída ([Codeberg] MorsMortium/0x0Uploader) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_10/11/2026 14:31_[Codeberg] import-benjamin/.dotfiles",
+    "timestamp": "10/11/2026 14:31",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Codeberg",
+    "ref": "[Codeberg] import-benjamin/.dotfiles",
+    "summary": "Resposta/Entrega de saída ([Codeberg] import-benjamin/.dotfiles) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_10/11/2026 14:31_[GitLab] gitlab-com/gl-security/product-se...",
+    "timestamp": "10/11/2026 14:31",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitLab",
+    "ref": "[GitLab] gitlab-com/gl-security/product-se...",
+    "summary": "Resposta/Entrega de saída ([GitLab] gitlab-com/gl-security/product-se...) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_10/11/2026 14:31_[GitLab] blazephoenix-group/dex",
+    "timestamp": "10/11/2026 14:31",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitLab",
+    "ref": "[GitLab] blazephoenix-group/dex",
+    "summary": "Resposta/Entrega de saída ([GitLab] blazephoenix-group/dex) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "in_10/11/2026 14:30_limitlessprojects/Go-Hybrid",
+    "timestamp": "10/11/2026 14:30",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#475569",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid",
+    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado: Sem necessidade de resposta"
+  },
+  {
     "id": "in_10/11/2026 13:25_limitlessprojects/Go-Hybrid",
     "timestamp": "10/11/2026 13:25",
     "category": "EMAIL_IN",
@@ -2948,55 +2998,5 @@
     "platform": "GitLab",
     "ref": "[GitLab] OpenMW/openmw",
     "summary": "Resposta/Entrega de saída ([GitLab] OpenMW/openmw) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "in_08/11/2026 16:04_limitlessprojects/Go-Hybrid",
-    "timestamp": "08/11/2026 16:04",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#0284c7",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid",
-    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado e Respondido"
-  },
-  {
-    "id": "out_08/11/2026 16:02_limitlessprojects/Go-Hybrid#4200",
-    "timestamp": "08/11/2026 16:02",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4200",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4200) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 15:47_[Bitbucket] atlassian/atlassian-refapp",
-    "timestamp": "08/11/2026 15:47",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-refapp",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-refapp) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 15:47_[Bitbucket] atlassian/atlassian-plugins",
-    "timestamp": "08/11/2026 15:47",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-plugins",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-plugins) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 15:47_[Bitbucket] atlassian/atlassian-event",
-    "timestamp": "08/11/2026 15:47",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-event",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-event) ➔ Código e proposta enviados"
   }
 ]
