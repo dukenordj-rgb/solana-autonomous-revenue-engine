@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794308062",
+    "timestamp": "10/11/2026 07:54:22",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "in_10/11/2026 07:31_limitlessprojects/Go-Hybrid",
     "timestamp": "10/11/2026 07:31",
     "category": "EMAIL_IN",
@@ -2988,15 +2998,5 @@
     "platform": "Radicle",
     "ref": "Nó Radicle P2P Inicializado (did:key:z6Mkr...",
     "summary": "Novo serviço mapeado (Nó Radicle P2P Inicializado (did:key:z6Mkr...) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_08/11/2026 12:54_Vasqq/BounTEE#57",
-    "timestamp": "08/11/2026 12:54",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "Vasqq/BounTEE#57",
-    "summary": "Resposta/Entrega de saída (Vasqq/BounTEE#57) ➔ Código e proposta enviados"
   }
 ]
