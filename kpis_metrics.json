@@ -1,6 +1,6 @@
 {
-  "total_servicos_mapeados": 510,
-  "total_oportunidades_web_ativas": 341,
+  "total_servicos_mapeados": 514,
+  "total_oportunidades_web_ativas": 345,
   "servicos_avancados_em_disputa": 289,
   "servicos_aprovados_aguardando_pagamento": 2,
   "servicos_descartados_sem_retorno": 1,
@@ -129,7 +129,7 @@
       "dia_num": 10,
       "is_today": true,
       "is_projection": false,
-      "mapeados": 510,
+      "mapeados": 514,
       "entregues": 292,
       "prev_pagamento_usd": 350,
       "prev_pagamento_num": 350,
@@ -257,5 +257,5 @@
       "status": "Total em Disputa Liquidado"
     }
   ],
-  "updated_at": "10/11/2026 12:59:31"
+  "updated_at": "10/11/2026 13:00:38"
 }
