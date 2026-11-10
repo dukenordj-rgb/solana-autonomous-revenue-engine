@@ -1,5 +1,15 @@
 [
   {
+    "id": "map_10/11/2026 16:32_GitLab API v4 Sincronizada (51 frentes)",
+    "timestamp": "10/11/2026 16:32",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (51 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (51 frentes)) ➔ Registrado no painel"
+  },
+  {
     "id": "map_10/11/2026 15:31_Codeberg Forgejo Sincronizado (57 frentes)",
     "timestamp": "10/11/2026 15:31",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Radicle",
     "ref": "Nó Radicle P2P Sincronizado (8 frentes)",
     "summary": "Novo serviço mapeado (Nó Radicle P2P Sincronizado (8 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_08/11/2026 16:17_Codeberg Forgejo Sincronizado (25 frentes)",
-    "timestamp": "08/11/2026 16:17",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (25 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (25 frentes)) ➔ Registrado no painel"
   }
 ]
