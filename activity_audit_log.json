@@ -1,5 +1,15 @@
 [
   {
+    "id": "out_10/11/2026 20:10_limitlessprojects/Go-Hybrid#4351",
+    "timestamp": "10/11/2026 20:10",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4351",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4351) ➔ Código e proposta enviados"
+  },
+  {
     "id": "out_10/11/2026 19:03_[Codeberg] MorsMortium/0x0Uploader",
     "timestamp": "10/11/2026 19:03",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4207",
     "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4207) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 18:18_[Bitbucket] atlassian/atlassian-refapp",
-    "timestamp": "08/11/2026 18:18",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-refapp",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-refapp) ➔ Código e proposta enviados"
   }
 ]
