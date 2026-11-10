@@ -1,19 +1,19 @@
 {
   "total_servicos_mapeados": 510,
   "total_oportunidades_web_ativas": 341,
-  "servicos_avancados_em_disputa": 288,
+  "servicos_avancados_em_disputa": 289,
   "servicos_aprovados_aguardando_pagamento": 2,
   "servicos_descartados_sem_retorno": 1,
   "fechados_com_recebimento": 0,
   "entrantes_por_hora": 24,
   "valor_em_fila_de_pagamento_usd": "$45 - $75 USDC (Go-Hybrid #3673 Aprovado)",
-  "valor_em_disputa_usd": "$43.375,00 USD",
-  "valor_em_disputa_num": 43375.0,
+  "valor_em_disputa_usd": "$43.450,00 USD",
+  "valor_em_disputa_num": 43450.0,
   "previsao_primeiro_recebimento": "Lote Go-Hybrid / Superteam Ukraine (Novembro 2026)",
   "probabilidade_global_atingimento": "92%",
   "saldo_liquidado_em_carteira_usd": "$0.00",
   "credito_liquidado_usd": "$0.00",
-  "taxa_conversao_pipeline": "1% (1 aprovado de 290)",
+  "taxa_conversao_pipeline": "1% (1 aprovado de 291)",
   "tempo_medio_resposta_mantenedores": "4h - 18h",
   "historico_dias": [
     {
@@ -130,7 +130,7 @@
       "is_today": true,
       "is_projection": false,
       "mapeados": 510,
-      "entregues": 291,
+      "entregues": 292,
       "prev_pagamento_usd": 350,
       "prev_pagamento_num": 350,
       "acumulado_usd": 900,
@@ -257,5 +257,5 @@
       "status": "Total em Disputa Liquidado"
     }
   ],
-  "updated_at": "10/11/2026 12:58:29"
+  "updated_at": "10/11/2026 12:59:31"
 }
