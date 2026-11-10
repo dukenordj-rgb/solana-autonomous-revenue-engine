@@ -1,13 +1,13 @@
 [
   {
-    "id": "cloud_1794312418",
-    "timestamp": "10/11/2026 09:06:58",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "id": "in_10/11/2026 09:08_limitlessprojects/Go-Hybrid",
+    "timestamp": "10/11/2026 09:08",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid",
+    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado e Respondido"
   },
   {
     "id": "out_10/11/2026 08:57_[Codeberg] MorsMortium/0x0Uploader",
