@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794311776",
+    "timestamp": "10/11/2026 08:56:16",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "cloud_1794311713",
     "timestamp": "10/11/2026 08:55:13",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Codeberg",
     "ref": "Codeberg Forgejo Sincronizado (22 frentes)",
     "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (22 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_08/11/2026 13:42_[GitLab] gitlab-com/gl-security/product-se...",
-    "timestamp": "08/11/2026 13:42",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] gitlab-com/gl-security/product-se...",
-    "summary": "Resposta/Entrega de saída ([GitLab] gitlab-com/gl-security/product-se...) ➔ Código e proposta enviados"
   }
 ]
