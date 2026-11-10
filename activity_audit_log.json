@@ -1,13 +1,13 @@
 [
   {
-    "id": "cloud_1794309958",
-    "timestamp": "10/11/2026 08:25:58",
+    "id": "map_10/11/2026 08:27_Codeberg Forgejo Sincronizado (53 frentes)",
+    "timestamp": "10/11/2026 08:27",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (53 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (53 frentes)) ➔ Registrado no painel"
   },
   {
     "id": "map_10/11/2026 07:56_Nó Radicle P2P Sincronizado (8 frentes)",
