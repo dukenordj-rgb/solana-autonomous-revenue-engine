@@ -125,28 +125,28 @@
       "status": "Previsão Bounties Fim de Semana"
     },
     {
-      "dia": "Hoje",
+      "dia": "10/11",
       "dia_num": 10,
+      "is_today": false,
+      "is_projection": false,
+      "mapeados": 550,
+      "entregues": 260,
+      "prev_pagamento_usd": 350,
+      "prev_pagamento_num": 350,
+      "acumulado_usd": 900,
+      "status": "Revisão Semanal Mantenedores"
+    },
+    {
+      "dia": "Hoje",
+      "dia_num": 11,
       "is_today": true,
       "is_projection": false,
       "mapeados": 545,
       "entregues": 295,
-      "prev_pagamento_usd": 350,
-      "prev_pagamento_num": 350,
-      "acumulado_usd": 900,
-      "status": "Operação ao Vivo — 10/11/2026"
-    },
-    {
-      "dia": "11/11",
-      "dia_num": 11,
-      "is_today": false,
-      "is_projection": true,
-      "mapeados": 600,
-      "entregues": 280,
       "prev_pagamento_usd": 450,
       "prev_pagamento_num": 450,
       "acumulado_usd": 1350,
-      "status": "Liberação Lote Go-Hybrid"
+      "status": "Operação ao Vivo — 11/11/2026"
     },
     {
       "dia": "12/11",
@@ -257,5 +257,5 @@
       "status": "Total em Disputa Liquidado"
     }
   ],
-  "updated_at": "10/11/2026 23:59:49"
+  "updated_at": "11/11/2026 00:00:52"
 }
