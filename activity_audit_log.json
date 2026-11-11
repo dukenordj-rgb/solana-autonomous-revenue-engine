@@ -1,5 +1,65 @@
 [
   {
+    "id": "out_11/11/2026 07:07_[Bitbucket] atlassian/atlassian-refapp",
+    "timestamp": "11/11/2026 07:07",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-refapp",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-refapp) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_11/11/2026 07:07_[Bitbucket] atlassian/atlassian-plugins",
+    "timestamp": "11/11/2026 07:07",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-plugins",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-plugins) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_11/11/2026 07:07_[Bitbucket] atlassian/atlassian-event",
+    "timestamp": "11/11/2026 07:07",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-event",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-event) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_11/11/2026 07:07_Bitbucket Cloud Sincronizado (10 frentes)",
+    "timestamp": "11/11/2026 07:07",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Bitbucket",
+    "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
+    "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_11/11/2026 07:07_[Codeberg] maxkeyscore/10000",
+    "timestamp": "11/11/2026 07:07",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Codeberg",
+    "ref": "[Codeberg] maxkeyscore/10000",
+    "summary": "Resposta/Entrega de saída ([Codeberg] maxkeyscore/10000) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_11/11/2026 07:07_[GitLab] OpenMW/openmw",
+    "timestamp": "11/11/2026 07:07",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitLab",
+    "ref": "[GitLab] OpenMW/openmw",
+    "summary": "Resposta/Entrega de saída ([GitLab] OpenMW/openmw) ➔ Código e proposta enviados"
+  },
+  {
     "id": "out_11/11/2026 07:01_limitlessprojects/Go-Hybrid#4366",
     "timestamp": "11/11/2026 07:01",
     "category": "DELIVERY_OUT",
@@ -2938,65 +2998,5 @@
     "platform": "Codeberg",
     "ref": "[Codeberg] import-benjamin/.dotfiles",
     "summary": "Resposta/Entrega de saída ([Codeberg] import-benjamin/.dotfiles) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 23:19_[GitLab] gitlab-com/gl-security/product-se...",
-    "timestamp": "08/11/2026 23:19",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] gitlab-com/gl-security/product-se...",
-    "summary": "Resposta/Entrega de saída ([GitLab] gitlab-com/gl-security/product-se...) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 23:11_paraloom-labs/paraloom-core#1548",
-    "timestamp": "08/11/2026 23:11",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1548",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1548) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 22:49_[Radicle] radicle-job (rad:z2UcCU)",
-    "timestamp": "08/11/2026 22:49",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-job (rad:z2UcCU)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-job (rad:z2UcCU)) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_08/11/2026 22:49_[Radicle] radicle-infra (rad:z254T5)",
-    "timestamp": "08/11/2026 22:49",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-infra (rad:z254T5)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-infra (rad:z254T5)) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_08/11/2026 22:49_Codeberg Forgejo Sincronizado (27 frentes)",
-    "timestamp": "08/11/2026 22:49",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (27 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (27 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_08/11/2026 22:49_[GitLab] blazephoenix-group/dex",
-    "timestamp": "08/11/2026 22:49",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] blazephoenix-group/dex",
-    "summary": "Resposta/Entrega de saída ([GitLab] blazephoenix-group/dex) ➔ Código e proposta enviados"
   }
 ]
