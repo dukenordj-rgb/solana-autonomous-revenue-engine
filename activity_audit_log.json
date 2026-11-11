@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794393429",
+    "timestamp": "11/11/2026 07:37:09",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "out_11/11/2026 07:30_limitlessprojects/Go-Hybrid#4377",
     "timestamp": "11/11/2026 07:30",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitLab",
     "ref": "GitLab API v4 Sincronizada (43 frentes)",
     "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (43 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_08/11/2026 23:19_Bitbucket Cloud Sincronizado (10 frentes)",
-    "timestamp": "08/11/2026 23:19",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Bitbucket",
-    "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
-    "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
   }
 ]
