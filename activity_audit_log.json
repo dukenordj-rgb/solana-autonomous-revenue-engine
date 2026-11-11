@@ -1,5 +1,15 @@
 [
   {
+    "id": "out_11/11/2026 15:35_paraloom-labs/paraloom-core#1568",
+    "timestamp": "11/11/2026 15:35",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1568",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1568) ➔ Código e proposta enviados"
+  },
+  {
     "id": "map_11/11/2026 15:10_Codeberg Forgejo Sincronizado (82 frentes)",
     "timestamp": "11/11/2026 15:10",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Codeberg",
     "ref": "[Codeberg] MorsMortium/0x0Uploader",
     "summary": "Resposta/Entrega de saída ([Codeberg] MorsMortium/0x0Uploader) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_09/11/2026 04:51_[Codeberg] import-benjamin/.dotfiles",
-    "timestamp": "09/11/2026 04:51",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Codeberg",
-    "ref": "[Codeberg] import-benjamin/.dotfiles",
-    "summary": "Resposta/Entrega de saída ([Codeberg] import-benjamin/.dotfiles) ➔ Código e proposta enviados"
   }
 ]

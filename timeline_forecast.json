@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "11/11 15:35",
+    "repo": "paraloom-labs/paraloom-core",
+    "pr_number": 1568,
+    "pr_url": "https://github.com/paraloom-labs/paraloom-core/issues/1568#issuecomment-6804154103",
+    "deliverables": "[BOUNTY] Medium: swap_router::route_handler lacks identical in/out ass...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#1568)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "11/11 12:58",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4381,
