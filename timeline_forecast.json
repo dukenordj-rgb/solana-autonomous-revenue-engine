@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "11/11 12:58",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4381,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4381#issuecomment-6800617056",
+    "deliverables": "[soundness] hy-check(builtins): A5 foreign Go-escape check (HYB-E3013)...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#4381)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "11/11 07:30",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4377,
