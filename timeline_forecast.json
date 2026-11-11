@@ -1,5 +1,47 @@
 [
   {
+    "submitted_at": "11/11 07:01",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4366,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4366#issuecomment-6792869206",
+    "deliverables": "[soundness] hy-check(loans): explicit generic type arguments on calls ...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#4366)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
+    "submitted_at": "11/11 07:01",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4368,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4368#issuecomment-6792862974",
+    "deliverables": "[soundness] hy-check(closures): update_pre_defer_peers and update_post...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#4368)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
+    "submitted_at": "11/11 07:01",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4370,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4370#issuecomment-6792853824",
+    "deliverables": "[soundness] hy-check(freeze): check_loop_backedge_replay discards HYB-...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#4370)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "11/11 04:45",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4363,
