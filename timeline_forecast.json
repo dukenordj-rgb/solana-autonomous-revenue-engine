@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "11/11 00:22",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4358,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4358#issuecomment-6786032165",
+    "deliverables": "hy-check: check_try_operand misses HYB-E2011 on generic fns, associate...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#4358)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "11/11 00:21",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4356,
