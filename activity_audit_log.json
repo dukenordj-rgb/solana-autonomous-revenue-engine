@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794357722",
+    "timestamp": "10/11/2026 21:42:02",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "cloud_1794357659",
     "timestamp": "10/11/2026 21:40:59",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "GitLab",
     "ref": "GitLab API v4 Sincronizada (42 frentes)",
     "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (42 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "in_08/11/2026 18:50_limitlessprojects/Go-Hybrid",
-    "timestamp": "08/11/2026 18:50",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#475569",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid",
-    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado: Sem necessidade de resposta"
   }
 ]
