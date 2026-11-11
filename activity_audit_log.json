@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794360065",
+    "timestamp": "10/11/2026 22:21:05",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "map_10/11/2026 21:05_Codeberg Forgejo Sincronizado (63 frentes)",
     "timestamp": "10/11/2026 21:05",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid",
     "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado: Sem necessidade de resposta"
-  },
-  {
-    "id": "out_08/11/2026 18:47_[Radicle] radicle-job (rad:z2UcCU)",
-    "timestamp": "08/11/2026 18:47",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-job (rad:z2UcCU)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-job (rad:z2UcCU)) ➔ Código e proposta enviados"
   }
 ]
