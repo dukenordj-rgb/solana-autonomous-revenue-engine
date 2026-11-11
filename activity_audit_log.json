@@ -1,15 +1,5 @@
 [
   {
-    "id": "cloud_1794380670",
-    "timestamp": "11/11/2026 04:04:30",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
-  },
-  {
     "id": "map_11/11/2026 02:05_Codeberg Forgejo Sincronizado (68 frentes)",
     "timestamp": "11/11/2026 02:05",
     "category": "SERVICE_MAPPED",
@@ -2998,5 +2988,15 @@
     "platform": "Bitbucket",
     "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
     "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_08/11/2026 20:48_[Codeberg] maxkeyscore/10000",
+    "timestamp": "08/11/2026 20:48",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Codeberg",
+    "ref": "[Codeberg] maxkeyscore/10000",
+    "summary": "Resposta/Entrega de saída ([Codeberg] maxkeyscore/10000) ➔ Código e proposta enviados"
   }
 ]
