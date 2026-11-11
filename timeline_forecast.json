@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "11/11 16:54",
+    "repo": "paraloom-labs/paraloom-core",
+    "pr_number": 1570,
+    "pr_url": "https://github.com/paraloom-labs/paraloom-core/issues/1570#issuecomment-6805825342",
+    "deliverables": "[BOUNTY] High: Post-swap SlippageExceeded abort in withdraw_then_swap ...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "SUBMISSÃO TÉCNICA (#1570)",
+    "payout_forecast": "Ciclo Ativo Go-Hybrid (Novembro 2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "11/11 15:35",
     "repo": "paraloom-labs/paraloom-core",
     "pr_number": 1568,
