@@ -1,5 +1,15 @@
 [
   {
+    "id": "out_11/11/2026 07:30_limitlessprojects/Go-Hybrid#4377",
+    "timestamp": "11/11/2026 07:30",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4377",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4377) ➔ Código e proposta enviados"
+  },
+  {
     "id": "out_11/11/2026 07:28_limitlessprojects/Go-Hybrid#4375",
     "timestamp": "11/11/2026 07:28",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Bitbucket",
     "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
     "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_08/11/2026 23:19_[Codeberg] maxkeyscore/10000",
-    "timestamp": "08/11/2026 23:19",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Codeberg",
-    "ref": "[Codeberg] maxkeyscore/10000",
-    "summary": "Resposta/Entrega de saída ([Codeberg] maxkeyscore/10000) ➔ Código e proposta enviados"
   }
 ]
