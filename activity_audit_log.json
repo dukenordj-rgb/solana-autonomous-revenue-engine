@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794453478",
+    "timestamp": "12/11/2026 00:17:58",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "cloud_1794453416",
     "timestamp": "12/11/2026 00:16:56",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Bitbucket",
     "ref": "[Bitbucket] atlassian/atlassian-refapp",
     "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-refapp) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_09/11/2026 10:53_[Bitbucket] atlassian/atlassian-plugins",
-    "timestamp": "09/11/2026 10:53",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-plugins",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-plugins) ➔ Código e proposta enviados"
   }
 ]
