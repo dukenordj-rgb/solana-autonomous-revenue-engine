@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "11/11 23:57",
+    "repo": "paraloom-labs/paraloom-core",
+    "pr_number": 1573,
+    "pr_url": "https://github.com/paraloom-labs/paraloom-core/issues/1573#issuecomment-6813037418",
+    "deliverables": "`AdaptiveBatchVerifier::verify` skips the `proofs`/`public_inputs` len...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "PROPOSTA / REQUER PR+CI (#1573)",
+    "payout_forecast": "Ciclo Paraloom Labs — Requer PR com cargo test/clippy/fmt (Prev. 21/11/2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "11/11 16:54",
     "repo": "paraloom-labs/paraloom-core",
     "pr_number": 1570,
