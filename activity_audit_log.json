@@ -1,5 +1,35 @@
 [
   {
+    "id": "out_12/11/2026 00:35_paraloom-labs/paraloom-core#1577",
+    "timestamp": "12/11/2026 00:35",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1577",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1577) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 00:35_paraloom-labs/paraloom-core#1578",
+    "timestamp": "12/11/2026 00:35",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1578",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1578) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 00:34_paraloom-labs/paraloom-core#1576",
+    "timestamp": "12/11/2026 00:34",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1576",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1576) ➔ Código e proposta enviados"
+  },
+  {
     "id": "out_12/11/2026 00:33_paraloom-labs/paraloom-core#1575",
     "timestamp": "12/11/2026 00:33",
     "category": "DELIVERY_OUT",
@@ -2968,35 +2998,5 @@
     "platform": "Radicle",
     "ref": "[Radicle] radicle-infra (rad:z254T5)",
     "summary": "Resposta/Entrega de saída ([Radicle] radicle-infra (rad:z254T5)) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_09/11/2026 10:53_[Radicle] radicle-ci-broker (rad:zwTxyg)",
-    "timestamp": "09/11/2026 10:53",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-ci-broker (rad:zwTxyg)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-ci-broker (rad:zwTxyg)) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_09/11/2026 10:53_Nó Radicle P2P Sincronizado (8 frentes)",
-    "timestamp": "09/11/2026 10:53",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Radicle",
-    "ref": "Nó Radicle P2P Sincronizado (8 frentes)",
-    "summary": "Novo serviço mapeado (Nó Radicle P2P Sincronizado (8 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_09/11/2026 10:53_[Bitbucket] atlassian/atlassian-refapp",
-    "timestamp": "09/11/2026 10:53",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-refapp",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-refapp) ➔ Código e proposta enviados"
   }
 ]

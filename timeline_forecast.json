@@ -1,5 +1,33 @@
 [
   {
+    "submitted_at": "12/11 00:34",
+    "repo": "paraloom-labs/paraloom-core",
+    "pr_number": 1576,
+    "pr_url": "https://github.com/paraloom-labs/paraloom-core/issues/1576#issuecomment-6813607147",
+    "deliverables": "Co-signers never verify the tally outcome, the reputation floor, or th...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "PROPOSTA / REQUER PR+CI (#1576)",
+    "payout_forecast": "Ciclo Paraloom Labs — Requer PR com cargo test/clippy/fmt (Prev. 21/11/2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
+    "submitted_at": "12/11 00:33",
+    "repo": "paraloom-labs/paraloom-core",
+    "pr_number": 1575,
+    "pr_url": "https://github.com/paraloom-labs/paraloom-core/issues/1575#issuecomment-6813589379",
+    "deliverables": "Bridge listener never decodes deposit_note — the only deposit instruct...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "PROPOSTA / REQUER PR+CI (#1575)",
+    "payout_forecast": "Ciclo Paraloom Labs — Requer PR com cargo test/clippy/fmt (Prev. 21/11/2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "12/11 00:33",
     "repo": "paraloom-labs/paraloom-core",
     "pr_number": 1574,
