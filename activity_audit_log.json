@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794488378",
+    "timestamp": "12/11/2026 09:59:38",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "cloud_1794488314",
     "timestamp": "12/11/2026 09:58:34",
     "category": "SERVICE_MAPPED",
@@ -2988,25 +2998,5 @@
     "platform": "GitLab",
     "ref": "GitLab API v4 Sincronizada (45 frentes)",
     "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (45 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_09/11/2026 11:50_limitlessprojects/Go-Hybrid#4253",
-    "timestamp": "09/11/2026 11:50",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4253",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4253) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_09/11/2026 11:48_limitlessprojects/Go-Hybrid#4251",
-    "timestamp": "09/11/2026 11:48",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4251",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4251) ➔ Código e proposta enviados"
   }
 ]
