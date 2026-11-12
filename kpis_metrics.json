@@ -5,7 +5,7 @@
   "servicos_aprovados_aguardando_pagamento": 1,
   "servicos_descartados_sem_retorno": 36,
   "fechados_com_recebimento": 0,
-  "entrantes_por_hora": 40,
+  "entrantes_por_hora": 20,
   "novos_servicos_hoje": 40,
   "valor_novos_hoje_usd": 22755.0,
   "valor_em_fila_de_pagamento_usd": "$45 - $75 USDC (Go-Hybrid #3673 Merged 05/11 • Aguardando Fechamento do Ciclo Nov/2026)",
@@ -363,5 +363,5 @@
       "status": "Fechamento Mensal Nov/2026"
     }
   ],
-  "updated_at": "12/11/2026 01:59:56"
+  "updated_at": "12/11/2026 02:00:58"
 }
