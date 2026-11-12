@@ -1,5 +1,15 @@
 [
   {
+    "id": "map_12/11/2026 15:19_Codeberg Forgejo Sincronizado (95 frentes)",
+    "timestamp": "12/11/2026 15:19",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (95 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (95 frentes)) ➔ Registrado no painel"
+  },
+  {
     "id": "out_12/11/2026 13:59_limitlessprojects/Go-Hybrid#4414",
     "timestamp": "12/11/2026 13:59",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Codeberg",
     "ref": "[Codeberg] MorsMortium/0x0Uploader",
     "summary": "Resposta/Entrega de saída ([Codeberg] MorsMortium/0x0Uploader) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_09/11/2026 12:54_Codeberg Forgejo Sincronizado (36 frentes)",
-    "timestamp": "09/11/2026 12:54",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (36 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (36 frentes)) ➔ Registrado no painel"
   }
 ]
