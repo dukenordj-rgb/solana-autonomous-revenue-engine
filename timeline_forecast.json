@@ -1,5 +1,33 @@
 [
   {
+    "submitted_at": "12/11 12:53",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4412,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4412#issuecomment-6828516531",
+    "deliverables": "[soundness] hy-check(closures): inner-block shadowing and consuming ca...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "ANÁLISE / REQUER PR+CI (#4412)",
+    "payout_forecast": "Fechamento Ciclo Go-Hybrid Nov/2026 (requer PR+CI aprovado)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
+    "submitted_at": "12/11 12:53",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4410,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4410#issuecomment-6828498561",
+    "deliverables": "[soundness] hy-check(shape/sendability): generic type parameters shado...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "ANÁLISE / REQUER PR+CI (#4410)",
+    "payout_forecast": "Fechamento Ciclo Go-Hybrid Nov/2026 (requer PR+CI aprovado)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "12/11 12:26",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4408,
