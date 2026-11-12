@@ -1,15 +1,5 @@
 [
   {
-    "id": "cloud_1794457667",
-    "timestamp": "12/11/2026 01:27:47",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
-  },
-  {
     "id": "out_12/11/2026 01:25_paraloom-labs/paraloom-core#1580",
     "timestamp": "12/11/2026 01:25",
     "category": "DELIVERY_OUT",
