@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "12/11 00:38",
+    "repo": "paraloom-labs/paraloom-core",
+    "pr_number": 1579,
+    "pr_url": "https://github.com/paraloom-labs/paraloom-core/issues/1579#issuecomment-6813662045",
+    "deliverables": "deactivate_validator permanently strands the dual-stake token half (in...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "PROPOSTA / REQUER PR+CI (#1579)",
+    "payout_forecast": "Ciclo Paraloom Labs — Requer PR com cargo test/clippy/fmt (Prev. 21/11/2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "12/11 00:35",
     "repo": "paraloom-labs/paraloom-core",
     "pr_number": 1577,
