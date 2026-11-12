@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "12/11 07:55",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4399,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4399#issuecomment-6821661900",
+    "deliverables": "[soundness] hy-check(channel_liveness): uncalled Expr::FnLit closures ...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "ANÁLISE / REQUER PR+CI (#4399)",
+    "payout_forecast": "Fechamento Ciclo Go-Hybrid Nov/2026 (requer PR+CI aprovado)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "12/11 05:00",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4391,
