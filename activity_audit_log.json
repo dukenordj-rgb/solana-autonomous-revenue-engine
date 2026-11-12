@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794446329",
+    "timestamp": "11/11/2026 22:18:49",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "cloud_1794446266",
     "timestamp": "11/11/2026 22:17:46",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "GitLab",
     "ref": "[GitLab] gitlab-com/gl-security/product-se...",
     "summary": "Resposta/Entrega de saída ([GitLab] gitlab-com/gl-security/product-se...) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_09/11/2026 10:53_[GitLab] blazephoenix-group/dex",
-    "timestamp": "09/11/2026 10:53",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] blazephoenix-group/dex",
-    "summary": "Resposta/Entrega de saída ([GitLab] blazephoenix-group/dex) ➔ Código e proposta enviados"
   }
 ]
