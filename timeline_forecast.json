@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "12/11 11:41",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4405,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4405#issuecomment-6826679958",
+    "deliverables": "[soundness] hy-check: O8 map-slot loans laundered through pointer-carr...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "ANÁLISE / REQUER PR+CI (#4405)",
+    "payout_forecast": "Fechamento Ciclo Go-Hybrid Nov/2026 (requer PR+CI aprovado)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "12/11 11:35",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4403,
