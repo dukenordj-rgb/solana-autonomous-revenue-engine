@@ -5,9 +5,9 @@
   "servicos_aprovados_aguardando_pagamento": 1,
   "servicos_descartados_sem_retorno": 36,
   "fechados_com_recebimento": 0,
-  "entrantes_por_hora": 3,
-  "novos_servicos_hoje": 78,
-  "valor_novos_hoje_usd": 41265.0,
+  "entrantes_por_hora": 1,
+  "novos_servicos_hoje": 1,
+  "valor_novos_hoje_usd": 0.0,
   "valor_em_fila_de_pagamento_usd": "$45 - $75 USDC (Go-Hybrid #3673 Merged 05/11 • Aguardando Fechamento do Ciclo Nov/2026)",
   "valor_em_disputa_usd": "$36.000,00 USD",
   "valor_em_disputa_num": 36000.0,
@@ -235,9 +235,9 @@
       "status": "Triagem Mantenedores"
     },
     {
-      "dia": "Hoje",
+      "dia": "11/11",
       "dia_num": 11,
-      "is_today": true,
+      "is_today": false,
       "is_projection": false,
       "mapeados": 745,
       "entregues": 273,
@@ -248,23 +248,23 @@
       "prev_pagamento_usd": 150,
       "prev_pagamento_num": 150,
       "acumulado_usd": 225,
-      "status": "Operação ao Vivo — 11/11/2026"
+      "status": "Ciclo Go-Hybrid em Auditoria"
     },
     {
-      "dia": "12/11",
+      "dia": "Hoje",
       "dia_num": 12,
-      "is_today": false,
-      "is_projection": true,
-      "mapeados": 790,
-      "entregues": 285,
-      "novos_servicos_dia": 0,
+      "is_today": true,
+      "is_projection": false,
+      "mapeados": 745,
+      "entregues": 273,
+      "novos_servicos_dia": 1,
       "valor_novos_dia_usd": 0.0,
       "qtd_aprovacoes_previstas": 1,
       "aprovacao_prevista_desc": "Prev. Aprovacao Escrow Agent Bounty Feed #3 ($5 USDC)",
       "prev_pagamento_usd": 5,
       "prev_pagamento_num": 5,
       "acumulado_usd": 230,
-      "status": "Escrow Agent Feed #3"
+      "status": "Operação ao Vivo — 12/11/2026"
     },
     {
       "dia": "14/11",
@@ -363,5 +363,5 @@
       "status": "Fechamento Mensal Nov/2026"
     }
   ],
-  "updated_at": "11/11/2026 23:59:17"
+  "updated_at": "12/11/2026 00:00:20"
 }
