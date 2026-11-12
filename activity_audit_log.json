@@ -1,5 +1,15 @@
 [
   {
+    "id": "out_12/11/2026 15:50_limitlessprojects/Go-Hybrid#4416",
+    "timestamp": "12/11/2026 15:50",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4416",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4416) ➔ Código e proposta enviados"
+  },
+  {
     "id": "map_12/11/2026 15:19_Codeberg Forgejo Sincronizado (95 frentes)",
     "timestamp": "12/11/2026 15:19",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Codeberg",
     "ref": "[Codeberg] maxkeyscore/10000",
     "summary": "Resposta/Entrega de saída ([Codeberg] maxkeyscore/10000) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_09/11/2026 12:54_[Codeberg] MorsMortium/0x0Uploader",
-    "timestamp": "09/11/2026 12:54",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Codeberg",
-    "ref": "[Codeberg] MorsMortium/0x0Uploader",
-    "summary": "Resposta/Entrega de saída ([Codeberg] MorsMortium/0x0Uploader) ➔ Código e proposta enviados"
   }
 ]
