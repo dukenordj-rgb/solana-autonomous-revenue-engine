@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "12/11 04:27",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4390,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4390#issuecomment-6817518956",
+    "deliverables": "[tooling] Claims-link guard silently skips reference-style evidence li...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "ANÁLISE / REQUER PR+CI (#4390)",
+    "payout_forecast": "Fechamento Ciclo Go-Hybrid Nov/2026 (requer PR+CI aprovado)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "12/11 01:59",
     "repo": "paraloom-labs/paraloom-core",
     "pr_number": 1581,
