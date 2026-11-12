@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "12/11 01:59",
+    "repo": "paraloom-labs/paraloom-core",
+    "pr_number": 1581,
+    "pr_url": "https://github.com/paraloom-labs/paraloom-core/issues/1581#issuecomment-6815074133",
+    "deliverables": "[Low] Bridge decoder ignores deposits in v0 transactions loaded via Ad...",
+    "value_estimate_usd": "$45,00 a $75,00 USDC",
+    "stage": "PROPOSTA / REQUER PR+CI (#1581)",
+    "payout_forecast": "Ciclo Paraloom Labs — Requer PR com cargo test/clippy/fmt (Prev. 21/11/2026)",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "85% (ANÁLISE SINTETIZADA)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "12/11 01:25",
     "repo": "paraloom-labs/paraloom-core",
     "pr_number": 1580,
