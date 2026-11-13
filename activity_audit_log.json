@@ -1,5 +1,55 @@
 [
   {
+    "id": "rsim_c_BINANCE-LINKUSDT_19:08:20_TAKE_PROFIT",
+    "timestamp": "13/11/2026 19:08:20",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-LINKUSDT",
+    "summary": "SELL SHORT [LINKUSDT] DOWNTREND_5M (EMA9<21 | RSI 33.3) [TAKE_PROFIT] ➔ P&L $+0.02"
+  },
+  {
+    "id": "rsim_c_BINANCE-SOLUSDT_19:08:20_TAKE_PROFIT",
+    "timestamp": "13/11/2026 19:08:20",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 18.6) [TAKE_PROFIT] ➔ P&L $+0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-LINKUSDT_19:08:20",
+    "timestamp": "13/11/2026 19:08:20",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "LINKUSDT",
+    "summary": "SELL SHORT [LINKUSDT] BREAKDOWN_5M (EMA9<21 | RSI 25.3) @ $9.824 (MC 92%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-SOLUSDT_19:08:20",
+    "timestamp": "13/11/2026 19:08:20",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 18.8) @ $78.21 (MC 91%)"
+  },
+  {
+    "id": "out_13/11/2026 19:07_limitlessprojects/Go-Hybrid#4444",
+    "timestamp": "13/11/2026 19:07",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4444",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4444) ➔ Código e proposta enviados"
+  },
+  {
     "id": "rsim_c_BINANCE-AVAXUSDT_19:05:47_TAKE_PROFIT",
     "timestamp": "13/11/2026 19:05:47",
     "category": "DELIVERY_OUT",
@@ -2948,55 +2998,5 @@
     "platform": "GitLab",
     "ref": "[GitLab] gitlab-com/gl-security/product-se...",
     "summary": "Resposta/Entrega de saída ([GitLab] gitlab-com/gl-security/product-se...) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 06:56_[GitLab] blazephoenix-group/dex",
-    "timestamp": "10/11/2026 06:56",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] blazephoenix-group/dex",
-    "summary": "Resposta/Entrega de saída ([GitLab] blazephoenix-group/dex) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 06:56_[GitLab] OpenMW/openmw",
-    "timestamp": "10/11/2026 06:56",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] OpenMW/openmw",
-    "summary": "Resposta/Entrega de saída ([GitLab] OpenMW/openmw) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_10/11/2026 06:56_GitLab API v4 Sincronizada (50 frentes)",
-    "timestamp": "10/11/2026 06:56",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (50 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (50 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_10/11/2026 06:56_limitlessprojects/Go-Hybrid#4330",
-    "timestamp": "10/11/2026 06:56",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4330",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4330) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 06:46_limitlessprojects/Go-Hybrid#4313",
-    "timestamp": "10/11/2026 06:46",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4313",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4313) ➔ Código e proposta enviados"
   }
 ]
