@@ -1,5 +1,25 @@
 [
   {
+    "id": "rsim_c_BINANCE-DOGEUSDT_17:36:37_STOP_LOSS",
+    "timestamp": "13/11/2026 17:36:37",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "BUY LONG [DOGEUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 4 [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-DOGEUSDT_17:36:37",
+    "timestamp": "13/11/2026 17:36:37",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "DOGEUSDT",
+    "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 37.0) @ $0.06541 (MC 53%)"
+  },
+  {
     "id": "map_13/11/2026 17:35_Codeberg Forgejo Sincronizado (109 frentes...",
     "timestamp": "13/11/2026 17:35",
     "category": "SERVICE_MAPPED",
@@ -2978,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "Go-Hybrid#3673 (Aprovado)",
     "summary": "E-mail de entrada (Go-Hybrid#3673) ➔ Solução aprovada pelo mantenedor (+$75 USDC em fila)"
-  },
-  {
-    "id": "hist_out_lablab_1106",
-    "timestamp": "06/11/2026 14:20",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA REALIZADA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "lablab-ai/community-content#1106",
-    "summary": "Entrega realizada (lablab-ai#1106) ➔ Tutorial Vectara Chat submetido via PR"
-  },
-  {
-    "id": "hist_out_superteam_repos",
-    "timestamp": "05/11/2026 16:30",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA REALIZADA",
-    "badge_color": "#10b981",
-    "platform": "Superteam",
-    "ref": "Solana Multihopper & Block Ordering",
-    "summary": "Entrega realizada (Superteam Solana) ➔ 3 repositórios públicos construídos e publicados"
   }
 ]
