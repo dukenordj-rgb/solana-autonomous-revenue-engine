@@ -4513,12 +4513,12 @@
     "pr_number": 3782,
     "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/pull/3782",
     "deliverables": "fix(installer): include plus sign in latest release tag extraction (fixes #3778)",
-    "value_estimate_usd": "$0.00 (Concorrente venceu)",
+    "value_estimate_usd": "$0.00 (Concorrência Perdida)",
     "stage": "SUBMETIDO (PR #3782)",
     "payout_forecast": "Hall of Fame / Wildcard Review (M1 Window)",
     "payout_destination": "Base (0x3a391d8a...)",
     "probability": "0% (Perdida na disputa)",
-    "status": "⏳ CONFLITO (Race vencida por PR #3779 [34fe7f5d]; crédito independente registrado em #295)",
+    "status": "CONCORRÊNCIA PERDIDA (Race vencida por PR #3779 [34fe7f5d]; crédito independente registrado em #295)",
     "elapsed_time": "Recém Aberto"
   },
   {
