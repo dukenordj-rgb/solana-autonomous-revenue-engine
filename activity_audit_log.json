@@ -1,5 +1,55 @@
 [
   {
+    "id": "rsim_c_BINANCE-ETHUSDT_18:02:40_STOP_LOSS",
+    "timestamp": "13/11/2026 18:02:40",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-ETHUSDT",
+    "summary": "BUY LONG [ETHUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 48 [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_c_BINANCE-DOGEUSDT_18:02:40_TAKE_PROFIT",
+    "timestamp": "13/11/2026 18:02:40",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 37.0) [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_c_BINANCE-BNBUSDT_18:02:40_STOP_LOSS",
+    "timestamp": "13/11/2026 18:02:40",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-BNBUSDT",
+    "summary": "BUY LONG [BNBUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 47 [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-DOGEUSDT_18:02:40",
+    "timestamp": "13/11/2026 18:02:40",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "DOGEUSDT",
+    "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 21.0) @ $0.06511 (MC 60%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-AVAXUSDT_18:02:40",
+    "timestamp": "13/11/2026 18:02:40",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "AVAXUSDT",
+    "summary": "SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 30.4) @ $8.346 (MC 54%)"
+  },
+  {
     "id": "rsim_c_BINANCE-XRPUSDT_17:59:15_STOP_LOSS",
     "timestamp": "13/11/2026 17:59:15",
     "category": "DELIVERY_OUT",
@@ -2948,55 +2998,5 @@
     "platform": "GitLab",
     "ref": "[GitLab] blazephoenix-group/dex",
     "summary": "Resposta/Entrega de saída ([GitLab] blazephoenix-group/dex) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_09/11/2026 17:56_[GitLab] OpenMW/openmw",
-    "timestamp": "09/11/2026 17:56",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] OpenMW/openmw",
-    "summary": "Resposta/Entrega de saída ([GitLab] OpenMW/openmw) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "in_09/11/2026 17:54_limitlessprojects/Go-Hybrid",
-    "timestamp": "09/11/2026 17:54",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#475569",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid",
-    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado: Sem necessidade de resposta"
-  },
-  {
-    "id": "hist_out_abby_215",
-    "timestamp": "07/11/2026 11:20",
-    "category": "EMAIL_OUT",
-    "badge": "📤 E-MAIL / RESPOSTA SAÍDA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "tryabby/abby#215",
-    "summary": "E-mail de entrada #215 respondido ➔ Correção @tryabby/vue (commit 8069ac8) enviada"
-  },
-  {
-    "id": "hist_in_abby_215",
-    "timestamp": "07/11/2026 11:14",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#0284c7",
-    "platform": "GitHub",
-    "ref": "tryabby/abby#215 (CodeRabbit)",
-    "summary": "E-mail de entrada (tryabby/abby#215) ➔ Solicitação de ajuste técnico: Respondido"
-  },
-  {
-    "id": "hist_map_radicle_init",
-    "timestamp": "07/11/2026 19:06",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 NOVO SERVIÇO",
-    "badge_color": "#a855f7",
-    "platform": "Radicle",
-    "ref": "Radicle Heartwood P2P (8 serviços)",
-    "summary": "Novos serviços mapeados no Radicle P2P ➔ Identidade DID ativa e 8 frentes registradas"
   }
 ]
