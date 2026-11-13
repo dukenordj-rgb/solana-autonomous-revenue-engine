@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794535716",
+    "timestamp": "12/11/2026 23:08:36",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ E-mails e carteiras auditados"
+  },
+  {
     "id": "cloud_1794535610",
     "timestamp": "12/11/2026 23:06:50",
     "category": "SERVICE_MAPPED",
@@ -2988,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4338",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4338) ➔ Proposta e código registrados ($45,00 a $75,00 USDC)"
-  },
-  {
-    "id": "tl_Vasqq/BounTEE_71_38",
-    "timestamp": "10/11 12:31",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "Vasqq/BounTEE#71",
-    "summary": "Serviço entregue (Vasqq/BounTEE#71) ➔ Proposta e código registrados ($0,00 USD (Descartado))"
-  },
-  {
-    "id": "tl_Vasqq/BounTEE_72_39",
-    "timestamp": "10/11 12:31",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "Vasqq/BounTEE#72",
-    "summary": "Serviço entregue (Vasqq/BounTEE#72) ➔ Proposta e código registrados ($0,00 USD (Descartado))"
   }
 ]
