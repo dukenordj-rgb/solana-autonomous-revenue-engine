@@ -1,5 +1,15 @@
 [
   {
+    "id": "out_13/11/2026 02:29_limitlessprojects/Go-Hybrid#4423",
+    "timestamp": "13/11/2026 02:29",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4423",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4423) ➔ Código e proposta enviados"
+  },
+  {
     "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 02",
     "timestamp": "2026-11-13 02:23:25",
     "type": "SERVICO_MAPEADO",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4338",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4338) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_Vasqq/BounTEE_71_39",
-    "timestamp": "10/11 12:31",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "Vasqq/BounTEE#71",
-    "summary": "Serviço entregue (Vasqq/BounTEE#71) ➔ Proposta e código registrados ($0,00 USD (Descartado))"
   }
 ]
