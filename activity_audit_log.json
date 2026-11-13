@@ -1,5 +1,45 @@
 [
   {
+    "id": "rsim_c_BINANCE-SOLUSDT_18:22:14_TAKE_PROFIT",
+    "timestamp": "13/11/2026 18:22:14",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 32.5) [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-DOGEUSDT_18:22:14",
+    "timestamp": "13/11/2026 18:22:14",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "DOGEUSDT",
+    "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 9.2) @ $0.06477 (MC 75%)"
+  },
+  {
+    "id": "rsim_c_BINANCE-BTCUSDT_18:21:01_TAKE_PROFIT",
+    "timestamp": "13/11/2026 18:21:01",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-BTCUSDT",
+    "summary": "SELL SHORT [BTCUSDT] BREAKDOWN_5M (EMA9<21 | RSI 25.8) [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-BTCUSDT_18:21:01",
+    "timestamp": "13/11/2026 18:21:01",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "BTCUSDT",
+    "summary": "SELL SHORT [BTCUSDT] BREAKDOWN_5M (EMA9<21 | RSI 11.2) @ $68408.12 (MC 81%)"
+  },
+  {
     "id": "rsim_c_BINANCE-DOGEUSDT_18:16:42_TAKE_PROFIT",
     "timestamp": "13/11/2026 18:16:42",
     "category": "DELIVERY_OUT",
@@ -2958,45 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4306",
     "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4306) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_09/11/2026 19:27_Codeberg Forgejo Sincronizado (46 frentes)",
-    "timestamp": "09/11/2026 19:27",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (46 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (46 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "in_09/11/2026 19:26_limitlessprojects/Go-Hybrid",
-    "timestamp": "09/11/2026 19:26",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#475569",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid",
-    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado: Sem necessidade de resposta"
-  },
-  {
-    "id": "map_09/11/2026 18:57_Codeberg Forgejo Sincronizado (45 frentes)",
-    "timestamp": "09/11/2026 18:57",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (45 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (45 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_09/11/2026 18:26_Codeberg Forgejo Sincronizado (44 frentes)",
-    "timestamp": "09/11/2026 18:26",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (44 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (44 frentes)) ➔ Registrado no painel"
   }
 ]
