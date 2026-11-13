@@ -1,5 +1,45 @@
 [
   {
+    "id": "map_13/11/2026 17:35_Codeberg Forgejo Sincronizado (109 frentes...",
+    "timestamp": "13/11/2026 17:35",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (109 frentes...",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (109 frentes...) ➔ Registrado no painel"
+  },
+  {
+    "id": "rsim_c_BINANCE-BNBUSDT_17:35:18_STOP_LOSS",
+    "timestamp": "13/11/2026 17:35:18",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-BNBUSDT",
+    "summary": "BUY LONG [BNBUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.6x) [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-BNBUSDT_17:35:18",
+    "timestamp": "13/11/2026 17:35:18",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "BNBUSDT",
+    "summary": "BUY LONG [BNBUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 47 @ $637.42 (MC 60%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-BTCUSDT_17:35:18",
+    "timestamp": "13/11/2026 17:35:18",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "BTCUSDT",
+    "summary": "SELL SHORT [BTCUSDT] BREAKDOWN_5M (EMA9<21 | RSI 38.6) @ $68917.05 (MC 59%)"
+  },
+  {
     "id": "rsim_c_BINANCE-LINKUSDT_17:33:04_STOP_LOSS",
     "timestamp": "13/11/2026 17:33:04",
     "category": "DELIVERY_OUT",
@@ -2958,45 +2998,5 @@
     "platform": "Superteam",
     "ref": "Solana Multihopper & Block Ordering",
     "summary": "Entrega realizada (Superteam Solana) ➔ 3 repositórios públicos construídos e publicados"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4435_0",
-    "timestamp": "13/11 07:43",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4435",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4435) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4437_1",
-    "timestamp": "13/11 07:42",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4437",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4437) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4439_2",
-    "timestamp": "13/11 07:42",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4439",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4439) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4433_3",
-    "timestamp": "13/11 07:41",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4433",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4433) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   }
 ]
