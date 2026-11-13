@@ -1,13 +1,13 @@
 [
   {
-    "id": "cloud_1794563963",
-    "timestamp": "13/11/2026 06:59:23",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 07",
+    "timestamp": "2026-11-13 07:00:42",
+    "type": "SERVICO_MAPEADO",
+    "portal": "Polymarket",
+    "repo": "Polymarket/CRYPTO",
+    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will ChatGPT-6.1 Sol and Claude Opus 5.5 Beat Hardcore ...' | BUY NO @ q=72% vs Fair p=81% (Edge +9.28% | Kelly 6.0%)",
+    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
+    "url": "https://manifold.markets/TuringGames/will-chatgpt61-sol-and-claude-opus"
   },
   {
     "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 06",
@@ -2500,16 +2500,6 @@
     "summary": "Novo serviço mapeado (Nó Radicle P2P Sincronizado (8 frentes)) ➔ Registrado no painel"
   },
   {
-    "id": "map_09/11/2026 16:55_Bitbucket Cloud Sincronizado (10 frentes)",
-    "timestamp": "09/11/2026 16:55",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Bitbucket",
-    "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
-    "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
-  },
-  {
     "id": "hist_out_abby_215",
     "timestamp": "07/11/2026 11:20",
     "category": "EMAIL_OUT",
@@ -2998,5 +2988,15 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4346",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4346) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4338_39",
+    "timestamp": "10/11 12:59",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4338",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4338) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
