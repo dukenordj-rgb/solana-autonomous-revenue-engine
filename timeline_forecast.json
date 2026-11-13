@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "13/11 19:07",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4444,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4444#issuecomment-6866112590",
+    "deliverables": "[soundness] hy-check(builtins): A5 foreign Go closure escape omits bui...",
+    "value_estimate_usd": "Pool compartilhado (não estimável)",
+    "stage": "COMENTÁRIO TÉCNICO (#4444)",
+    "payout_forecast": "Aguardando avaliação do mantenedor",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "Não estimável (sem histórico calibrado)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "13/11 17:50",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4442,
@@ -4532,7 +4546,7 @@
     "payout_forecast": "Hall of Fame / Wildcard Review (M1 Window)",
     "payout_destination": "Base (0x3a391d8a...)",
     "probability": "0% (Perdida na disputa)",
-    "status": "CONCORRÊNCIA PERDIDA (Race vencida por PR #3779 [34fe7f5d]; crédito independente registrado em #295)",
+    "status": "⏳ CONFLITO (Race vencida por PR #3779 [34fe7f5d]; crédito independente registrado em #295)",
     "elapsed_time": "Recém Aberto"
   },
   {
