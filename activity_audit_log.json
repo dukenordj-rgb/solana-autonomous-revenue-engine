@@ -1,5 +1,15 @@
 [
   {
+    "id": "POLYMARKET-GROK-6ScAn9ZClz-2026-11-13 20",
+    "timestamp": "2026-11-13 20:00:11",
+    "type": "SERVICO_MAPEADO",
+    "portal": "Polymarket",
+    "repo": "Polymarket/CRYPTO",
+    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will Tesla and SpaceX announce a definitive merger agre...' | BUY NO @ q=55% vs Fair p=63% (Edge +8.14% | Kelly 6.0%)",
+    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
+    "url": "https://manifold.markets/jimbot/will-tesla-and-spacex-announce-a-de"
+  },
+  {
     "id": "rsim_c_BINANCE-SOLUSDT_19:34:58_STOP_LOSS",
     "timestamp": "13/11/2026 19:34:58",
     "category": "DELIVERY_OUT",
@@ -2490,76 +2500,6 @@
     "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
   },
   {
-    "id": "out_10/11/2026 18:33_[Codeberg] maxkeyscore/10000",
-    "timestamp": "10/11/2026 18:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Codeberg",
-    "ref": "[Codeberg] maxkeyscore/10000",
-    "summary": "Resposta/Entrega de saída ([Codeberg] maxkeyscore/10000) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_10/11/2026 18:33_Codeberg Forgejo Sincronizado (62 frentes)",
-    "timestamp": "10/11/2026 18:33",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (62 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (62 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_10/11/2026 18:33_[GitLab] OpenMW/openmw",
-    "timestamp": "10/11/2026 18:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] OpenMW/openmw",
-    "summary": "Resposta/Entrega de saída ([GitLab] OpenMW/openmw) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 18:32_limitlessprojects/Go-Hybrid#4346",
-    "timestamp": "10/11/2026 18:32",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4346",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4346) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_10/11/2026 17:33_Codeberg Forgejo Sincronizado (61 frentes)",
-    "timestamp": "10/11/2026 17:33",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (61 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (61 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_10/11/2026 16:32_GitLab API v4 Sincronizada (51 frentes)",
-    "timestamp": "10/11/2026 16:32",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (51 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (51 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_10/11/2026 15:31_Codeberg Forgejo Sincronizado (57 frentes)",
-    "timestamp": "10/11/2026 15:31",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (57 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (57 frentes)) ➔ Registrado no painel"
-  },
-  {
     "id": "hist_out_abby_215",
     "timestamp": "07/11/2026 11:20",
     "category": "EMAIL_OUT",
@@ -2998,5 +2938,65 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4377",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4377) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4375_34",
+    "timestamp": "11/11 07:28",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4375",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4375) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4373_35",
+    "timestamp": "11/11 07:22",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4373",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4373) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4366_36",
+    "timestamp": "11/11 07:01",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4366",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4366) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4368_37",
+    "timestamp": "11/11 07:01",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4368",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4368) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4370_38",
+    "timestamp": "11/11 07:01",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4370",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4370) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4363_39",
+    "timestamp": "11/11 04:45",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4363",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4363) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
