@@ -1,5 +1,47 @@
 [
   {
+    "submitted_at": "13/11 07:43",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4435,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4435#issuecomment-6850584007",
+    "deliverables": "[soundness] hy-emit(witness): SelectArmKind::Send channel sends omit c...",
+    "value_estimate_usd": "Pool compartilhado (não estimável)",
+    "stage": "COMENTÁRIO TÉCNICO (#4435)",
+    "payout_forecast": "Aguardando avaliação do mantenedor",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "Não estimável (sem histórico calibrado)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
+    "submitted_at": "13/11 07:42",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4437,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4437#issuecomment-6850572337",
+    "deliverables": "[soundness] hy-check(channel_liveness): return, ? try, break, and cont...",
+    "value_estimate_usd": "Pool compartilhado (não estimável)",
+    "stage": "COMENTÁRIO TÉCNICO (#4437)",
+    "payout_forecast": "Aguardando avaliação do mantenedor",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "Não estimável (sem histórico calibrado)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
+    "submitted_at": "13/11 07:42",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4439,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4439#issuecomment-6850564224",
+    "deliverables": "[bug] hyb(build): --package skips Go identifier/path-traversal validat...",
+    "value_estimate_usd": "Pool compartilhado (não estimável)",
+    "stage": "COMENTÁRIO TÉCNICO (#4439)",
+    "payout_forecast": "Aguardando avaliação do mantenedor",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "Não estimável (sem histórico calibrado)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "13/11 07:41",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4433,
