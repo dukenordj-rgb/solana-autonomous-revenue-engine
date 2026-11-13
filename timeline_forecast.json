@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "13/11 20:12",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4446,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4446#issuecomment-6867270694",
+    "deliverables": "[soundness] complex64/complex128/shifted float const overflow (HYB-E60...",
+    "value_estimate_usd": "Pool compartilhado (não estimável)",
+    "stage": "COMENTÁRIO TÉCNICO (#4446)",
+    "payout_forecast": "Aguardando avaliação do mantenedor",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "Não estimável (sem histórico calibrado)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "13/11 19:07",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4444,
