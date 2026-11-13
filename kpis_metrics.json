@@ -5,9 +5,9 @@
   "servicos_aprovados_aguardando_pagamento": 1,
   "servicos_descartados_sem_retorno": 98,
   "fechados_com_recebimento": 0,
-  "entrantes_por_hora": 1,
-  "novos_servicos_hoje": 1,
-  "valor_novos_hoje_usd": 0.0,
+  "entrantes_por_hora": 33,
+  "novos_servicos_hoje": 33,
+  "valor_novos_hoje_usd": 28120.0,
   "valor_em_fila_de_pagamento_usd": "$45 - $75 USDC (Go-Hybrid #3673 Merged 05/11 • Aguardando Fechamento do Ciclo Nov/2026)",
   "valor_em_disputa_usd": "$2.500,00 USD",
   "valor_em_disputa_num": 2500.0,
@@ -257,8 +257,8 @@
       "is_projection": false,
       "mapeados": 852,
       "entregues": 245,
-      "novos_servicos_dia": 77,
-      "valor_novos_dia_usd": 50120.0,
+      "novos_servicos_dia": 44,
+      "valor_novos_dia_usd": 22000.0,
       "qtd_aprovacoes_previstas": 1,
       "aprovacao_prevista_desc": "Prev. Aprovacao Escrow Agent Bounty Feed #3 ($5 USDC)",
       "prev_pagamento_usd": 5,
@@ -363,5 +363,5 @@
       "status": "Fechamento Mensal Nov/2026"
     }
   ],
-  "updated_at": "13/11/2026 00:21:21"
+  "updated_at": "13/11/2026 00:23:45"
 }
