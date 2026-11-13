@@ -1,5 +1,15 @@
 [
   {
+    "id": "rsim_c_BINANCE-LINKUSDT_20:58:48_STOP_LOSS",
+    "timestamp": "13/11/2026 20:58:48",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-LINKUSDT",
+    "summary": "SELL SHORT [LINKUSDT] DOWNTREND_5M (EMA9<21 | RSI 52.9) [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
     "id": "rsim_c_BINANCE-DOGEUSDT_20:55:53_STOP_LOSS",
     "timestamp": "13/11/2026 20:55:53",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4377",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4377) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4375_35",
-    "timestamp": "11/11 07:28",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4375",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4375) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
