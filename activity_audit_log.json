@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794538871",
+    "timestamp": "13/11/2026 00:01:11",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "POLYMARKET-GROK-QZh8OpyUU8-2026-11-13 00",
     "timestamp": "2026-11-13 00:00:35",
     "type": "SERVICO_MAPEADO",
