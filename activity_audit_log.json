@@ -1,5 +1,15 @@
 [
   {
+    "id": "map_13/11/2026 20:37_Codeberg Forgejo Sincronizado (112 frentes...",
+    "timestamp": "13/11/2026 20:37",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (112 frentes...",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (112 frentes...) ➔ Registrado no painel"
+  },
+  {
     "id": "rsim_c_BINANCE-BNBUSDT_20:31:00_STOP_LOSS",
     "timestamp": "13/11/2026 20:31:00",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4399",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4399) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4391_19",
-    "timestamp": "12/11 05:00",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4391",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4391) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
   }
 ]
