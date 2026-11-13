@@ -1,5 +1,15 @@
 [
   {
+    "id": "rsim_o_BINANCE-BTCUSDT_16:59:28",
+    "timestamp": "13/11/2026 16:59:28",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "BTCUSDT",
+    "summary": "BUY LONG [BTCUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.7x) @ $69078.83 (MC 66%)"
+  },
+  {
     "id": "rsim_c_BINANCE-BTCUSDT_16:58:46_TAKE_PROFIT",
     "timestamp": "13/11/2026 16:58:46",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4410",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4410) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4408_11",
-    "timestamp": "12/11 12:26",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4408",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4408) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
   }
 ]
