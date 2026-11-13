@@ -1,5 +1,25 @@
 [
   {
+    "id": "rsim_c_BINANCE-SOLUSDT_20:23:45_STOP_LOSS",
+    "timestamp": "13/11/2026 20:23:45",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 25.4) [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-SOLUSDT_20:23:45",
+    "timestamp": "13/11/2026 20:23:45",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] DOWNTREND_5M (EMA9<21 | RSI 43.6) @ $77.69 (MC 84%)"
+  },
+  {
     "id": "out_13/11/2026 20:12_limitlessprojects/Go-Hybrid#4446",
     "timestamp": "13/11/2026 20:12",
     "category": "DELIVERY_OUT",
@@ -2978,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "paraloom-labs/paraloom-core#1578",
     "summary": "Serviço entregue (paraloom-labs/paraloom-core#1578) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1576_26",
-    "timestamp": "12/11 00:34",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1576",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1576) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1575_27",
-    "timestamp": "12/11 00:33",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1575",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1575) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
   }
 ]
