@@ -1,5 +1,15 @@
 [
   {
+    "id": "rsim_o_BINANCE-SOLUSDT_18:44:07",
+    "timestamp": "13/11/2026 18:44:07",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 18.6) @ $78.77 (MC 82%)"
+  },
+  {
     "id": "rsim_c_BINANCE-BTCUSDT_18:43:20_TAKE_PROFIT",
     "timestamp": "13/11/2026 18:43:20",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Bitbucket",
     "ref": "[Bitbucket] atlassian/atlassian-plugins",
     "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-plugins) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_09/11/2026 20:27_[Bitbucket] atlassian/atlassian-event",
-    "timestamp": "09/11/2026 20:27",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-event",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-event) ➔ Código e proposta enviados"
   }
 ]
