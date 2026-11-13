@@ -1,5 +1,35 @@
 [
   {
+    "id": "POLYMARKET-GROK-6ScAn9ZClz-2026-11-13 20",
+    "timestamp": "2026-11-13 20:50:07",
+    "type": "SERVICO_MAPEADO",
+    "portal": "Polymarket",
+    "repo": "Polymarket/CRYPTO",
+    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will Tesla and SpaceX announce a definitive merger agre...' | BUY NO @ q=55% vs Fair p=63% (Edge +8.01% | Kelly 6.0%)",
+    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
+    "url": "https://manifold.markets/jimbot/will-tesla-and-spacex-announce-a-de"
+  },
+  {
+    "id": "rsim_c_BINANCE-XRPUSDT_20:49:25_STOP_LOSS",
+    "timestamp": "13/11/2026 20:49:25",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-XRPUSDT",
+    "summary": "SELL SHORT [XRPUSDT] DOWNTREND_5M (EMA9<21 | RSI 42.2) [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-BNBUSDT_20:49:25",
+    "timestamp": "13/11/2026 20:49:25",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "BNBUSDT",
+    "summary": "SELL SHORT [BNBUSDT] DOWNTREND_5M (EMA9<21 | RSI 40.0) @ $629.38 (MC 75%)"
+  },
+  {
     "id": "rsim_c_BINANCE-AVAXUSDT_20:48:40_STOP_LOSS",
     "timestamp": "13/11/2026 20:48:40",
     "category": "DELIVERY_OUT",
@@ -2470,266 +2500,6 @@
     "summary": "Novo serviço mapeado (Nó Radicle P2P Sincronizado (8 frentes)) ➔ Registrado no painel"
   },
   {
-    "id": "out_11/11/2026 00:35_[Bitbucket] atlassian/atlassian-refapp",
-    "timestamp": "11/11/2026 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-refapp",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-refapp) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_11/11/2026 00:35_[Bitbucket] atlassian/atlassian-plugins",
-    "timestamp": "11/11/2026 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-plugins",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-plugins) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_11/11/2026 00:35_[Bitbucket] atlassian/atlassian-event",
-    "timestamp": "11/11/2026 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-event",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-event) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_11/11/2026 00:35_Bitbucket Cloud Sincronizado (10 frentes)",
-    "timestamp": "11/11/2026 00:35",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Bitbucket",
-    "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
-    "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_11/11/2026 00:35_[Codeberg] maxkeyscore/10000",
-    "timestamp": "11/11/2026 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Codeberg",
-    "ref": "[Codeberg] maxkeyscore/10000",
-    "summary": "Resposta/Entrega de saída ([Codeberg] maxkeyscore/10000) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_11/11/2026 00:22_limitlessprojects/Go-Hybrid#4358",
-    "timestamp": "11/11/2026 00:22",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4358",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4358) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_11/11/2026 00:21_limitlessprojects/Go-Hybrid#4356",
-    "timestamp": "11/11/2026 00:21",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4356",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4356) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_10/11/2026 23:34_Codeberg Forgejo Sincronizado (66 frentes)",
-    "timestamp": "10/11/2026 23:34",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (66 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (66 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_10/11/2026 21:05_Codeberg Forgejo Sincronizado (63 frentes)",
-    "timestamp": "10/11/2026 21:05",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (63 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (63 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_10/11/2026 20:34_Codeberg Forgejo Sincronizado (62 frentes)",
-    "timestamp": "10/11/2026 20:34",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (62 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (62 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_10/11/2026 20:34_[GitLab] OpenMW/openmw",
-    "timestamp": "10/11/2026 20:34",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] OpenMW/openmw",
-    "summary": "Resposta/Entrega de saída ([GitLab] OpenMW/openmw) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_10/11/2026 20:34_GitLab API v4 Sincronizada (51 frentes)",
-    "timestamp": "10/11/2026 20:34",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (51 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (51 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_10/11/2026 20:10_limitlessprojects/Go-Hybrid#4351",
-    "timestamp": "10/11/2026 20:10",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4351",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4351) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 19:03_[Codeberg] MorsMortium/0x0Uploader",
-    "timestamp": "10/11/2026 19:03",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Codeberg",
-    "ref": "[Codeberg] MorsMortium/0x0Uploader",
-    "summary": "Resposta/Entrega de saída ([Codeberg] MorsMortium/0x0Uploader) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 19:03_[Codeberg] import-benjamin/.dotfiles",
-    "timestamp": "10/11/2026 19:03",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Codeberg",
-    "ref": "[Codeberg] import-benjamin/.dotfiles",
-    "summary": "Resposta/Entrega de saída ([Codeberg] import-benjamin/.dotfiles) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 19:03_[GitLab] gitlab-com/gl-security/product-se...",
-    "timestamp": "10/11/2026 19:03",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] gitlab-com/gl-security/product-se...",
-    "summary": "Resposta/Entrega de saída ([GitLab] gitlab-com/gl-security/product-se...) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 19:03_[GitLab] blazephoenix-group/dex",
-    "timestamp": "10/11/2026 19:03",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitLab",
-    "ref": "[GitLab] blazephoenix-group/dex",
-    "summary": "Resposta/Entrega de saída ([GitLab] blazephoenix-group/dex) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 18:56_limitlessprojects/Go-Hybrid#4348",
-    "timestamp": "10/11/2026 18:56",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4348",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4348) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 18:33_[Radicle] radicle-job (rad:z2UcCU)",
-    "timestamp": "10/11/2026 18:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-job (rad:z2UcCU)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-job (rad:z2UcCU)) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 18:33_[Radicle] radicle-infra (rad:z254T5)",
-    "timestamp": "10/11/2026 18:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-infra (rad:z254T5)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-infra (rad:z254T5)) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 18:33_[Radicle] radicle-ci-broker (rad:zwTxyg)",
-    "timestamp": "10/11/2026 18:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Radicle",
-    "ref": "[Radicle] radicle-ci-broker (rad:zwTxyg)",
-    "summary": "Resposta/Entrega de saída ([Radicle] radicle-ci-broker (rad:zwTxyg)) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_10/11/2026 18:33_Nó Radicle P2P Sincronizado (8 frentes)",
-    "timestamp": "10/11/2026 18:33",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Radicle",
-    "ref": "Nó Radicle P2P Sincronizado (8 frentes)",
-    "summary": "Novo serviço mapeado (Nó Radicle P2P Sincronizado (8 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_10/11/2026 18:33_[Bitbucket] atlassian/atlassian-refapp",
-    "timestamp": "10/11/2026 18:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-refapp",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-refapp) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 18:33_[Bitbucket] atlassian/atlassian-plugins",
-    "timestamp": "10/11/2026 18:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-plugins",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-plugins) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_10/11/2026 18:33_[Bitbucket] atlassian/atlassian-event",
-    "timestamp": "10/11/2026 18:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-event",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-event) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_10/11/2026 18:33_Bitbucket Cloud Sincronizado (10 frentes)",
-    "timestamp": "10/11/2026 18:33",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Bitbucket",
-    "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
-    "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
-  },
-  {
     "id": "hist_out_abby_215",
     "timestamp": "07/11/2026 11:20",
     "category": "EMAIL_OUT",
@@ -2830,7 +2600,17 @@
     "summary": "Entrega realizada (Superteam Solana) ➔ 3 repositórios públicos construídos e publicados"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4444_0",
+    "id": "tl_limitlessprojects/Go-Hybrid_4446_0",
+    "timestamp": "13/11 20:12",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4446",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4446) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4444_1",
     "timestamp": "13/11 19:07",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2840,7 +2620,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4444) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4442_1",
+    "id": "tl_limitlessprojects/Go-Hybrid_4442_2",
     "timestamp": "13/11 17:50",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2850,7 +2630,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4442) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4435_2",
+    "id": "tl_limitlessprojects/Go-Hybrid_4435_3",
     "timestamp": "13/11 07:43",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2860,7 +2640,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4435) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4437_3",
+    "id": "tl_limitlessprojects/Go-Hybrid_4437_4",
     "timestamp": "13/11 07:42",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2870,7 +2650,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4437) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4439_4",
+    "id": "tl_limitlessprojects/Go-Hybrid_4439_5",
     "timestamp": "13/11 07:42",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2880,7 +2660,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4439) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4433_5",
+    "id": "tl_limitlessprojects/Go-Hybrid_4433_6",
     "timestamp": "13/11 07:41",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2890,7 +2670,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4433) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4423_6",
+    "id": "tl_limitlessprojects/Go-Hybrid_4423_7",
     "timestamp": "13/11 02:29",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2900,7 +2680,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4423) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4418_7",
+    "id": "tl_limitlessprojects/Go-Hybrid_4418_8",
     "timestamp": "12/11 23:09",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2910,7 +2690,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4418) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   },
   {
-    "id": "tl_paraloom-labs/paraloom-core_1599_8",
+    "id": "tl_paraloom-labs/paraloom-core_1599_9",
     "timestamp": "12/11 22:54",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2920,7 +2700,7 @@
     "summary": "Serviço entregue (paraloom-labs/paraloom-core#1599) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4416_9",
+    "id": "tl_limitlessprojects/Go-Hybrid_4416_10",
     "timestamp": "12/11 15:50",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2930,7 +2710,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4416) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4414_10",
+    "id": "tl_limitlessprojects/Go-Hybrid_4414_11",
     "timestamp": "12/11 13:59",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2940,7 +2720,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4414) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4412_11",
+    "id": "tl_limitlessprojects/Go-Hybrid_4412_12",
     "timestamp": "12/11 12:53",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2950,7 +2730,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4412) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4410_12",
+    "id": "tl_limitlessprojects/Go-Hybrid_4410_13",
     "timestamp": "12/11 12:53",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2960,7 +2740,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4410) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4408_13",
+    "id": "tl_limitlessprojects/Go-Hybrid_4408_14",
     "timestamp": "12/11 12:26",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2970,7 +2750,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4408) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4407_14",
+    "id": "tl_limitlessprojects/Go-Hybrid_4407_15",
     "timestamp": "12/11 11:54",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2980,7 +2760,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4407) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4405_15",
+    "id": "tl_limitlessprojects/Go-Hybrid_4405_16",
     "timestamp": "12/11 11:41",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2990,7 +2770,7 @@
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4405) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   },
   {
-    "id": "tl_limitlessprojects/Go-Hybrid_4403_16",
+    "id": "tl_limitlessprojects/Go-Hybrid_4403_17",
     "timestamp": "12/11 11:35",
     "category": "DELIVERY_OUT",
     "badge": "⚡ ENTREGA / SUBMISSÃO",
@@ -2998,5 +2778,225 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4403",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4403) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4401_18",
+    "timestamp": "12/11 11:34",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4401",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4401) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4399_19",
+    "timestamp": "12/11 07:55",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4399",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4399) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4391_20",
+    "timestamp": "12/11 05:00",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4391",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4391) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4390_21",
+    "timestamp": "12/11 04:27",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4390",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4390) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1581_22",
+    "timestamp": "12/11 01:59",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1581",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1581) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1580_23",
+    "timestamp": "12/11 01:25",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1580",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1580) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1579_24",
+    "timestamp": "12/11 00:38",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1579",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1579) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1577_25",
+    "timestamp": "12/11 00:35",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1577",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1577) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1578_26",
+    "timestamp": "12/11 00:35",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1578",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1578) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1576_27",
+    "timestamp": "12/11 00:34",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1576",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1576) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1575_28",
+    "timestamp": "12/11 00:33",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1575",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1575) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1574_29",
+    "timestamp": "12/11 00:33",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1574",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1574) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1573_30",
+    "timestamp": "11/11 23:57",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1573",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1573) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1570_31",
+    "timestamp": "11/11 16:54",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1570",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1570) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1568_32",
+    "timestamp": "11/11 15:35",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1568",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1568) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4381_33",
+    "timestamp": "11/11 12:58",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4381",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4381) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4377_34",
+    "timestamp": "11/11 07:30",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4377",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4377) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4375_35",
+    "timestamp": "11/11 07:28",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4375",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4375) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4373_36",
+    "timestamp": "11/11 07:22",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4373",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4373) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4366_37",
+    "timestamp": "11/11 07:01",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4366",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4366) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4368_38",
+    "timestamp": "11/11 07:01",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4368",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4368) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4370_39",
+    "timestamp": "11/11 07:01",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4370",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4370) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
