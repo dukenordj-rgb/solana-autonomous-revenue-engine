@@ -41,11 +41,13 @@ class SolanaRevenueAgent:
     async def scan_whale_signals(self):
         """Simulates real-time RPC monitoring of high win-rate Solana wallets."""
         print("[SolAgent-Rev::WhaleRadar] Scanning Raydium & Orca smart money wallets...")
-        # Simulated signal ingestion
+        # Simulated signal ingestion (DEMO ONLY - Fix A15: never triggers live orders)
         signal = {
             "token": "SOL/USDC",
             "volume_burst_sol": 420.5,
             "confidence_score": 0.89,
+            "is_simulated": True,
+            "source": "SIMULATION_DEMO",
             "timestamp": time.time()
         }
         return signal

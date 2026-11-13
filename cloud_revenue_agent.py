@@ -118,7 +118,17 @@ def check_solana_balance():
             lamports = data.get("result", {}).get("value", 0)
             return lamports / 1e9
     except Exception as e:
-        print(f"[WARN] Error querying Solana balance: {e}")
+        print(f"[WARN] Error querying Solana balance: {e}"); return None
+def check_solana_usdc_balance():
+    try:
+        payload = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "getTokenAccountsByOwner", "params": [SOLANA_WALLET, {"mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"}, {"encoding": "jsonParsed"}]}).encode("utf-8")
+        req = urllib.request.Request(SOLANA_RPC, data=payload, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode())
+            if "error" in data: return None
+            return sum(float(a["account"]["data"]["parsed"]["info"]["tokenAmount"]["uiAmount"] or 0.0) for a in data.get("result", {}).get("value", []))
+    except Exception:
+        return None
         return 0.0
 
 def check_evm_balance():
@@ -140,7 +150,18 @@ def check_evm_balance():
             wei = int(hex_val, 16)
             return wei / 1e18
     except Exception as e:
-        print(f"[WARN] Error querying EVM Base balance: {e}")
+        print(f"[WARN] Error querying EVM Base balance: {e}"); return None
+def check_base_usdc_balance():
+    try:
+        clean_addr = EVM_WALLET.lower().replace("0x", "").zfill(64)
+        payload = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "eth_call", "params": [{"to": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", "data": "0x70a08231" + clean_addr}, "latest"]}).encode("utf-8")
+        req = urllib.request.Request(BASE_RPC, data=payload, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode())
+            res = data.get("result")
+            return 0.0 if (not res or res == "0x") else int(res, 16) / 1e6
+    except Exception:
+        return None
         return 0.0
 
 def scan_github_prs():
@@ -173,7 +194,7 @@ def run_agent_cycle():
     mode_str, is_cloud_primary = check_handover_status()
     print(f"[{now_utc}] Invocando {AGENT_NAME} em modo: {mode_str}")
     
-    sol_bal = check_solana_balance()
+    sol_bal = check_solana_balance(); sol_usdc = check_solana_usdc_balance(); base_usdc = check_base_usdc_balance()
     evm_bal = check_evm_balance()
     prs = scan_github_prs()
     
@@ -216,7 +237,7 @@ def run_agent_cycle():
 
 > **Última Varredura:** `{now_utc}`  
 > **Modo Operacional:** `{mode_str}`  
-> **Status de Integridade:** `100% CONFORME (SEM PENDÊNCIAS DE REGISTRO)`
+> **Status de Integridade:** `EM AUDITORIA CONTÍNUA (VERIFICAÇÃO INDIVIDUAL POR PROGRAMA)`
 
 ---
 
@@ -231,14 +252,14 @@ def run_agent_cycle():
 
 ### 1. Go-Hybrid Open Source Bounties
 - **Modelo:** Top 10 Ladder ($500 pool por ciclo em USDC na Base).
-- **Status:** **100% REGISTRADO E APTO PARA DESEMBOLSO EM LOTE.**
+- **Status:** **PR #3673 ACEITO TECNICAMENTE (aguardando decisão de premiação). PR #3782 PERDEU DISPUTA (#3779 incorporado primeiro).**
   - PR #3673 (Mergeado na main no commit `41f1b609`).
   - PR #3782 (Novo, aberto com 100% dos testes green).
   - Carteira vinculada na [Discussion #295 (Comentário #19430711)](https://github.com/limitlessprojects/Go-Hybrid/discussions/295#discussioncomment-19430711).
 
 ### 2. Superteam Earn Bounties
 - **Modelo:** Escrow descentralizado via Smart Contracts da Solana.
-- **Status:** **100% CONFORME — Repositórios públicos live no GitHub sob dukenordj-rgb.**
+- **Status:** **DESCONHECIDO / EM PREPARAÇÃO (requer recibo oficial de submissão).**
 
 ### 3. Solana Foundation Grants
 - **Status:** **PRONTO PARA INSCRIÇÃO FORMAL COM 3 REPOSITÓRIOS VIVOS.**
@@ -246,8 +267,8 @@ def run_agent_cycle():
 ---
 
 ## 💼 Balanço On-Chain em Tempo Real
-- **Solana (`{SOLANA_WALLET}`):** `{sol_bal:.6f} SOL`
-- **Base EVM (`{EVM_WALLET}`):** `{evm_bal:.6f} ETH`
+- **Solana (`{SOLANA_WALLET}`):** `{f"{sol_bal:.6f} SOL" if sol_bal is not None else "INDISPONÍVEL"}` | `{f"{sol_usdc:.2f} USDC" if sol_usdc is not None else "INDISPONÍVEL"}`
+- **Base EVM (`{EVM_WALLET}`):** `{f"{evm_bal:.6f} ETH" if evm_bal is not None else "INDISPONÍVEL"}` | `{f"{base_usdc:.2f} USDC" if base_usdc is not None else "INDISPONÍVEL"}`
 - **Total de PRs Acompanhados:** `{len(prs)}`
 """
     with open("COMPLIANCE_AND_CONTRACT_AUDIT.md", "w", encoding="utf-8") as f:
@@ -278,7 +299,7 @@ def run_agent_cycle():
                 "badge_color": "#0284c7",
                 "platform": "Consolidado",
                 "ref": f"Ciclo Cloud ({len(prs)} PRs)",
-                "summary": f"Varredura 24/7 na nuvem concluída ({mode_str}) ➔ E-mails e carteiras auditados"
+                "summary": f"Varredura 24/7 na nuvem concluída ({mode_str}) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
             })
             with open("activity_audit_log.json", "w", encoding="utf-8") as fl:
                 json.dump(alog[:300], fl, indent=2, ensure_ascii=False)
