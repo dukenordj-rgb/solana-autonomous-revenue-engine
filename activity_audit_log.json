@@ -1,13 +1,13 @@
 [
   {
-    "id": "cloud_1794569269",
-    "timestamp": "13/11/2026 08:27:49",
+    "id": "map_13/11/2026 08:30_Codeberg Forgejo Sincronizado (101 frentes...",
+    "timestamp": "13/11/2026 08:30",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (101 frentes...",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (101 frentes...) ➔ Registrado no painel"
   },
   {
     "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 08",
