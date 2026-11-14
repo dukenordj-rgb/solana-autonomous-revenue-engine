@@ -1,13 +1,333 @@
 [
   {
-    "id": "cloud_1794622963",
-    "timestamp": "13/11/2026 23:22:43",
+    "id": "in_12/11/2026 10:00_paraloom-labs/paraloom-core",
+    "timestamp": "12/11/2026 10:00",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#475569",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core",
+    "summary": "E-mail de entrada (paraloom-labs/paraloom-core) ➔ Analisado: Sem necessidade de resposta"
+  },
+  {
+    "id": "out_12/11/2026 07:55_limitlessprojects/Go-Hybrid#4399",
+    "timestamp": "12/11/2026 07:55",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4399",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4399) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_12/11/2026 07:46_GitLab API v4 Sincronizada (55 frentes)",
+    "timestamp": "12/11/2026 07:46",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (55 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (55 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_12/11/2026 05:00_limitlessprojects/Go-Hybrid#4391",
+    "timestamp": "12/11/2026 05:00",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4391",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4391) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 04:27_limitlessprojects/Go-Hybrid#4390",
+    "timestamp": "12/11/2026 04:27",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4390",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4390) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_12/11/2026 04:15_Codeberg Forgejo Sincronizado (87 frentes)",
+    "timestamp": "12/11/2026 04:15",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (87 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (87 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_12/11/2026 01:59_paraloom-labs/paraloom-core#1581",
+    "timestamp": "12/11/2026 01:59",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1581",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1581) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 01:25_paraloom-labs/paraloom-core#1580",
+    "timestamp": "12/11/2026 01:25",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1580",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1580) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 00:38_paraloom-labs/paraloom-core#1579",
+    "timestamp": "12/11/2026 00:38",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1579",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1579) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 00:35_paraloom-labs/paraloom-core#1577",
+    "timestamp": "12/11/2026 00:35",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1577",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1577) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 00:35_paraloom-labs/paraloom-core#1578",
+    "timestamp": "12/11/2026 00:35",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1578",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1578) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 00:34_paraloom-labs/paraloom-core#1576",
+    "timestamp": "12/11/2026 00:34",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1576",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1576) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 00:33_paraloom-labs/paraloom-core#1575",
+    "timestamp": "12/11/2026 00:33",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1575",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1575) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 00:33_paraloom-labs/paraloom-core#1574",
+    "timestamp": "12/11/2026 00:33",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1574",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1574) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_11/11/2026 23:57_paraloom-labs/paraloom-core#1573",
+    "timestamp": "11/11/2026 23:57",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1573",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1573) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_11/11/2026 23:44_GitLab API v4 Sincronizada (54 frentes)",
+    "timestamp": "11/11/2026 23:44",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (54 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (54 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "in_11/11/2026 23:18_limitlessprojects/Go-Hybrid",
+    "timestamp": "11/11/2026 23:18",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid",
+    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado e Respondido"
+  },
+  {
+    "id": "map_11/11/2026 23:13_GitLab API v4 Sincronizada (53 frentes)",
+    "timestamp": "11/11/2026 23:13",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (53 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (53 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_11/11/2026 21:42_Codeberg Forgejo Sincronizado (85 frentes)",
+    "timestamp": "11/11/2026 21:42",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (85 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (85 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_11/11/2026 20:42_GitLab API v4 Sincronizada (52 frentes)",
+    "timestamp": "11/11/2026 20:42",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (52 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (52 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_11/11/2026 17:41_Codeberg Forgejo Sincronizado (83 frentes)",
+    "timestamp": "11/11/2026 17:41",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (83 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (83 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "in_11/11/2026 17:22_paraloom-labs/paraloom-core",
+    "timestamp": "11/11/2026 17:22",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#0284c7",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core",
+    "summary": "E-mail de entrada (paraloom-labs/paraloom-core) ➔ Analisado e Respondido"
+  },
+  {
+    "id": "out_11/11/2026 17:11_[Bitbucket] atlassian/atlassian-event",
+    "timestamp": "11/11/2026 17:11",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Bitbucket",
+    "ref": "[Bitbucket] atlassian/atlassian-event",
+    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-event) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_11/11/2026 17:11_Bitbucket Cloud Sincronizado (10 frentes)",
+    "timestamp": "11/11/2026 17:11",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Bitbucket",
+    "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
+    "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_11/11/2026 17:11_[Codeberg] maxkeyscore/10000",
+    "timestamp": "11/11/2026 17:11",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Codeberg",
+    "ref": "[Codeberg] maxkeyscore/10000",
+    "summary": "Resposta/Entrega de saída ([Codeberg] maxkeyscore/10000) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_11/11/2026 17:11_[Codeberg] MorsMortium/0x0Uploader",
+    "timestamp": "11/11/2026 17:11",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "Codeberg",
+    "ref": "[Codeberg] MorsMortium/0x0Uploader",
+    "summary": "Resposta/Entrega de saída ([Codeberg] MorsMortium/0x0Uploader) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "rsim_o_BINANCE-DOGEUSDT_23:24:47",
+    "timestamp": "13/11/2026 23:24:47",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "DOGEUSDT",
+    "summary": "[Paper Trading] SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 16. @ $0.0633 (MC 72%)"
+  },
+  {
+    "id": "POLYMARKET-GROK-6ScAn9ZClz-2026-11-13 23",
+    "timestamp": "2026-11-13 23:24:47",
+    "type": "SERVICO_MAPEADO",
+    "portal": "Polymarket",
+    "repo": "Polymarket/CRYPTO",
+    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will Tesla and SpaceX announce a definitive merger agre...' | BUY NO @ q=55% vs Fair p=64% (Edge +8.57% | Kelly 6.0%)",
+    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
+    "url": "https://manifold.markets/jimbot/will-tesla-and-spacex-announce-a-de"
+  },
+  {
+    "id": "rsim_c_BINANCE-DOGEUSDT_23:24:06_TAKE_PROFIT",
+    "timestamp": "13/11/2026 23:24:06",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "[Paper Trading] SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 20. [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_c_BINANCE-XRPUSDT_23:24:06_TAKE_PROFIT",
+    "timestamp": "13/11/2026 23:24:06",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-XRPUSDT",
+    "summary": "[Paper Trading] SELL SHORT [XRPUSDT] BREAKDOWN_5M (EMA9<21 | RSI 28.9 [TAKE_PROFIT] ➔ P&L $+0.02"
+  },
+  {
+    "id": "rsim_c_BINANCE-SOLUSDT_23:24:06_TAKE_PROFIT",
+    "timestamp": "13/11/2026 23:24:06",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-SOLUSDT",
+    "summary": "[Paper Trading] SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 15.4 [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-SOLUSDT_23:24:06",
+    "timestamp": "13/11/2026 23:24:06",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "SOLUSDT",
+    "summary": "[Paper Trading] SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 12.0 @ $75.84 (MC 95%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-XRPUSDT_23:24:06",
+    "timestamp": "13/11/2026 23:24:06",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "XRPUSDT",
+    "summary": "[Paper Trading] SELL SHORT [XRPUSDT] BREAKDOWN_5M (EMA9<21 | RSI 21.2 @ $0.9911 (MC 77%)"
   },
   {
     "id": "out_11/11/2026 17:11_[GitLab] OpenMW/openmw",
@@ -2450,266 +2770,6 @@
     "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (88 frentes)) ➔ Registrado no painel"
   },
   {
-    "id": "in_12/11/2026 10:00_paraloom-labs/paraloom-core",
-    "timestamp": "12/11/2026 10:00",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#475569",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core",
-    "summary": "E-mail de entrada (paraloom-labs/paraloom-core) ➔ Analisado: Sem necessidade de resposta"
-  },
-  {
-    "id": "out_12/11/2026 07:55_limitlessprojects/Go-Hybrid#4399",
-    "timestamp": "12/11/2026 07:55",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4399",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4399) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_12/11/2026 07:46_GitLab API v4 Sincronizada (55 frentes)",
-    "timestamp": "12/11/2026 07:46",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (55 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (55 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_12/11/2026 05:00_limitlessprojects/Go-Hybrid#4391",
-    "timestamp": "12/11/2026 05:00",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4391",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4391) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 04:27_limitlessprojects/Go-Hybrid#4390",
-    "timestamp": "12/11/2026 04:27",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4390",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4390) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_12/11/2026 04:15_Codeberg Forgejo Sincronizado (87 frentes)",
-    "timestamp": "12/11/2026 04:15",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (87 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (87 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_12/11/2026 01:59_paraloom-labs/paraloom-core#1581",
-    "timestamp": "12/11/2026 01:59",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1581",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1581) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 01:25_paraloom-labs/paraloom-core#1580",
-    "timestamp": "12/11/2026 01:25",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1580",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1580) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 00:38_paraloom-labs/paraloom-core#1579",
-    "timestamp": "12/11/2026 00:38",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1579",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1579) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 00:35_paraloom-labs/paraloom-core#1577",
-    "timestamp": "12/11/2026 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1577",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1577) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 00:35_paraloom-labs/paraloom-core#1578",
-    "timestamp": "12/11/2026 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1578",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1578) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 00:34_paraloom-labs/paraloom-core#1576",
-    "timestamp": "12/11/2026 00:34",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1576",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1576) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 00:33_paraloom-labs/paraloom-core#1575",
-    "timestamp": "12/11/2026 00:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1575",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1575) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 00:33_paraloom-labs/paraloom-core#1574",
-    "timestamp": "12/11/2026 00:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1574",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1574) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_11/11/2026 23:57_paraloom-labs/paraloom-core#1573",
-    "timestamp": "11/11/2026 23:57",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1573",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1573) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_11/11/2026 23:44_GitLab API v4 Sincronizada (54 frentes)",
-    "timestamp": "11/11/2026 23:44",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (54 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (54 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "in_11/11/2026 23:18_limitlessprojects/Go-Hybrid",
-    "timestamp": "11/11/2026 23:18",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#0284c7",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid",
-    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado e Respondido"
-  },
-  {
-    "id": "map_11/11/2026 23:13_GitLab API v4 Sincronizada (53 frentes)",
-    "timestamp": "11/11/2026 23:13",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (53 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (53 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_11/11/2026 21:42_Codeberg Forgejo Sincronizado (85 frentes)",
-    "timestamp": "11/11/2026 21:42",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (85 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (85 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_11/11/2026 20:42_GitLab API v4 Sincronizada (52 frentes)",
-    "timestamp": "11/11/2026 20:42",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (52 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (52 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_11/11/2026 17:41_Codeberg Forgejo Sincronizado (83 frentes)",
-    "timestamp": "11/11/2026 17:41",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (83 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (83 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "in_11/11/2026 17:22_paraloom-labs/paraloom-core",
-    "timestamp": "11/11/2026 17:22",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#0284c7",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core",
-    "summary": "E-mail de entrada (paraloom-labs/paraloom-core) ➔ Analisado e Respondido"
-  },
-  {
-    "id": "out_11/11/2026 17:11_[Bitbucket] atlassian/atlassian-event",
-    "timestamp": "11/11/2026 17:11",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Bitbucket",
-    "ref": "[Bitbucket] atlassian/atlassian-event",
-    "summary": "Resposta/Entrega de saída ([Bitbucket] atlassian/atlassian-event) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_11/11/2026 17:11_Bitbucket Cloud Sincronizado (10 frentes)",
-    "timestamp": "11/11/2026 17:11",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Bitbucket",
-    "ref": "Bitbucket Cloud Sincronizado (10 frentes)",
-    "summary": "Novo serviço mapeado (Bitbucket Cloud Sincronizado (10 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_11/11/2026 17:11_[Codeberg] maxkeyscore/10000",
-    "timestamp": "11/11/2026 17:11",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Codeberg",
-    "ref": "[Codeberg] maxkeyscore/10000",
-    "summary": "Resposta/Entrega de saída ([Codeberg] maxkeyscore/10000) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_11/11/2026 17:11_[Codeberg] MorsMortium/0x0Uploader",
-    "timestamp": "11/11/2026 17:11",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "Codeberg",
-    "ref": "[Codeberg] MorsMortium/0x0Uploader",
-    "summary": "Resposta/Entrega de saída ([Codeberg] MorsMortium/0x0Uploader) ➔ Código e proposta enviados"
-  },
-  {
     "id": "hist_out_abby_215",
     "timestamp": "07/11/2026 11:20",
     "category": "EMAIL_OUT",
@@ -2938,75 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4412",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4412) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4410_13",
-    "timestamp": "12/11 12:53",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4410",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4410) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4408_14",
-    "timestamp": "12/11 12:26",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4408",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4408) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4407_15",
-    "timestamp": "12/11 11:54",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4407",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4407) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4405_16",
-    "timestamp": "12/11 11:41",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4405",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4405) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4403_17",
-    "timestamp": "12/11 11:35",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4403",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4403) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4401_18",
-    "timestamp": "12/11 11:34",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4401",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4401) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4399_19",
-    "timestamp": "12/11 07:55",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4399",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4399) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
