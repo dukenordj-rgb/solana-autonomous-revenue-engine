@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794648223",
+    "timestamp": "14/11/2026 06:23:43",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "cloud_1794648136",
     "timestamp": "14/11/2026 06:22:16",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BINANCE-XRPUSDT",
     "summary": "SELL SHORT [XRPUSDT] DOWNTREND_5M (EMA9<21 | RSI 36.4) [STOP_LOSS] ➔ P&L $-0.02"
-  },
-  {
-    "id": "rsim_o_BINANCE-BNBUSDT_19:28:29",
-    "timestamp": "13/11/2026 19:28:29",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "BNBUSDT",
-    "summary": "SELL SHORT [BNBUSDT] DOWNTREND_5M (EMA9<21 | RSI 38.0) @ $631.0 (MC 78%)"
   }
 ]
