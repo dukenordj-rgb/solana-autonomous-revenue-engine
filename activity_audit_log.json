@@ -1,13 +1,33 @@
 [
   {
-    "id": "cloud_1794640044",
-    "timestamp": "14/11/2026 04:07:24",
+    "id": "rsim_c_BINANCE-LINKUSDT_04:10:08_STOP_LOSS",
+    "timestamp": "14/11/2026 04:10:08",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-LINKUSDT",
+    "summary": "[Paper Trading] BUY LONG [LINKUSDT] TREND_PULLBACK_5M (EMA9>21 | RS [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_c_BINANCE-AVAXUSDT_04:10:08_STOP_LOSS",
+    "timestamp": "14/11/2026 04:10:08",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-AVAXUSDT",
+    "summary": "[Paper Trading] BUY LONG [AVAXUSDT] TREND_PULLBACK_5M (EMA9>21 | RS [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-AVAXUSDT_04:10:08",
+    "timestamp": "14/11/2026 04:10:08",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "Binance 5m (Simulação)",
+    "ref": "AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 35. @ $8.071 (MC 48%)"
   },
   {
     "id": "out_14/11/2026 03:58_paraloom-labs/paraloom-core#1604",
@@ -2978,25 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "DOGEUSDT",
     "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 37.0) @ $0.06541 (MC 53%)"
-  },
-  {
-    "id": "map_13/11/2026 17:35_Codeberg Forgejo Sincronizado (109 frentes...",
-    "timestamp": "13/11/2026 17:35",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (109 frentes...",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (109 frentes...) ➔ Registrado no painel"
-  },
-  {
-    "id": "rsim_c_BINANCE-BNBUSDT_17:35:18_STOP_LOSS",
-    "timestamp": "13/11/2026 17:35:18",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-BNBUSDT",
-    "summary": "BUY LONG [BNBUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.6x) [STOP_LOSS] ➔ P&L $-0.02"
   }
 ]
