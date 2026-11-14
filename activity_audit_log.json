@@ -1,15 +1,5 @@
 [
   {
-    "id": "cloud_1794647856",
-    "timestamp": "14/11/2026 06:17:36",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 1m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
-  },
-  {
     "id": "rsim_c_BINANCE-SOLUSDT_06:08:44_STOP_LOSS",
     "timestamp": "14/11/2026 06:08:44",
     "category": "DELIVERY_OUT",
@@ -2998,5 +2988,15 @@
     "platform": "Binance 5m",
     "ref": "BNBUSDT",
     "summary": "SELL SHORT [BNBUSDT] DOWNTREND_5M (EMA9<21 | RSI 38.0) @ $631.0 (MC 78%)"
+  },
+  {
+    "id": "rsim_c_BINANCE-BNBUSDT_19:16:27_TAKE_PROFIT",
+    "timestamp": "13/11/2026 19:16:27",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-BNBUSDT",
+    "summary": "SELL SHORT [BNBUSDT] DOWNTREND_5M (EMA9<21 | RSI 23.1) [TAKE_PROFIT] ➔ P&L $+0.01"
   }
 ]
