@@ -1,15 +1,5 @@
 [
   {
-    "id": "cloud_1794655601",
-    "timestamp": "14/11/2026 08:26:41",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
-  },
-  {
     "id": "rsim_c_BINANCE-LINKUSDT_08:05:22_STOP_LOSS",
     "timestamp": "14/11/2026 08:05:22",
     "category": "DELIVERY_OUT",
@@ -2998,5 +2988,15 @@
     "platform": "Binance 5m",
     "ref": "SOLUSDT",
     "summary": "SELL SHORT [SOLUSDT] DOWNTREND_5M (EMA9<21 | RSI 50.0) @ $78.13 (MC 55%)"
+  },
+  {
+    "id": "POLYMARKET-GROK-6ScAn9ZClz-2026-11-13 20",
+    "timestamp": "2026-11-13 20:50:07",
+    "type": "SERVICO_MAPEADO",
+    "portal": "Polymarket",
+    "repo": "Polymarket/CRYPTO",
+    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will Tesla and SpaceX announce a definitive merger agre...' | BUY NO @ q=55% vs Fair p=63% (Edge +8.01% | Kelly 6.0%)",
+    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
+    "url": "https://manifold.markets/jimbot/will-tesla-and-spacex-announce-a-de"
   }
 ]
