@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "14/11 01:56",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4454,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4454#issuecomment-6872040062",
+    "deliverables": "tools: census guard never checks the GUARANTEES verdict breakdown (doc...",
+    "value_estimate_usd": "Pool compartilhado (não estimável)",
+    "stage": "COMENTÁRIO TÉCNICO (#4454)",
+    "payout_forecast": "Aguardando avaliação do mantenedor",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "Não estimável (sem histórico calibrado)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "13/11 20:12",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4446,
