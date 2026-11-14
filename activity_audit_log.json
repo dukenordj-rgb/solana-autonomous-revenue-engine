@@ -1,5 +1,15 @@
 [
   {
+    "id": "map_13/11/2026 18:06_Codeberg Forgejo Sincronizado (110 frentes...",
+    "timestamp": "13/11/2026 18:06",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (110 frentes...",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (110 frentes...) ➔ Registrado no painel"
+  },
+  {
     "id": "rsim_o_BINANCE-DOGEUSDT_04:30:39",
     "timestamp": "14/11/2026 04:30:39",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BTCUSDT",
     "summary": "SELL SHORT [BTCUSDT] BREAKDOWN_5M (EMA9<21 | RSI 11.2) @ $68408.12 (MC 81%)"
-  },
-  {
-    "id": "rsim_c_BINANCE-DOGEUSDT_18:16:42_TAKE_PROFIT",
-    "timestamp": "13/11/2026 18:16:42",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-DOGEUSDT",
-    "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 21.0) [TAKE_PROFIT] ➔ P&L $+0.01"
   }
 ]
