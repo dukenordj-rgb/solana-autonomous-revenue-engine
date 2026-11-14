@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794640757",
+    "timestamp": "14/11/2026 04:19:17",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "out_13/11/2026 17:50_limitlessprojects/Go-Hybrid#4442",
     "timestamp": "13/11/2026 17:50",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "DOGEUSDT",
     "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 21.0) @ $0.06511 (MC 60%)"
-  },
-  {
-    "id": "rsim_o_BINANCE-AVAXUSDT_18:02:40",
-    "timestamp": "13/11/2026 18:02:40",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "AVAXUSDT",
-    "summary": "SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 30.4) @ $8.346 (MC 54%)"
   }
 ]
