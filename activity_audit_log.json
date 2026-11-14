@@ -1,13 +1,43 @@
 [
   {
-    "id": "cloud_1794624377",
-    "timestamp": "13/11/2026 23:46:17",
+    "id": "rsim_c_BINANCE-XRPUSDT_23:48:25_STOP_LOSS",
+    "timestamp": "13/11/2026 23:48:25",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-XRPUSDT",
+    "summary": "[Paper Trading] SELL SHORT [XRPUSDT] DOWNTREND_5M (EMA9<21 | RSI 32.9 [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_c_BINANCE-DOGEUSDT_23:48:25_STOP_LOSS",
+    "timestamp": "13/11/2026 23:48:25",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "[Paper Trading] SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 9.9 [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-AVAXUSDT_23:48:25",
+    "timestamp": "13/11/2026 23:48:25",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "Binance 5m (Simulação)",
+    "ref": "AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 33. @ $8.109 (MC 72%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-XRPUSDT_23:48:25",
+    "timestamp": "13/11/2026 23:48:25",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "XRPUSDT",
+    "summary": "[Paper Trading] SELL SHORT [XRPUSDT] DOWNTREND_5M (EMA9<21 | RSI 44.1 @ $1.0035 (MC 59%)"
   },
   {
     "id": "rsim_o_BINANCE-BNBUSDT_23:37:03",
@@ -2968,35 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4381",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4381) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4377_34",
-    "timestamp": "11/11 07:30",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4377",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4377) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4375_35",
-    "timestamp": "11/11 07:28",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4375",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4375) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4373_36",
-    "timestamp": "11/11 07:22",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4373",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4373) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
