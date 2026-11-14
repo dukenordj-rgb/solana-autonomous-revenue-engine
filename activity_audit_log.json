@@ -1,5 +1,25 @@
 [
   {
+    "id": "rsim_c_BINANCE-ETHUSDT_06:50:38_TAKE_PROFIT",
+    "timestamp": "14/11/2026 06:50:38",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-ETHUSDT",
+    "summary": "[Paper Trading] BUY LONG [ETHUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.9x) [TAKE_PROFIT] ➔ P&L $+0.00"
+  },
+  {
+    "id": "rsim_o_BINANCE-BTCUSDT_06:50:38",
+    "timestamp": "14/11/2026 06:50:38",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BTCUSDT",
+    "summary": "[Paper Trading] BUY LONG [BTCUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.1x) @ $67482.01 (MC 46%)"
+  },
+  {
     "id": "rsim_o_BINANCE-XRPUSDT_06:49:10",
     "timestamp": "14/11/2026 06:49:10",
     "category": "SERVICE_MAPPED",
@@ -2978,25 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "SOLUSDT",
     "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 25.4) @ $77.24 (MC 90%)"
-  },
-  {
-    "id": "rsim_c_BINANCE-LINKUSDT_20:03:05_TAKE_PROFIT",
-    "timestamp": "13/11/2026 20:03:05",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-LINKUSDT",
-    "summary": "SELL SHORT [LINKUSDT] BREAKDOWN_5M (EMA9<21 | RSI 25.3) [TAKE_PROFIT] ➔ P&L $+0.02"
-  },
-  {
-    "id": "rsim_o_BINANCE-LINKUSDT_20:03:05",
-    "timestamp": "13/11/2026 20:03:05",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "LINKUSDT",
-    "summary": "SELL SHORT [LINKUSDT] BREAKDOWN_5M (EMA9<21 | RSI 23.0) @ $9.744 (MC 93%)"
   }
 ]
