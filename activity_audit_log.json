@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794638885",
+    "timestamp": "14/11/2026 03:48:05",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "rsim_c_BINANCE-DOGEUSDT_03:44:13_STOP_LOSS",
     "timestamp": "14/11/2026 03:44:13",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BNBUSDT",
     "summary": "BUY LONG [BNBUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 47 @ $637.42 (MC 60%)"
-  },
-  {
-    "id": "hist_out_abby_215",
-    "timestamp": "07/11/2026 11:20",
-    "category": "EMAIL_OUT",
-    "badge": "📤 E-MAIL / RESPOSTA SAÍDA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "tryabby/abby#215",
-    "summary": "E-mail de entrada #215 respondido ➔ Correção @tryabby/vue (commit 8069ac8) enviada"
   }
 ]
