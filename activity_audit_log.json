@@ -1,15 +1,5 @@
 [
   {
-    "id": "cloud_1794634364",
-    "timestamp": "14/11/2026 02:32:44",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
-  },
-  {
     "id": "out_14/11/2026 02:29_limitlessprojects/Go-Hybrid#4460",
     "timestamp": "14/11/2026 02:29",
     "category": "DELIVERY_OUT",
@@ -2998,5 +2988,15 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4414",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4414) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4412_12",
+    "timestamp": "12/11 12:53",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4412",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4412) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
