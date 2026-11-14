@@ -1,5 +1,45 @@
 [
   {
+    "id": "rsim_c_BINANCE-SOLUSDT_08:33:08_STOP_LOSS",
+    "timestamp": "14/11/2026 08:33:08",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-SOLUSDT",
+    "summary": "[Paper Trading] BUY LONG [SOLUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_c_BINANCE-DOGEUSDT_08:33:08_STOP_LOSS",
+    "timestamp": "14/11/2026 08:33:08",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "[Paper Trading] BUY LONG [DOGEUSDT] TREND_PULLBACK_5M (EMA9>21 | RS [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-AVAXUSDT_08:33:08",
+    "timestamp": "14/11/2026 08:33:08",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 37. @ $7.992 (MC 54%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-SOLUSDT_08:33:08",
+    "timestamp": "14/11/2026 08:33:08",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "SOLUSDT",
+    "summary": "[Paper Trading] BUY LONG [SOLUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI @ $75.59 (MC 46%)"
+  },
+  {
     "id": "rsim_c_BINANCE-LINKUSDT_08:05:22_STOP_LOSS",
     "timestamp": "14/11/2026 08:05:22",
     "category": "DELIVERY_OUT",
@@ -2958,45 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BINANCE-DOGEUSDT",
     "summary": "SELL SHORT [DOGEUSDT] DOWNTREND_5M (EMA9<21 | RSI 45.9) [STOP_LOSS] ➔ P&L $-0.01"
-  },
-  {
-    "id": "rsim_o_BINANCE-BTCUSDT_20:55:53",
-    "timestamp": "13/11/2026 20:55:53",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "BTCUSDT",
-    "summary": "SELL SHORT [BTCUSDT] DOWNTREND_5M (EMA9<21 | RSI 46.5) @ $68304.0 (MC 54%)"
-  },
-  {
-    "id": "rsim_c_BINANCE-SOLUSDT_20:55:12_STOP_LOSS",
-    "timestamp": "13/11/2026 20:55:12",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-SOLUSDT",
-    "summary": "SELL SHORT [SOLUSDT] DOWNTREND_5M (EMA9<21 | RSI 43.6) [STOP_LOSS] ➔ P&L $-0.02"
-  },
-  {
-    "id": "rsim_o_BINANCE-SOLUSDT_20:55:12",
-    "timestamp": "13/11/2026 20:55:12",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "SOLUSDT",
-    "summary": "SELL SHORT [SOLUSDT] DOWNTREND_5M (EMA9<21 | RSI 50.0) @ $78.13 (MC 55%)"
-  },
-  {
-    "id": "POLYMARKET-GROK-6ScAn9ZClz-2026-11-13 20",
-    "timestamp": "2026-11-13 20:50:07",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will Tesla and SpaceX announce a definitive merger agre...' | BUY NO @ q=55% vs Fair p=63% (Edge +8.01% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/jimbot/will-tesla-and-spacex-announce-a-de"
   }
 ]
