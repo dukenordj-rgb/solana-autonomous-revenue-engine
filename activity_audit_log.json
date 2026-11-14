@@ -1,5 +1,25 @@
 [
   {
+    "id": "rsim_c_BINANCE-BNBUSDT_22:43:40_TAKE_PROFIT",
+    "timestamp": "13/11/2026 22:43:40",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-BNBUSDT",
+    "summary": "BUY LONG [BNBUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 38 [TAKE_PROFIT] ➔ P&L $+0.00"
+  },
+  {
+    "id": "rsim_o_BINANCE-BNBUSDT_22:43:40",
+    "timestamp": "13/11/2026 22:43:40",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "BNBUSDT",
+    "summary": "BUY LONG [BNBUSDT] BREAKOUT_5M (EMA9>21 | Vol 2.1x) @ $632.26 (MC 50%)"
+  },
+  {
     "id": "POLYMARKET-GROK-6ScAn9ZClz-2026-11-13 22",
     "timestamp": "2026-11-13 22:33:19",
     "type": "SERVICO_MAPEADO",
@@ -2978,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4366",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4366) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4368_38",
-    "timestamp": "11/11 07:01",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4368",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4368) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4370_39",
-    "timestamp": "11/11 07:01",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4370",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4370) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
