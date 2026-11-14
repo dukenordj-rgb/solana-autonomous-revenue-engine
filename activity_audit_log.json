@@ -1,13 +1,33 @@
 [
   {
-    "id": "cloud_1794650899",
-    "timestamp": "14/11/2026 07:08:19",
+    "id": "rsim_c_BINANCE-AVAXUSDT_07:11:03_TIME_EXIT",
+    "timestamp": "14/11/2026 07:11:03",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 40. [TIME_EXIT] ➔ P&L $-0.00"
+  },
+  {
+    "id": "rsim_o_BINANCE-AVAXUSDT_07:11:03",
+    "timestamp": "14/11/2026 07:11:03",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "Binance 5m (Simulação)",
+    "ref": "AVAXUSDT",
+    "summary": "[Paper Trading] BUY LONG [AVAXUSDT] TREND_PULLBACK_5M (EMA9>21 | RS @ $8.036 (MC 55%)"
+  },
+  {
+    "id": "in_14/11/2026 07:09_paraloom-labs/paraloom-core",
+    "timestamp": "14/11/2026 07:09",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#475569",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core",
+    "summary": "E-mail de entrada (paraloom-labs/paraloom-core) ➔ Analisado: Sem necessidade de resposta"
   },
   {
     "id": "rsim_c_BINANCE-BTCUSDT_07:07:22_STOP_LOSS",
@@ -2978,25 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BNBUSDT",
     "summary": "SELL SHORT [BNBUSDT] BREAKDOWN_5M (EMA9<21 | RSI 29.7) @ $627.38 (MC 87%)"
-  },
-  {
-    "id": "rsim_c_BINANCE-BTCUSDT_20:04:33_TAKE_PROFIT",
-    "timestamp": "13/11/2026 20:04:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-BTCUSDT",
-    "summary": "SELL SHORT [BTCUSDT] DOWNTREND_5M (EMA9<21 | RSI 47.9) [TAKE_PROFIT] ➔ P&L $+0.01"
-  },
-  {
-    "id": "rsim_c_BINANCE-DOGEUSDT_20:04:33_TAKE_PROFIT",
-    "timestamp": "13/11/2026 20:04:33",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-DOGEUSDT",
-    "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 19.2) [TAKE_PROFIT] ➔ P&L $+0.02"
   }
 ]
