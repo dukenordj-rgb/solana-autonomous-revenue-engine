@@ -1,5 +1,25 @@
 [
   {
+    "id": "rsim_c_BINANCE-SOLUSDT_22:31:54_TAKE_PROFIT",
+    "timestamp": "13/11/2026 22:31:54",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 38.1) [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-SOLUSDT_22:31:54",
+    "timestamp": "13/11/2026 22:31:54",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 5.2) @ $77.27 (MC 57%)"
+  },
+  {
     "id": "rsim_c_BINANCE-LINKUSDT_22:18:21_STOP_LOSS",
     "timestamp": "13/11/2026 22:18:21",
     "category": "DELIVERY_OUT",
@@ -2978,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4439",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4439) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4433_6",
-    "timestamp": "13/11 07:41",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4433",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4433) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4423_7",
-    "timestamp": "13/11 02:29",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4423",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4423) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   }
 ]
