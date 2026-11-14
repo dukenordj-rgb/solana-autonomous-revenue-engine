@@ -1,5 +1,15 @@
 [
   {
+    "id": "rsim_c_BINANCE-AVAXUSDT_02:11:12_TIME_EXIT",
+    "timestamp": "14/11/2026 02:11:12",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 33. [TIME_EXIT] ➔ P&L $+0.00"
+  },
+  {
     "id": "out_14/11/2026 01:56_limitlessprojects/Go-Hybrid#4454",
     "timestamp": "14/11/2026 01:56",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4405",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4405) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4403_17",
-    "timestamp": "12/11 11:35",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4403",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4403) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
