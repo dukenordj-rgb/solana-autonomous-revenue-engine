@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794622237",
+    "timestamp": "13/11/2026 23:10:37",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "cloud_1794622184",
     "timestamp": "13/11/2026 23:09:44",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "paraloom-labs/paraloom-core#1576",
     "summary": "Serviço entregue (paraloom-labs/paraloom-core#1576) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1575_28",
-    "timestamp": "12/11 00:33",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1575",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1575) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
   }
 ]
