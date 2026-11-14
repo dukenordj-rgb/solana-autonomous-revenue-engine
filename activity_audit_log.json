@@ -1,5 +1,15 @@
 [
   {
+    "id": "rsim_o_BINANCE-BTCUSDT_23:27:01",
+    "timestamp": "13/11/2026 23:27:01",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BTCUSDT",
+    "summary": "[Paper Trading] SELL SHORT [BTCUSDT] DOWNTREND_5M (EMA9<21 | RSI 20.3 @ $67801.75 (MC 64%)"
+  },
+  {
     "id": "map_13/11/2026 12:05_Codeberg Forgejo Sincronizado (105 frentes...",
     "timestamp": "13/11/2026 12:05",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "paraloom-labs/paraloom-core#1576",
     "summary": "Serviço entregue (paraloom-labs/paraloom-core#1576) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1575_28",
-    "timestamp": "12/11 00:33",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1575",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1575) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
   }
 ]
