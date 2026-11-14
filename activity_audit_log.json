@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794636643",
+    "timestamp": "14/11/2026 03:10:43",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "rsim_o_BINANCE-AVAXUSDT_03:10:25",
     "timestamp": "14/11/2026 03:10:25",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "GitLab",
     "ref": "GitLab API v4 (8 bounties)",
     "summary": "Novos serviços mapeados no GitLab ➔ 8 issues de recompensa adicionadas à fila"
-  },
-  {
-    "id": "hist_map_codeberg_init",
-    "timestamp": "07/11/2026 19:06",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 NOVO SERVIÇO",
-    "badge_color": "#2185d0",
-    "platform": "Codeberg",
-    "ref": "Codeberg FOSS (4 projetos)",
-    "summary": "Novos serviços mapeados no Codeberg ➔ 4 projetos FOSS (No-Crypto) catalogados"
   }
 ]
