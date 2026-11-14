@@ -1,5 +1,25 @@
 [
   {
+    "id": "rsim_c_BINANCE-BTCUSDT_23:07:28_TIME_EXIT",
+    "timestamp": "13/11/2026 23:07:28",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-BTCUSDT",
+    "summary": "SELL SHORT [BTCUSDT] DOWNTREND_5M (EMA9<21 | RSI 46.5) [TIME_EXIT] ➔ P&L $-0.00"
+  },
+  {
+    "id": "rsim_o_BINANCE-BTCUSDT_23:07:28",
+    "timestamp": "13/11/2026 23:07:28",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "BTCUSDT",
+    "summary": "BUY LONG [BTCUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 42 @ $68266.01 (MC 59%)"
+  },
+  {
     "id": "rsim_c_BINANCE-BNBUSDT_22:56:26_STOP_LOSS",
     "timestamp": "13/11/2026 22:56:26",
     "category": "DELIVERY_OUT",
@@ -2978,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "paraloom-labs/paraloom-core#1570",
     "summary": "Serviço entregue (paraloom-labs/paraloom-core#1570) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1568_32",
-    "timestamp": "11/11 15:35",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1568",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1568) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4381_33",
-    "timestamp": "11/11 12:58",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4381",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4381) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
