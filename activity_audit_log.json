@@ -1,5 +1,25 @@
 [
   {
+    "id": "rsim_c_BINANCE-BNBUSDT_06:04:19_STOP_LOSS",
+    "timestamp": "14/11/2026 06:04:19",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-BNBUSDT",
+    "summary": "[Paper Trading] SELL SHORT [BNBUSDT] BREAKDOWN_5M (EMA9<21 | RSI 43.9 [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-BNBUSDT_06:04:19",
+    "timestamp": "14/11/2026 06:04:19",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BNBUSDT",
+    "summary": "[Paper Trading] SELL SHORT [BNBUSDT] DOWNTREND_5M (EMA9<21 | RSI 44.6 @ $615.61 (MC 64%)"
+  },
+  {
     "id": "out_13/11/2026 19:07_limitlessprojects/Go-Hybrid#4444",
     "timestamp": "13/11/2026 19:07",
     "category": "DELIVERY_OUT",
@@ -2978,25 +2998,5 @@
     "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will Tesla and SpaceX announce a definitive merger agre...' | BUY NO @ q=55% vs Fair p=63% (Edge +8.18% | Kelly 6.0%)",
     "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
     "url": "https://manifold.markets/jimbot/will-tesla-and-spacex-announce-a-de"
-  },
-  {
-    "id": "rsim_c_BINANCE-LINKUSDT_19:08:20_TAKE_PROFIT",
-    "timestamp": "13/11/2026 19:08:20",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-LINKUSDT",
-    "summary": "SELL SHORT [LINKUSDT] DOWNTREND_5M (EMA9<21 | RSI 33.3) [TAKE_PROFIT] ➔ P&L $+0.02"
-  },
-  {
-    "id": "rsim_c_BINANCE-SOLUSDT_19:08:20_TAKE_PROFIT",
-    "timestamp": "13/11/2026 19:08:20",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-SOLUSDT",
-    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 18.6) [TAKE_PROFIT] ➔ P&L $+0.02"
   }
 ]
