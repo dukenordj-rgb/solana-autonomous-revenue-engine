@@ -1,6 +1,6 @@
 # 🛡️ Relatório de Compliance & Regras de Contratos — Argon Cloud Hunter (Web3 Autonomous Revenue Agent v2.0)
 
-> **Última Varredura:** `2026-11-14 05:44:48 UTC`  
+> **Última Varredura:** `2026-11-14 05:46:23 UTC`  
 > **Modo Operacional:** `SENTINEL_STANDBY (PC Local ATIVO há 0m)`  
 > **Status de Integridade:** `EM AUDITORIA CONTÍNUA (VERIFICAÇÃO INDIVIDUAL POR PROGRAMA)`
 
@@ -33,5 +33,5 @@
 
 ## 💼 Balanço On-Chain em Tempo Real
 - **Solana (`Gu8RhvagFJVZar4NvWdcD1Q4m2GXMXZca271q8iU79B3`):** `0.000000 SOL` | `0.00 USDC`
-- **Base EVM (`0x3a391d8a77417bbdfb9bea9836772ced4b67880a`):** `0.000000 ETH` | `0.00 USDC`
+- **Base EVM (`0x3a391d8a77417bbdfb9bea9836772ced4b67880a`):** `0.000000 ETH` | `INDISPONÍVEL`
 - **Total de PRs Acompanhados:** `10`
