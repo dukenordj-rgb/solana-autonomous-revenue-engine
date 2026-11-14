@@ -1,5 +1,35 @@
 [
   {
+    "id": "rsim_c_BINANCE-SOLUSDT_21:56:29_TAKE_PROFIT",
+    "timestamp": "13/11/2026 21:56:29",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] DOWNTREND_5M (EMA9<21 | RSI 51.5) [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_c_BINANCE-DOGEUSDT_21:56:29_STOP_LOSS",
+    "timestamp": "13/11/2026 21:56:29",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "BUY LONG [DOGEUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.2x) [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-SOLUSDT_21:56:29",
+    "timestamp": "13/11/2026 21:56:29",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "SOLUSDT",
+    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 38.1) @ $77.66 (MC 50%)"
+  },
+  {
     "id": "rsim_c_BINANCE-XRPUSDT_21:52:57_STOP_LOSS",
     "timestamp": "13/11/2026 21:52:57",
     "category": "DELIVERY_OUT",
@@ -2968,35 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4403",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4403) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4401_18",
-    "timestamp": "12/11 11:34",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4401",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4401) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4399_19",
-    "timestamp": "12/11 07:55",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4399",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4399) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4391_20",
-    "timestamp": "12/11 05:00",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4391",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4391) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
   }
 ]
