@@ -5,9 +5,9 @@
   "servicos_aprovados_aguardando_pagamento": 1,
   "servicos_descartados_sem_retorno": 98,
   "fechados_com_recebimento": 0,
-  "entrantes_por_hora": 3,
-  "novos_servicos_hoje": 59,
-  "valor_novos_hoje_usd": 40190.0,
+  "entrantes_por_hora": 1,
+  "novos_servicos_hoje": 1,
+  "valor_novos_hoje_usd": 0.0,
   "valor_em_fila_de_pagamento_usd": "$45 - $75 USDC (Go-Hybrid #3673 Merged 05/11 • Aguardando Fechamento do Ciclo Nov/2026)",
   "valor_em_disputa_usd": "$2.500,00 USD",
   "valor_em_disputa_num": 2500.0,
@@ -268,35 +268,19 @@
     },
     {
       "dia": "Hoje",
-      "dia_num": 13,
+      "dia_num": 14,
       "is_today": true,
       "is_projection": false,
       "mapeados": 848,
       "entregues": 241,
-      "novos_servicos_dia": 59,
-      "valor_novos_dia_usd": 40190.0,
-      "qtd_aprovacoes_previstas": 0,
-      "aprovacao_prevista_desc": "Operação ao Vivo — 13/11/2026",
-      "prev_pagamento_usd": 0,
-      "prev_pagamento_num": 0,
-      "acumulado_usd": 230,
-      "status": "Operação ao Vivo — 13/11/2026"
-    },
-    {
-      "dia": "14/11",
-      "dia_num": 14,
-      "is_today": false,
-      "is_projection": true,
-      "mapeados": 968,
-      "entregues": 276,
-      "novos_servicos_dia": 0,
+      "novos_servicos_dia": 1,
       "valor_novos_dia_usd": 0.0,
       "qtd_aprovacoes_previstas": 5,
       "aprovacao_prevista_desc": "Prev. Aprovacao ChimpX ($500) + Algora (studenthub #134, ClawFreelance #279, abby #215, community #1106)",
       "prev_pagamento_usd": 1550,
       "prev_pagamento_num": 1550,
       "acumulado_usd": 1780,
-      "status": "Prev. Aprovação ChimpX + Algora"
+      "status": "Operação ao Vivo — 14/11/2026"
     },
     {
       "dia": "18/11",
@@ -379,5 +363,5 @@
       "status": "Fechamento Mensal Nov/2026"
     }
   ],
-  "updated_at": "13/11/2026 23:58:44"
+  "updated_at": "14/11/2026 00:00:14"
 }
