@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794636365",
+    "timestamp": "14/11/2026 03:06:05",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "cloud_1794636279",
     "timestamp": "14/11/2026 03:04:39",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Codeberg",
     "ref": "Codeberg FOSS (4 projetos)",
     "summary": "Novos serviços mapeados no Codeberg ➔ 4 projetos FOSS (No-Crypto) catalogados"
-  },
-  {
-    "id": "hist_map_bitbucket_init",
-    "timestamp": "07/11/2026 19:06",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 NOVO SERVIÇO",
-    "badge_color": "#3b82f6",
-    "platform": "Bitbucket",
-    "ref": "Bitbucket Cloud (9 repos)",
-    "summary": "Novos serviços mapeados no Bitbucket ➔ 9 repositórios Atlassian monitorados"
   }
 ]
