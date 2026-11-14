@@ -1,5 +1,65 @@
 [
   {
+    "id": "rsim_c_BINANCE-AVAXUSDT_04:20:32_TAKE_PROFIT",
+    "timestamp": "14/11/2026 04:20:32",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 24. [TAKE_PROFIT] ➔ P&L $+0.02"
+  },
+  {
+    "id": "rsim_c_BINANCE-ETHUSDT_04:20:32_STOP_LOSS",
+    "timestamp": "14/11/2026 04:20:32",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-ETHUSDT",
+    "summary": "[Paper Trading] BUY LONG [ETHUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.3x) [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-AVAXUSDT_04:20:32",
+    "timestamp": "14/11/2026 04:20:32",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 18. @ $7.971 (MC 62%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-SOLUSDT_04:20:32",
+    "timestamp": "14/11/2026 04:20:32",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "SOLUSDT",
+    "summary": "[Paper Trading] SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 22.6 @ $75.1 (MC 50%)"
+  },
+  {
+    "id": "rsim_c_BINANCE-SOLUSDT_04:19:51_TAKE_PROFIT",
+    "timestamp": "14/11/2026 04:19:51",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-SOLUSDT",
+    "summary": "[Paper Trading] SELL SHORT [SOLUSDT] DOWNTREND_5M (EMA9<21 | RSI 35.5 [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-LINKUSDT_04:19:51",
+    "timestamp": "14/11/2026 04:19:51",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "LINKUSDT",
+    "summary": "[Paper Trading] SELL SHORT [LINKUSDT] BREAKDOWN_5M (EMA9<21 | RSI 17. @ $9.551 (MC 56%)"
+  },
+  {
     "id": "out_13/11/2026 17:50_limitlessprojects/Go-Hybrid#4442",
     "timestamp": "13/11/2026 17:50",
     "category": "DELIVERY_OUT",
@@ -2938,65 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "LINKUSDT",
     "summary": "SELL SHORT [LINKUSDT] BREAKDOWN_5M (EMA9<21 | RSI 25.7) @ $9.912 (MC 51%)"
-  },
-  {
-    "id": "rsim_o_BINANCE-SOLUSDT_18:03:27",
-    "timestamp": "13/11/2026 18:03:27",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "SOLUSDT",
-    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 32.5) @ $79.6 (MC 62%)"
-  },
-  {
-    "id": "rsim_c_BINANCE-ETHUSDT_18:02:40_STOP_LOSS",
-    "timestamp": "13/11/2026 18:02:40",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-ETHUSDT",
-    "summary": "BUY LONG [ETHUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 48 [STOP_LOSS] ➔ P&L $-0.02"
-  },
-  {
-    "id": "rsim_c_BINANCE-DOGEUSDT_18:02:40_TAKE_PROFIT",
-    "timestamp": "13/11/2026 18:02:40",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-DOGEUSDT",
-    "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 37.0) [TAKE_PROFIT] ➔ P&L $+0.01"
-  },
-  {
-    "id": "rsim_c_BINANCE-BNBUSDT_18:02:40_STOP_LOSS",
-    "timestamp": "13/11/2026 18:02:40",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-BNBUSDT",
-    "summary": "BUY LONG [BNBUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 47 [STOP_LOSS] ➔ P&L $-0.02"
-  },
-  {
-    "id": "rsim_o_BINANCE-DOGEUSDT_18:02:40",
-    "timestamp": "13/11/2026 18:02:40",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "DOGEUSDT",
-    "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 21.0) @ $0.06511 (MC 60%)"
-  },
-  {
-    "id": "rsim_o_BINANCE-AVAXUSDT_18:02:40",
-    "timestamp": "13/11/2026 18:02:40",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "AVAXUSDT",
-    "summary": "SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 30.4) @ $8.346 (MC 54%)"
   }
 ]
