@@ -1,7 +1,7 @@
 {
   "total_servicos_mapeados": 855,
   "total_oportunidades_web_ativas": 492,
-  "servicos_avancados_em_disputa": 240,
+  "servicos_avancados_em_disputa": 241,
   "servicos_aprovados_aguardando_pagamento": 1,
   "servicos_descartados_sem_retorno": 98,
   "fechados_com_recebimento": 0,
@@ -15,7 +15,7 @@
   "probabilidade_global_atingimento": "92%",
   "saldo_liquidado_em_carteira_usd": "$0.00",
   "credito_liquidado_usd": "$0.00",
-  "taxa_conversao_pipeline": "0% (1 aprovado de 241)",
+  "taxa_conversao_pipeline": "0% (1 aprovado de 242)",
   "tempo_medio_resposta_mantenedores": "4h - 18h",
   "datas_aprovacao_previstas": [
     {
@@ -240,7 +240,7 @@
       "is_today": false,
       "is_projection": false,
       "mapeados": 855,
-      "entregues": 244,
+      "entregues": 245,
       "novos_servicos_dia": 42,
       "valor_novos_dia_usd": 20510.0,
       "qtd_aprovacoes_previstas": 2,
@@ -256,7 +256,7 @@
       "is_today": false,
       "is_projection": false,
       "mapeados": 900,
-      "entregues": 256,
+      "entregues": 257,
       "novos_servicos_dia": 44,
       "valor_novos_dia_usd": 22000.0,
       "qtd_aprovacoes_previstas": 1,
@@ -272,7 +272,7 @@
       "is_today": true,
       "is_projection": false,
       "mapeados": 855,
-      "entregues": 244,
+      "entregues": 245,
       "novos_servicos_dia": 45,
       "valor_novos_dia_usd": 33620.0,
       "qtd_aprovacoes_previstas": 5,
@@ -288,7 +288,7 @@
       "is_today": false,
       "is_projection": true,
       "mapeados": 1115,
-      "entregues": 329,
+      "entregues": 330,
       "novos_servicos_dia": 0,
       "valor_novos_dia_usd": 0.0,
       "qtd_aprovacoes_previstas": 3,
@@ -304,7 +304,7 @@
       "is_today": false,
       "is_projection": true,
       "mapeados": 1245,
-      "entregues": 384,
+      "entregues": 385,
       "novos_servicos_dia": 0,
       "valor_novos_dia_usd": 0.0,
       "qtd_aprovacoes_previstas": 2,
@@ -320,7 +320,7 @@
       "is_today": false,
       "is_projection": true,
       "mapeados": 1375,
-      "entregues": 439,
+      "entregues": 440,
       "novos_servicos_dia": 0,
       "valor_novos_dia_usd": 0.0,
       "qtd_aprovacoes_previstas": 2,
@@ -336,7 +336,7 @@
       "is_today": false,
       "is_projection": true,
       "mapeados": 1525,
-      "entregues": 504,
+      "entregues": 505,
       "novos_servicos_dia": 0,
       "valor_novos_dia_usd": 0.0,
       "qtd_aprovacoes_previstas": 3,
@@ -352,7 +352,7 @@
       "is_today": false,
       "is_projection": true,
       "mapeados": 1695,
-      "entregues": 584,
+      "entregues": 585,
       "novos_servicos_dia": 0,
       "valor_novos_dia_usd": 0.0,
       "qtd_aprovacoes_previstas": 4,
@@ -363,5 +363,5 @@
       "status": "Fechamento Mensal Nov/2026"
     }
   ],
-  "updated_at": "14/11/2026 02:28:49"
+  "updated_at": "14/11/2026 02:30:14"
 }
