@@ -1,5 +1,15 @@
 [
   {
+    "id": "rsim_o_BINANCE-XRPUSDT_06:49:10",
+    "timestamp": "14/11/2026 06:49:10",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "XRPUSDT",
+    "summary": "[Paper Trading] BUY LONG [XRPUSDT] BREAKOUT_5M (EMA9>21 | Vol 1.1x) @ $0.9927 (MC 46%)"
+  },
+  {
     "id": "rsim_c_BINANCE-BTCUSDT_06:48:24_STOP_LOSS",
     "timestamp": "14/11/2026 06:48:24",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "LINKUSDT",
     "summary": "SELL SHORT [LINKUSDT] BREAKDOWN_5M (EMA9<21 | RSI 23.0) @ $9.744 (MC 93%)"
-  },
-  {
-    "id": "rsim_c_BINANCE-AVAXUSDT_20:02:24_TAKE_PROFIT",
-    "timestamp": "13/11/2026 20:02:24",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-AVAXUSDT",
-    "summary": "SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 20.6) [TAKE_PROFIT] ➔ P&L $+0.02"
   }
 ]
