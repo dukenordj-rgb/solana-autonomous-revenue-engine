@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794640232",
+    "timestamp": "14/11/2026 04:10:32",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "rsim_c_BINANCE-LINKUSDT_04:10:08_STOP_LOSS",
     "timestamp": "14/11/2026 04:10:08",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BINANCE-DOGEUSDT",
     "summary": "BUY LONG [DOGEUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 4 [STOP_LOSS] ➔ P&L $-0.02"
-  },
-  {
-    "id": "rsim_o_BINANCE-DOGEUSDT_17:36:37",
-    "timestamp": "13/11/2026 17:36:37",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "DOGEUSDT",
-    "summary": "SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 37.0) @ $0.06541 (MC 53%)"
   }
 ]
