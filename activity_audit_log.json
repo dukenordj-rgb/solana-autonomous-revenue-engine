@@ -1,13 +1,23 @@
 [
   {
-    "id": "cloud_1794656045",
-    "timestamp": "14/11/2026 08:34:05",
+    "id": "rsim_c_BINANCE-AVAXUSDT_08:36:48_STOP_LOSS",
+    "timestamp": "14/11/2026 08:36:48",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 37. [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-AVAXUSDT_08:36:48",
+    "timestamp": "14/11/2026 08:36:48",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "Binance 5m (Simulação)",
+    "ref": "AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 48. @ $8.015 (MC 45%)"
   },
   {
     "id": "rsim_c_BINANCE-SOLUSDT_08:33:08_STOP_LOSS",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BINANCE-AVAXUSDT",
     "summary": "SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 49.7) [STOP_LOSS] ➔ P&L $-0.01"
-  },
-  {
-    "id": "rsim_c_BINANCE-LINKUSDT_20:58:48_STOP_LOSS",
-    "timestamp": "13/11/2026 20:58:48",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-LINKUSDT",
-    "summary": "SELL SHORT [LINKUSDT] DOWNTREND_5M (EMA9<21 | RSI 52.9) [STOP_LOSS] ➔ P&L $-0.02"
   }
 ]
