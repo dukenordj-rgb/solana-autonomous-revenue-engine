@@ -1,13 +1,53 @@
 [
   {
-    "id": "cloud_1794649542",
-    "timestamp": "14/11/2026 06:45:42",
+    "id": "rsim_c_BINANCE-BTCUSDT_06:48:24_STOP_LOSS",
+    "timestamp": "14/11/2026 06:48:24",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-BTCUSDT",
+    "summary": "[Paper Trading] SELL SHORT [BTCUSDT] DOWNTREND_5M (EMA9<21 | RSI 49.2 [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_c_BINANCE-XRPUSDT_06:48:24_STOP_LOSS",
+    "timestamp": "14/11/2026 06:48:24",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-XRPUSDT",
+    "summary": "[Paper Trading] SELL SHORT [XRPUSDT] DOWNTREND_5M (EMA9<21 | RSI 36.1 [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_c_BINANCE-LINKUSDT_06:48:24_STOP_LOSS",
+    "timestamp": "14/11/2026 06:48:24",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-LINKUSDT",
+    "summary": "[Paper Trading] SELL SHORT [LINKUSDT] DOWNTREND_5M (EMA9<21 | RSI 41. [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-DOGEUSDT_06:48:24",
+    "timestamp": "14/11/2026 06:48:24",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "Binance 5m (Simulação)",
+    "ref": "DOGEUSDT",
+    "summary": "[Paper Trading] BUY LONG [DOGEUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.4x @ $0.06316 (MC 51%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-SOLUSDT_06:48:24",
+    "timestamp": "14/11/2026 06:48:24",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "SOLUSDT",
+    "summary": "[Paper Trading] BUY LONG [SOLUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.8x) @ $75.95 (MC 51%)"
   },
   {
     "id": "rsim_c_BINANCE-BNBUSDT_06:33:33_STOP_LOSS",
@@ -2958,45 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BINANCE-AVAXUSDT",
     "summary": "SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 20.6) [TAKE_PROFIT] ➔ P&L $+0.02"
-  },
-  {
-    "id": "rsim_o_BINANCE-AVAXUSDT_20:02:24",
-    "timestamp": "13/11/2026 20:02:24",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "AVAXUSDT",
-    "summary": "SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 16.6) @ $8.175 (MC 95%)"
-  },
-  {
-    "id": "POLYMARKET-GROK-6ScAn9ZClz-2026-11-13 20",
-    "timestamp": "2026-11-13 20:00:11",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will Tesla and SpaceX announce a definitive merger agre...' | BUY NO @ q=55% vs Fair p=63% (Edge +8.14% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/jimbot/will-tesla-and-spacex-announce-a-de"
-  },
-  {
-    "id": "rsim_c_BINANCE-SOLUSDT_19:34:58_STOP_LOSS",
-    "timestamp": "13/11/2026 19:34:58",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-SOLUSDT",
-    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 18.8) [STOP_LOSS] ➔ P&L $-0.02"
-  },
-  {
-    "id": "rsim_o_BINANCE-BTCUSDT_19:34:58",
-    "timestamp": "13/11/2026 19:34:58",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "BTCUSDT",
-    "summary": "SELL SHORT [BTCUSDT] DOWNTREND_5M (EMA9<21 | RSI 47.9) @ $68364.0 (MC 76%)"
   }
 ]
