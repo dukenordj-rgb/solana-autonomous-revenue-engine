@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "14/11 02:46",
+    "repo": "limitlessprojects/Go-Hybrid",
+    "pr_number": 4462,
+    "pr_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4462#issuecomment-6872608217",
+    "deliverables": "hy-check(channel_liveness): capability identity leaks between function...",
+    "value_estimate_usd": "Pool compartilhado (não estimável)",
+    "stage": "COMENTÁRIO TÉCNICO (#4462)",
+    "payout_forecast": "Aguardando avaliação do mantenedor",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "Não estimável (sem histórico calibrado)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "14/11 02:29",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4460,
