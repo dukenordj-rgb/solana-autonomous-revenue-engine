@@ -1,13 +1,23 @@
 [
   {
-    "id": "cloud_1794645257",
-    "timestamp": "14/11/2026 05:34:17",
+    "id": "rsim_c_BINANCE-BTCUSDT_05:36:18_STOP_LOSS",
+    "timestamp": "14/11/2026 05:36:18",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-BTCUSDT",
+    "summary": "[Paper Trading] BUY LONG [BTCUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI [STOP_LOSS] ➔ P&L $+0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-SOLUSDT_05:36:18",
+    "timestamp": "14/11/2026 05:36:18",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "Binance 5m (Simulação)",
+    "ref": "SOLUSDT",
+    "summary": "[Paper Trading] SELL SHORT [SOLUSDT] DOWNTREND_5M (EMA9<21 | RSI 45.0 @ $75.29 (MC 55%)"
   },
   {
     "id": "rsim_c_BINANCE-SOLUSDT_05:18:40_STOP_LOSS",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4444",
     "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4444) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "rsim_c_BINANCE-AVAXUSDT_19:05:47_TAKE_PROFIT",
-    "timestamp": "13/11/2026 19:05:47",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-AVAXUSDT",
-    "summary": "SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 37.1) [TAKE_PROFIT] ➔ P&L $+0.02"
   }
 ]
