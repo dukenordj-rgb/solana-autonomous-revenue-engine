@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794651342",
+    "timestamp": "14/11/2026 07:15:42",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "rsim_c_BINANCE-XRPUSDT_07:15:27_STOP_LOSS",
     "timestamp": "14/11/2026 07:15:27",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "SOLUSDT",
     "summary": "SELL SHORT [SOLUSDT] DOWNTREND_5M (EMA9<21 | RSI 43.6) @ $77.69 (MC 84%)"
-  },
-  {
-    "id": "out_13/11/2026 20:12_limitlessprojects/Go-Hybrid#4446",
-    "timestamp": "13/11/2026 20:12",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4446",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4446) ➔ Código e proposta enviados"
   }
 ]
