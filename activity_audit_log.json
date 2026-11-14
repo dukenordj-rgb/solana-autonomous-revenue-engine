@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794641900",
+    "timestamp": "14/11/2026 04:38:20",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "cloud_1794641820",
     "timestamp": "14/11/2026 04:37:00",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "GitLab",
     "ref": "GitLab API v4 Sincronizada (62 frentes)",
     "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (62 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "rsim_c_BINANCE-SOLUSDT_18:22:14_TAKE_PROFIT",
-    "timestamp": "13/11/2026 18:22:14",
-    "category": "DELIVERY_OUT",
-    "badge": "📈 DAY TRADER EXIT",
-    "badge_color": "#10b981",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-SOLUSDT",
-    "summary": "SELL SHORT [SOLUSDT] BREAKDOWN_5M (EMA9<21 | RSI 32.5) [TAKE_PROFIT] ➔ P&L $+0.01"
   }
 ]
