@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794656401",
+    "timestamp": "14/11/2026 08:40:01",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "rsim_c_BINANCE-AVAXUSDT_08:36:48_STOP_LOSS",
     "timestamp": "14/11/2026 08:36:48",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BINANCE-BNBUSDT",
     "summary": "SELL SHORT [BNBUSDT] DOWNTREND_5M (EMA9<21 | RSI 40.0) [STOP_LOSS] ➔ P&L $-0.01"
-  },
-  {
-    "id": "rsim_c_BINANCE-AVAXUSDT_21:00:59_STOP_LOSS",
-    "timestamp": "13/11/2026 21:00:59",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-AVAXUSDT",
-    "summary": "SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 49.7) [STOP_LOSS] ➔ P&L $-0.01"
   }
 ]
