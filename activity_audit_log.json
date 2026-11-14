@@ -1,5 +1,25 @@
 [
   {
+    "id": "rsim_c_BINANCE-DOGEUSDT_03:44:13_STOP_LOSS",
+    "timestamp": "14/11/2026 03:44:13",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "[Paper Trading] BUY LONG [DOGEUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.0x [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-DOGEUSDT_03:44:13",
+    "timestamp": "14/11/2026 03:44:13",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "DOGEUSDT",
+    "summary": "[Paper Trading] BUY LONG [DOGEUSDT] TREND_PULLBACK_5M (EMA9>21 | RS @ $0.06293 (MC 47%)"
+  },
+  {
     "id": "rsim_c_BINANCE-XRPUSDT_03:43:26_STOP_LOSS",
     "timestamp": "14/11/2026 03:43:26",
     "category": "DELIVERY_OUT",
@@ -2978,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "tryabby/abby#215",
     "summary": "E-mail de entrada #215 respondido ➔ Correção @tryabby/vue (commit 8069ac8) enviada"
-  },
-  {
-    "id": "hist_in_abby_215",
-    "timestamp": "07/11/2026 11:14",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#0284c7",
-    "platform": "GitHub",
-    "ref": "tryabby/abby#215 (CodeRabbit)",
-    "summary": "E-mail de entrada (tryabby/abby#215) ➔ Solicitação de ajuste técnico: Respondido"
-  },
-  {
-    "id": "hist_map_radicle_init",
-    "timestamp": "07/11/2026 19:06",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 NOVO SERVIÇO",
-    "badge_color": "#a855f7",
-    "platform": "Radicle",
-    "ref": "Radicle Heartwood P2P (8 serviços)",
-    "summary": "Novos serviços mapeados no Radicle P2P ➔ Identidade DID ativa e 8 frentes registradas"
   }
 ]
