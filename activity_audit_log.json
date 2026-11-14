@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794657941",
+    "timestamp": "14/11/2026 09:05:41",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "cloud_1794657852",
     "timestamp": "14/11/2026 09:04:12",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BINANCE-XRPUSDT",
     "summary": "BUY LONG [XRPUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.1x) [STOP_LOSS] ➔ P&L $+0.00"
-  },
-  {
-    "id": "rsim_c_BINANCE-LINKUSDT_21:31:57_STOP_LOSS",
-    "timestamp": "13/11/2026 21:31:57",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-LINKUSDT",
-    "summary": "BUY LONG [LINKUSDT] BREAKOUT_5M (EMA9>21 | Vol 1.0x) [STOP_LOSS] ➔ P&L $-0.01"
   }
 ]
