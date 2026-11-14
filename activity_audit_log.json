@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794638172",
+    "timestamp": "14/11/2026 03:36:12",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "cloud_1794638085",
     "timestamp": "14/11/2026 03:34:45",
     "category": "SERVICE_MAPPED",
@@ -2988,15 +2998,5 @@
     "platform": "Radicle",
     "ref": "Radicle Heartwood P2P (8 serviços)",
     "summary": "Novos serviços mapeados no Radicle P2P ➔ Identidade DID ativa e 8 frentes registradas"
-  },
-  {
-    "id": "hist_map_gitlab_init",
-    "timestamp": "07/11/2026 19:06",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 NOVO SERVIÇO",
-    "badge_color": "#fc6d26",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 (8 bounties)",
-    "summary": "Novos serviços mapeados no GitLab ➔ 8 issues de recompensa adicionadas à fila"
   }
 ]
