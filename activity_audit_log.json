@@ -1,5 +1,15 @@
 [
   {
+    "id": "out_14/11/2026 03:58_paraloom-labs/paraloom-core#1604",
+    "timestamp": "14/11/2026 03:58",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1604",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1604) ➔ Código e proposta enviados"
+  },
+  {
     "id": "rsim_c_BINANCE-DOGEUSDT_03:44:13_STOP_LOSS",
     "timestamp": "14/11/2026 03:44:13",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BNBUSDT",
     "summary": "BUY LONG [BNBUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 47 @ $637.42 (MC 60%)"
-  },
-  {
-    "id": "hist_out_abby_215",
-    "timestamp": "07/11/2026 11:20",
-    "category": "EMAIL_OUT",
-    "badge": "📤 E-MAIL / RESPOSTA SAÍDA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "tryabby/abby#215",
-    "summary": "E-mail de entrada #215 respondido ➔ Correção @tryabby/vue (commit 8069ac8) enviada"
   }
 ]
