@@ -1,5 +1,15 @@
 [
   {
+    "id": "in_13/11/2026 21:58_limitlessprojects/Go-Hybrid",
+    "timestamp": "13/11/2026 21:58",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#475569",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid",
+    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado: Sem necessidade de resposta"
+  },
+  {
     "id": "rsim_c_BINANCE-SOLUSDT_21:56:29_TAKE_PROFIT",
     "timestamp": "13/11/2026 21:56:29",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4405",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4405) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4403_17",
-    "timestamp": "12/11 11:35",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4403",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4403) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
