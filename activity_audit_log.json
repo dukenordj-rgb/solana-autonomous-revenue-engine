@@ -1,5 +1,15 @@
 [
   {
+    "id": "rsim_c_BINANCE-DOGEUSDT_22:52:51_STOP_LOSS",
+    "timestamp": "13/11/2026 22:52:51",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "BUY LONG [DOGEUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 3 [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
     "id": "rsim_c_BINANCE-BNBUSDT_22:43:40_TAKE_PROFIT",
     "timestamp": "13/11/2026 22:43:40",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4373",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4373) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4366_37",
-    "timestamp": "11/11 07:01",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4366",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4366) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
