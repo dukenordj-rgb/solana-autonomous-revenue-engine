@@ -1,5 +1,35 @@
 [
   {
+    "id": "rsim_c_BINANCE-ETHUSDT_21:31:57_STOP_LOSS",
+    "timestamp": "13/11/2026 21:31:57",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-ETHUSDT",
+    "summary": "BUY LONG [ETHUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.1x) [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_c_BINANCE-XRPUSDT_21:31:57_STOP_LOSS",
+    "timestamp": "13/11/2026 21:31:57",
+    "category": "DELIVERY_OUT",
+    "badge": "📈 DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-XRPUSDT",
+    "summary": "BUY LONG [XRPUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.1x) [STOP_LOSS] ➔ P&L $+0.00"
+  },
+  {
+    "id": "rsim_c_BINANCE-LINKUSDT_21:31:57_STOP_LOSS",
+    "timestamp": "13/11/2026 21:31:57",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-LINKUSDT",
+    "summary": "BUY LONG [LINKUSDT] BREAKOUT_5M (EMA9>21 | Vol 1.0x) [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
     "id": "rsim_o_BINANCE-ETHUSDT_21:21:18",
     "timestamp": "13/11/2026 21:21:18",
     "category": "SERVICE_MAPPED",
@@ -2968,35 +2998,5 @@
     "platform": "GitHub",
     "ref": "paraloom-labs/paraloom-core#1579",
     "summary": "Serviço entregue (paraloom-labs/paraloom-core#1579) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1577_25",
-    "timestamp": "12/11 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1577",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1577) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1578_26",
-    "timestamp": "12/11 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1578",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1578) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1576_27",
-    "timestamp": "12/11 00:34",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1576",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1576) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
   }
 ]
