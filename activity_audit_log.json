@@ -1,13 +1,23 @@
 [
   {
-    "id": "cloud_1794623592",
-    "timestamp": "13/11/2026 23:33:12",
+    "id": "rsim_o_BINANCE-LINKUSDT_23:35:30",
+    "timestamp": "13/11/2026 23:35:30",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "Binance 5m (Simulação)",
+    "ref": "LINKUSDT",
+    "summary": "[Paper Trading] SELL SHORT [LINKUSDT] DOWNTREND_5M (EMA9<21 | RSI 23. @ $9.652 (MC 84%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-ETHUSDT_23:35:30",
+    "timestamp": "13/11/2026 23:35:30",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "ETHUSDT",
+    "summary": "[Paper Trading] SELL SHORT [ETHUSDT] DOWNTREND_5M (EMA9<21 | RSI 24.2 @ $1900.14 (MC 66%)"
   },
   {
     "id": "rsim_c_BINANCE-SOLUSDT_23:32:53_STOP_LOSS",
@@ -2988,15 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4410",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4410) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4408_14",
-    "timestamp": "12/11 12:26",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4408",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4408) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
   }
 ]
