@@ -1,15 +1,5 @@
 [
   {
-    "id": "cloud_1794633917",
-    "timestamp": "14/11/2026 02:25:17",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
-  },
-  {
     "id": "rsim_o_BINANCE-ETHUSDT_02:18:29",
     "timestamp": "14/11/2026 02:18:29",
     "category": "SERVICE_MAPPED",
