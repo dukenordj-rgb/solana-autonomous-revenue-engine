@@ -1,13 +1,53 @@
 [
   {
-    "id": "cloud_1794635902",
-    "timestamp": "14/11/2026 02:58:22",
+    "id": "rsim_o_BINANCE-BTCUSDT_03:01:09",
+    "timestamp": "14/11/2026 03:01:09",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BTCUSDT",
+    "summary": "[Paper Trading] BUY LONG [BTCUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.5x) @ $67280.01 (MC 48%)"
+  },
+  {
+    "id": "rsim_c_BINANCE-XRPUSDT_03:00:26_STOP_LOSS",
+    "timestamp": "14/11/2026 03:00:26",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-XRPUSDT",
+    "summary": "[Paper Trading] SELL SHORT [XRPUSDT] DOWNTREND_5M (EMA9<21 | RSI 48.5 [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_c_BINANCE-AVAXUSDT_03:00:26_STOP_LOSS",
+    "timestamp": "14/11/2026 03:00:26",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] DOWNTREND_5M (EMA9<21 | RSI 46. [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-AVAXUSDT_03:00:26",
+    "timestamp": "14/11/2026 03:00:26",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "AVAXUSDT",
+    "summary": "[Paper Trading] BUY LONG [AVAXUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.3x @ $8.131 (MC 47%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-XRPUSDT_03:00:26",
+    "timestamp": "14/11/2026 03:00:26",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "XRPUSDT",
+    "summary": "[Paper Trading] BUY LONG [XRPUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.4x) @ $0.9977 (MC 47%)"
   },
   {
     "id": "rsim_c_BINANCE-BTCUSDT_02:57:25_STOP_LOSS",
@@ -2958,55 +2998,5 @@
     "platform": "GitHub",
     "ref": "Go-Hybrid#3782 (Discussion #295)",
     "summary": "E-mail/Resposta de saída (Go-Hybrid#3782) ➔ Fix SemVer submetido e carteira registrada"
-  },
-  {
-    "id": "hist_in_gohybrid_3673",
-    "timestamp": "06/11/2026 18:40",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "Go-Hybrid#3673 (Aprovado)",
-    "summary": "E-mail de entrada (Go-Hybrid#3673) ➔ Solução aprovada pelo mantenedor (+$75 USDC em fila)"
-  },
-  {
-    "id": "hist_out_lablab_1106",
-    "timestamp": "06/11/2026 14:20",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA REALIZADA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "lablab-ai/community-content#1106",
-    "summary": "Entrega realizada (lablab-ai#1106) ➔ Tutorial Vectara Chat submetido via PR"
-  },
-  {
-    "id": "hist_out_superteam_repos",
-    "timestamp": "05/11/2026 16:30",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA REALIZADA",
-    "badge_color": "#10b981",
-    "platform": "Superteam",
-    "ref": "Solana Multihopper & Block Ordering",
-    "summary": "Entrega realizada (Superteam Solana) ➔ 3 repositórios públicos construídos e publicados"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4446_0",
-    "timestamp": "13/11 20:12",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4446",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4446) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4444_1",
-    "timestamp": "13/11 19:07",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4444",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4444) ➔ Proposta e código registrados (Pool compartilhado (não estimável))"
   }
 ]
