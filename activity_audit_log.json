@@ -1,13 +1,13 @@
 [
   {
-    "id": "cloud_1794633343",
-    "timestamp": "14/11/2026 02:15:43",
+    "id": "rsim_o_BINANCE-ETHUSDT_02:18:29",
+    "timestamp": "14/11/2026 02:18:29",
     "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
     "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+    "platform": "Binance 5m (Simulação)",
+    "ref": "ETHUSDT",
+    "summary": "[Paper Trading] BUY LONG [ETHUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.3x) @ $1903.51 (MC 47%)"
   },
   {
     "id": "out_14/11/2026 02:14_limitlessprojects/Go-Hybrid#4458",
