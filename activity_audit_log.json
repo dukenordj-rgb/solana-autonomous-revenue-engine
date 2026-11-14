@@ -1,5 +1,15 @@
 [
   {
+    "id": "cloud_1794656847",
+    "timestamp": "14/11/2026 08:47:27",
+    "category": "SERVICE_MAPPED",
+    "badge": "☁️ NUVEM 24/7",
+    "badge_color": "#0284c7",
+    "platform": "Consolidado",
+    "ref": "Ciclo Cloud (10 PRs)",
+    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
+  },
+  {
     "id": "rsim_c_BINANCE-AVAXUSDT_08:40:34_STOP_LOSS",
     "timestamp": "14/11/2026 08:40:34",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Binance 5m",
     "ref": "BINANCE-SOLUSDT",
     "summary": "SELL SHORT [SOLUSDT] DOWNTREND_5M (EMA9<21 | RSI 50.0) [STOP_LOSS] ➔ P&L $-0.02"
-  },
-  {
-    "id": "rsim_o_BINANCE-BNBUSDT_21:18:25",
-    "timestamp": "13/11/2026 21:18:25",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "BNBUSDT",
-    "summary": "BUY LONG [BNBUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.6x) @ $631.48 (MC 44%)"
   }
 ]
