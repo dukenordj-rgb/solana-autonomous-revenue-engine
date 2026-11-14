@@ -1,5 +1,15 @@
 [
   {
+    "id": "rsim_o_BINANCE-AVAXUSDT_03:10:25",
+    "timestamp": "14/11/2026 03:10:25",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "AVAXUSDT",
+    "summary": "[Paper Trading] BUY LONG [AVAXUSDT] TREND_PULLBACK_5M (EMA9>21 | RS @ $8.105 (MC 53%)"
+  },
+  {
     "id": "rsim_c_BINANCE-AVAXUSDT_03:08:10_STOP_LOSS",
     "timestamp": "14/11/2026 03:08:10",
     "category": "DELIVERY_OUT",
@@ -2988,15 +2998,5 @@
     "platform": "Codeberg",
     "ref": "Codeberg FOSS (4 projetos)",
     "summary": "Novos serviços mapeados no Codeberg ➔ 4 projetos FOSS (No-Crypto) catalogados"
-  },
-  {
-    "id": "hist_map_bitbucket_init",
-    "timestamp": "07/11/2026 19:06",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 NOVO SERVIÇO",
-    "badge_color": "#3b82f6",
-    "platform": "Bitbucket",
-    "ref": "Bitbucket Cloud (9 repos)",
-    "summary": "Novos serviços mapeados no Bitbucket ➔ 9 repositórios Atlassian monitorados"
   }
 ]
