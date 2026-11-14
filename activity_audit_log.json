@@ -1,5 +1,65 @@
 [
   {
+    "id": "rsim_o_BINANCE-XRPUSDT_23:29:18",
+    "timestamp": "13/11/2026 23:29:18",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "XRPUSDT",
+    "summary": "[Paper Trading] SELL SHORT [XRPUSDT] BREAKDOWN_5M (EMA9<21 | RSI 15.3 @ $0.9908 (MC 90%)"
+  },
+  {
+    "id": "rsim_c_BINANCE-BTCUSDT_23:28:29_TAKE_PROFIT",
+    "timestamp": "13/11/2026 23:28:29",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-BTCUSDT",
+    "summary": "[Paper Trading] SELL SHORT [BTCUSDT] DOWNTREND_5M (EMA9<21 | RSI 20.3 [TAKE_PROFIT] ➔ P&L $+0.02"
+  },
+  {
+    "id": "rsim_c_BINANCE-DOGEUSDT_23:28:29_TAKE_PROFIT",
+    "timestamp": "13/11/2026 23:28:29",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "[Paper Trading] SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 16. [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_c_BINANCE-AVAXUSDT_23:28:29_TAKE_PROFIT",
+    "timestamp": "13/11/2026 23:28:29",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] DAY TRADER EXIT",
+    "badge_color": "#10b981",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 11. [TAKE_PROFIT] ➔ P&L $+0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-AVAXUSDT_23:28:29",
+    "timestamp": "13/11/2026 23:28:29",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "AVAXUSDT",
+    "summary": "[Paper Trading] SELL SHORT [AVAXUSDT] BREAKDOWN_5M (EMA9<21 | RSI 3.2 @ $8.043 (MC 91%)"
+  },
+  {
+    "id": "rsim_o_BINANCE-DOGEUSDT_23:28:29",
+    "timestamp": "13/11/2026 23:28:29",
+    "category": "SERVICE_MAPPED",
+    "badge": "🧪 [SIMULAÇÃO] POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "DOGEUSDT",
+    "summary": "[Paper Trading] SELL SHORT [DOGEUSDT] BREAKDOWN_5M (EMA9<21 | RSI 9.9 @ $0.06292 (MC 91%)"
+  },
+  {
     "id": "rsim_o_BINANCE-BTCUSDT_23:27:01",
     "timestamp": "13/11/2026 23:27:01",
     "category": "SERVICE_MAPPED",
@@ -2938,65 +2998,5 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4390",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4390) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1581_22",
-    "timestamp": "12/11 01:59",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1581",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1581) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1580_23",
-    "timestamp": "12/11 01:25",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1580",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1580) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1579_24",
-    "timestamp": "12/11 00:38",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1579",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1579) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1577_25",
-    "timestamp": "12/11 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1577",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1577) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1578_26",
-    "timestamp": "12/11 00:35",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1578",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1578) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_paraloom-labs/paraloom-core_1576_27",
-    "timestamp": "12/11 00:34",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1576",
-    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1576) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
   }
 ]
