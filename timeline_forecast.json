@@ -1,5 +1,19 @@
 [
   {
+    "submitted_at": "14/11 03:58",
+    "repo": "paraloom-labs/paraloom-core",
+    "pr_number": 1604,
+    "pr_url": "https://github.com/paraloom-labs/paraloom-core/issues/1604#issuecomment-6873466141",
+    "deliverables": "[BOUNTY] paraloom_cli validator withdraw-unbonded reverts with Pending...",
+    "value_estimate_usd": "Pool compartilhado (não estimável)",
+    "stage": "COMENTÁRIO TÉCNICO (#1604)",
+    "payout_forecast": "Aguardando avaliação do mantenedor",
+    "payout_destination": "Base (0x3a391d8a...)",
+    "probability": "Não estimável (sem histórico calibrado)",
+    "status": "🟢 ATUADO (SUBMETIDO NA PLATAFORMA)",
+    "elapsed_time": "Recém Submetido"
+  },
+  {
     "submitted_at": "14/11 02:48",
     "repo": "limitlessprojects/Go-Hybrid",
     "pr_number": 4464,
