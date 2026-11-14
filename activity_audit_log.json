@@ -1,5 +1,25 @@
 [
   {
+    "id": "rsim_c_BINANCE-DOGEUSDT_22:12:41_STOP_LOSS",
+    "timestamp": "13/11/2026 22:12:41",
+    "category": "DELIVERY_OUT",
+    "badge": "🛡️ STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m",
+    "ref": "BINANCE-DOGEUSDT",
+    "summary": "BUY LONG [DOGEUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 5 [STOP_LOSS] ➔ P&L $-0.02"
+  },
+  {
+    "id": "rsim_o_BINANCE-BNBUSDT_22:12:41",
+    "timestamp": "13/11/2026 22:12:41",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "BNBUSDT",
+    "summary": "BUY LONG [BNBUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 38 @ $630.01 (MC 47%)"
+  },
+  {
     "id": "rsim_c_BINANCE-BNBUSDT_22:03:00_STOP_LOSS",
     "timestamp": "13/11/2026 22:03:00",
     "category": "DELIVERY_OUT",
@@ -2978,25 +2998,5 @@
     "platform": "GitHub",
     "ref": "paraloom-labs/paraloom-core#1599",
     "summary": "Serviço entregue (paraloom-labs/paraloom-core#1599) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4416_10",
-    "timestamp": "12/11 15:50",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4416",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4416) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
-  },
-  {
-    "id": "tl_limitlessprojects/Go-Hybrid_4414_11",
-    "timestamp": "12/11 13:59",
-    "category": "DELIVERY_OUT",
-    "badge": "⚡ ENTREGA / SUBMISSÃO",
-    "badge_color": "#059669",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4414",
-    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4414) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
   }
 ]
