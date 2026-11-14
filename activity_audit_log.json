@@ -1,15 +1,5 @@
 [
   {
-    "id": "cloud_1794657491",
-    "timestamp": "14/11/2026 08:58:11",
-    "category": "SERVICE_MAPPED",
-    "badge": "☁️ NUVEM 24/7",
-    "badge_color": "#0284c7",
-    "platform": "Consolidado",
-    "ref": "Ciclo Cloud (10 PRs)",
-    "summary": "Varredura 24/7 na nuvem concluída (SENTINEL_STANDBY (PC Local ATIVO há 0m)) ➔ Carteiras on-chain (SOL/USDC/Base) e PRs GitHub auditados"
-  },
-  {
     "id": "rsim_c_BINANCE-XRPUSDT_08:48:42_TAKE_PROFIT",
     "timestamp": "14/11/2026 08:48:42",
     "category": "DELIVERY_OUT",
@@ -2998,5 +2988,15 @@
     "platform": "Binance 5m",
     "ref": "BINANCE-LINKUSDT",
     "summary": "BUY LONG [LINKUSDT] BREAKOUT_5M (EMA9>21 | Vol 1.0x) [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "rsim_o_BINANCE-ETHUSDT_21:21:18",
+    "timestamp": "13/11/2026 21:21:18",
+    "category": "SERVICE_MAPPED",
+    "badge": "⚡ POSIÇÃO ABERTA",
+    "badge_color": "#0284c7",
+    "platform": "Binance 5m",
+    "ref": "ETHUSDT",
+    "summary": "BUY LONG [ETHUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.1x) @ $1935.37 (MC 47%)"
   }
 ]
