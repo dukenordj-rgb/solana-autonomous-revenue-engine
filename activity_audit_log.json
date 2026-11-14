@@ -1,5 +1,395 @@
 [
   {
+    "id": "map_13/11/2026 12:05_Codeberg Forgejo Sincronizado (105 frentes...",
+    "timestamp": "13/11/2026 12:05",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (105 frentes...",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (105 frentes...) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_13/11/2026 11:03_Codeberg Forgejo Sincronizado (103 frentes...",
+    "timestamp": "13/11/2026 11:03",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (103 frentes...",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (103 frentes...) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_13/11/2026 09:31_GitLab API v4 Sincronizada (61 frentes)",
+    "timestamp": "13/11/2026 09:31",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (61 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (61 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_13/11/2026 08:30_Codeberg Forgejo Sincronizado (101 frentes...",
+    "timestamp": "13/11/2026 08:30",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (101 frentes...",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (101 frentes...) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_13/11/2026 07:43_limitlessprojects/Go-Hybrid#4435",
+    "timestamp": "13/11/2026 07:43",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4435",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4435) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_13/11/2026 07:42_limitlessprojects/Go-Hybrid#4437",
+    "timestamp": "13/11/2026 07:42",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4437",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4437) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_13/11/2026 07:42_limitlessprojects/Go-Hybrid#4439",
+    "timestamp": "13/11/2026 07:42",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4439",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4439) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_13/11/2026 07:41_limitlessprojects/Go-Hybrid#4433",
+    "timestamp": "13/11/2026 07:41",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4433",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4433) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_13/11/2026 02:29_limitlessprojects/Go-Hybrid#4423",
+    "timestamp": "13/11/2026 02:29",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4423",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4423) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 23:09_limitlessprojects/Go-Hybrid#4418",
+    "timestamp": "12/11/2026 23:09",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4418",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4418) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "rsim_c_BINANCE-XRPUSDT_23:26:15_STOP_LOSS",
+    "timestamp": "13/11/2026 23:26:15",
+    "category": "DELIVERY_OUT",
+    "badge": "🧪 [SIMULAÇÃO] STOP / EXIT",
+    "badge_color": "#f59e0b",
+    "platform": "Binance 5m (Simulação)",
+    "ref": "BINANCE-XRPUSDT",
+    "summary": "[Paper Trading] SELL SHORT [XRPUSDT] BREAKDOWN_5M (EMA9<21 | RSI 21.2 [STOP_LOSS] ➔ P&L $-0.01"
+  },
+  {
+    "id": "POLYMARKET-GROK-6ScAn9ZClz-2026-11-13 23",
+    "timestamp": "2026-11-13 23:26:15",
+    "type": "SERVICO_MAPEADO",
+    "portal": "Polymarket",
+    "repo": "Polymarket/CRYPTO",
+    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will Tesla and SpaceX announce a definitive merger agre...' | BUY NO @ q=55% vs Fair p=63% (Edge +8.1% | Kelly 6.0%)",
+    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
+    "url": "https://manifold.markets/jimbot/will-tesla-and-spacex-announce-a-de"
+  },
+  {
+    "id": "out_12/11/2026 22:54_paraloom-labs/paraloom-core#1599",
+    "timestamp": "12/11/2026 22:54",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1599",
+    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1599) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_12/11/2026 17:50_Codeberg Forgejo Sincronizado (100 frentes...",
+    "timestamp": "12/11/2026 17:50",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (100 frentes...",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (100 frentes...) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_12/11/2026 17:20_Codeberg Forgejo Sincronizado (98 frentes)",
+    "timestamp": "12/11/2026 17:20",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (98 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (98 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_12/11/2026 16:50_Codeberg Forgejo Sincronizado (97 frentes)",
+    "timestamp": "12/11/2026 16:50",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (97 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (97 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_12/11/2026 16:50_GitLab API v4 Sincronizada (60 frentes)",
+    "timestamp": "12/11/2026 16:50",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (60 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (60 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_12/11/2026 16:20_Codeberg Forgejo Sincronizado (96 frentes)",
+    "timestamp": "12/11/2026 16:20",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (96 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (96 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_12/11/2026 15:50_limitlessprojects/Go-Hybrid#4416",
+    "timestamp": "12/11/2026 15:50",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4416",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4416) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_12/11/2026 15:19_Codeberg Forgejo Sincronizado (95 frentes)",
+    "timestamp": "12/11/2026 15:19",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (95 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (95 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_12/11/2026 13:59_limitlessprojects/Go-Hybrid#4414",
+    "timestamp": "12/11/2026 13:59",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4414",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4414) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_12/11/2026 13:49_Codeberg Forgejo Sincronizado (94 frentes)",
+    "timestamp": "12/11/2026 13:49",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (94 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (94 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_12/11/2026 13:49_GitLab API v4 Sincronizada (58 frentes)",
+    "timestamp": "12/11/2026 13:49",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (58 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (58 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_12/11/2026 13:19_GitLab API v4 Sincronizada (57 frentes)",
+    "timestamp": "12/11/2026 13:19",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (57 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (57 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_12/11/2026 12:53_limitlessprojects/Go-Hybrid#4412",
+    "timestamp": "12/11/2026 12:53",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4412",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4412) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 12:53_limitlessprojects/Go-Hybrid#4410",
+    "timestamp": "12/11/2026 12:53",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4410",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4410) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_12/11/2026 12:49_Codeberg Forgejo Sincronizado (93 frentes)",
+    "timestamp": "12/11/2026 12:49",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (93 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (93 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "in_12/11/2026 12:26_limitlessprojects/Go-Hybrid",
+    "timestamp": "12/11/2026 12:26",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#0284c7",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid",
+    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado e Respondido"
+  },
+  {
+    "id": "out_12/11/2026 12:26_limitlessprojects/Go-Hybrid#4408",
+    "timestamp": "12/11/2026 12:26",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4408",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4408) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "map_12/11/2026 12:18_Codeberg Forgejo Sincronizado (91 frentes)",
+    "timestamp": "12/11/2026 12:18",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (91 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (91 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "map_12/11/2026 12:18_GitLab API v4 Sincronizada (56 frentes)",
+    "timestamp": "12/11/2026 12:18",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "GitLab",
+    "ref": "GitLab API v4 Sincronizada (56 frentes)",
+    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (56 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "out_12/11/2026 11:54_limitlessprojects/Go-Hybrid#4407",
+    "timestamp": "12/11/2026 11:54",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4407",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4407) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 11:41_limitlessprojects/Go-Hybrid#4405",
+    "timestamp": "12/11/2026 11:41",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4405",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4405) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 11:35_limitlessprojects/Go-Hybrid#4403",
+    "timestamp": "12/11/2026 11:35",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4403",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4403) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "out_12/11/2026 11:34_limitlessprojects/Go-Hybrid#4401",
+    "timestamp": "12/11/2026 11:34",
+    "category": "DELIVERY_OUT",
+    "badge": "📤 RESPOSTA / ENTREGA",
+    "badge_color": "#10b981",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4401",
+    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4401) ➔ Código e proposta enviados"
+  },
+  {
+    "id": "in_12/11/2026 10:53_paraloom-labs/paraloom-core",
+    "timestamp": "12/11/2026 10:53",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#475569",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core",
+    "summary": "E-mail de entrada (paraloom-labs/paraloom-core) ➔ Analisado: Sem necessidade de resposta"
+  },
+  {
+    "id": "in_12/11/2026 10:23_paraloom-labs/paraloom-core",
+    "timestamp": "12/11/2026 10:23",
+    "category": "EMAIL_IN",
+    "badge": "📩 E-MAIL ENTRADA",
+    "badge_color": "#475569",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core",
+    "summary": "E-mail de entrada (paraloom-labs/paraloom-core) ➔ Analisado: Sem necessidade de resposta"
+  },
+  {
+    "id": "map_12/11/2026 10:17_Codeberg Forgejo Sincronizado (88 frentes)",
+    "timestamp": "12/11/2026 10:17",
+    "category": "SERVICE_MAPPED",
+    "badge": "🔍 SERVIÇO MAPEADO",
+    "badge_color": "#f59e0b",
+    "platform": "Codeberg",
+    "ref": "Codeberg Forgejo Sincronizado (88 frentes)",
+    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (88 frentes)) ➔ Registrado no painel"
+  },
+  {
+    "id": "POLYMARKET-GROK-6ScAn9ZClz-2026-11-13 23",
+    "timestamp": "2026-11-13 23:25:33",
+    "type": "SERVICO_MAPEADO",
+    "portal": "Polymarket",
+    "repo": "Polymarket/CRYPTO",
+    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will Tesla and SpaceX announce a definitive merger agre...' | BUY NO @ q=55% vs Fair p=63% (Edge +8.2% | Kelly 6.0%)",
+    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
+    "url": "https://manifold.markets/jimbot/will-tesla-and-spacex-announce-a-de"
+  },
+  {
     "id": "in_12/11/2026 10:00_paraloom-labs/paraloom-core",
     "timestamp": "12/11/2026 10:00",
     "category": "EMAIL_IN",
@@ -2220,556 +2610,6 @@
     "summary": "BUY LONG [BTCUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 54 [TIME_EXIT] ➔ P&L $+0.00"
   },
   {
-    "id": "rsim_c_BINANCE-ETHUSDT_15:47:12_TIME_EXIT",
-    "timestamp": "13/11/2026 15:47:12",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-ETHUSDT",
-    "summary": "BUY LONG [ETHUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.9x) [TIME_EXIT] ➔ P&L $-0.02"
-  },
-  {
-    "id": "rsim_c_BINANCE-XRPUSDT_15:44:17_TIME_EXIT",
-    "timestamp": "13/11/2026 15:44:17",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-XRPUSDT",
-    "summary": "BUY LONG [XRPUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 55 [TIME_EXIT] ➔ P&L $-0.01"
-  },
-  {
-    "id": "rsim_c_BINANCE-BTCUSDT_15:44:17_TIME_EXIT",
-    "timestamp": "13/11/2026 15:44:17",
-    "category": "DELIVERY_OUT",
-    "badge": "🛡️ STOP / EXIT",
-    "badge_color": "#f59e0b",
-    "platform": "Binance 5m",
-    "ref": "BINANCE-BTCUSDT",
-    "summary": "BUY LONG [BTCUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.1x) [TIME_EXIT] ➔ P&L $-0.04"
-  },
-  {
-    "id": "rsim_o_BINANCE-BNBUSDT_15:47:12",
-    "timestamp": "13/11/2026 15:47:12",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "BNBUSDT",
-    "summary": "BUY LONG [BNBUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 58 @ $635.27 (MC 55%)"
-  },
-  {
-    "id": "rsim_o_BINANCE-ETHUSDT_15:58:40",
-    "timestamp": "13/11/2026 15:58:40",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "ETHUSDT",
-    "summary": "BUY LONG [ETHUSDT] BREAKOUT_5M (EMA9>21 | Vol 0.7x) @ $1945.24 (MC 56%)"
-  },
-  {
-    "id": "rsim_o_BINANCE-DOGEUSDT_16:01:02",
-    "timestamp": "13/11/2026 16:01:02",
-    "category": "SERVICE_MAPPED",
-    "badge": "⚡ POSIÇÃO ABERTA",
-    "badge_color": "#0284c7",
-    "platform": "Binance 5m",
-    "ref": "DOGEUSDT",
-    "summary": "BUY LONG [DOGEUSDT] TREND_PULLBACK_5M (EMA9>21 | RSI 5 @ $0.06546 (MC 51%)"
-  },
-  {
-    "id": "map_13/11/2026 12:05_Codeberg Forgejo Sincronizado (105 frentes...",
-    "timestamp": "13/11/2026 12:05",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (105 frentes...",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (105 frentes...) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_13/11/2026 11:03_Codeberg Forgejo Sincronizado (103 frentes...",
-    "timestamp": "13/11/2026 11:03",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (103 frentes...",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (103 frentes...) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_13/11/2026 09:31_GitLab API v4 Sincronizada (61 frentes)",
-    "timestamp": "13/11/2026 09:31",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (61 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (61 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_13/11/2026 08:30_Codeberg Forgejo Sincronizado (101 frentes...",
-    "timestamp": "13/11/2026 08:30",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (101 frentes...",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (101 frentes...) ➔ Registrado no painel"
-  },
-  {
-    "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 08",
-    "timestamp": "2026-11-13 08:01:17",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will ChatGPT-6.1 Sol and Claude Opus 5.5 Beat Hardcore ...' | BUY NO @ q=72% vs Fair p=81% (Edge +8.66% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/TuringGames/will-chatgpt61-sol-and-claude-opus"
-  },
-  {
-    "id": "out_13/11/2026 07:43_limitlessprojects/Go-Hybrid#4435",
-    "timestamp": "13/11/2026 07:43",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4435",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4435) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_13/11/2026 07:42_limitlessprojects/Go-Hybrid#4437",
-    "timestamp": "13/11/2026 07:42",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4437",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4437) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_13/11/2026 07:42_limitlessprojects/Go-Hybrid#4439",
-    "timestamp": "13/11/2026 07:42",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4439",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4439) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_13/11/2026 07:41_limitlessprojects/Go-Hybrid#4433",
-    "timestamp": "13/11/2026 07:41",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4433",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4433) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 07",
-    "timestamp": "2026-11-13 07:00:42",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will ChatGPT-6.1 Sol and Claude Opus 5.5 Beat Hardcore ...' | BUY NO @ q=72% vs Fair p=81% (Edge +9.28% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/TuringGames/will-chatgpt61-sol-and-claude-opus"
-  },
-  {
-    "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 06",
-    "timestamp": "2026-11-13 06:00:31",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will ChatGPT-6.1 Sol and Claude Opus 5.5 Beat Hardcore ...' | BUY NO @ q=72% vs Fair p=82% (Edge +10.3% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/TuringGames/will-chatgpt61-sol-and-claude-opus"
-  },
-  {
-    "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 05",
-    "timestamp": "2026-11-13 05:00:25",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will ChatGPT-6.1 Sol and Claude Opus 5.5 Beat Hardcore ...' | BUY NO @ q=72% vs Fair p=83% (Edge +10.56% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/TuringGames/will-chatgpt61-sol-and-claude-opus"
-  },
-  {
-    "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 04",
-    "timestamp": "2026-11-13 04:00:11",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will ChatGPT-6.1 Sol and Claude Opus 5.5 Beat Hardcore ...' | BUY NO @ q=72% vs Fair p=81% (Edge +9.03% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/TuringGames/will-chatgpt61-sol-and-claude-opus"
-  },
-  {
-    "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 03",
-    "timestamp": "2026-11-13 03:00:38",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will ChatGPT-6.1 Sol and Claude Opus 5.5 Beat Hardcore ...' | BUY NO @ q=72% vs Fair p=84% (Edge +12.31% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/TuringGames/will-chatgpt61-sol-and-claude-opus"
-  },
-  {
-    "id": "out_13/11/2026 02:29_limitlessprojects/Go-Hybrid#4423",
-    "timestamp": "13/11/2026 02:29",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4423",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4423) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "POLYMARKET-GROK-LASCU9LPA5-2026-11-13 02",
-    "timestamp": "2026-11-13 02:23:25",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Will ChatGPT-6.1 Sol and Claude Opus 5.5 Beat Hardcore ...' | BUY NO @ q=54% vs Fair p=65% (Edge +10.65% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/TuringGames/will-chatgpt61-sol-and-claude-opus"
-  },
-  {
-    "id": "POLYMARKET-GROK-QZh8OpyUU8-2026-11-13 02",
-    "timestamp": "2026-11-13 02:00:07",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Jensen Huang's affair is a cover for something worse....' | BUY NO @ q=67% vs Fair p=79% (Edge +11.75% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/Technocrat/jensen-huangs-affair-is-a-cover-for"
-  },
-  {
-    "id": "POLYMARKET-GROK-QZh8OpyUU8-2026-11-13 01",
-    "timestamp": "2026-11-13 01:00:08",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Jensen Huang's affair is a cover for something worse....' | BUY NO @ q=67% vs Fair p=79% (Edge +11.39% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/Technocrat/jensen-huangs-affair-is-a-cover-for"
-  },
-  {
-    "id": "POLYMARKET-GROK-QZh8OpyUU8-2026-11-13 00",
-    "timestamp": "2026-11-13 00:00:35",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Jensen Huang's affair is a cover for something worse....' | BUY NO @ q=69% vs Fair p=77% (Edge +8.06% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/Technocrat/jensen-huangs-affair-is-a-cover-for"
-  },
-  {
-    "id": "POLYMARKET-GROK-QZh8OpyUU8-2026-11-12 23",
-    "timestamp": "2026-11-12 23:52:29",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/CRYPTO",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'Jensen Huang's affair is a cover for something worse....' | BUY NO @ q=69% vs Fair p=78% (Edge +8.51% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: MULTI-MARKET KELLY + CLOB SPREAD CAPTURE",
-    "url": "https://manifold.markets/Technocrat/jensen-huangs-affair-is-a-cover-for"
-  },
-  {
-    "id": "out_12/11/2026 23:09_limitlessprojects/Go-Hybrid#4418",
-    "timestamp": "12/11/2026 23:09",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4418",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4418) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "POLYMARKET-GROK-8yUlINO99S-2026-11-12 23",
-    "timestamp": "2026-11-12 23:04:01",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/GLOBAL_EVENTS",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'NBA: Will Detroit Pistons beat Washington Wizards by 11...' | BUY YES @ q=45% vs Fair p=65% (Edge +20.53% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: PIVOT -> WEATHER / NOAA + SPREAD ENGINE",
-    "url": "https://manifold.markets/Web3ICP/nba-will-detroit-pistons-beat-washi-8Lt889C8Qg"
-  },
-  {
-    "id": "POLYMARKET-GROK-8yUlINO99S-2026-11-12 22",
-    "timestamp": "2026-11-12 22:56:54",
-    "type": "SERVICO_MAPEADO",
-    "portal": "Polymarket",
-    "repo": "Polymarket/GLOBAL_EVENTS",
-    "summary": "🎯 [Grok/Argona Survival Bot] Assimetria detectada: 'NBA: Will Detroit Pistons beat Washington Wizards by 11...' | BUY YES @ q=45% vs Fair p=65% (Edge +20.53% | Kelly 6.0%)",
-    "status_action": "Auditado pelos 6 Agentes (HOLT->BRAM->ILSA->KETT->RIGO->TESS) • Estratégia: PIVOT -> WEATHER / NOAA + SPREAD ENGINE",
-    "url": "https://manifold.markets/Web3ICP/nba-will-detroit-pistons-beat-washi-8Lt889C8Qg"
-  },
-  {
-    "id": "out_12/11/2026 22:54_paraloom-labs/paraloom-core#1599",
-    "timestamp": "12/11/2026 22:54",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core#1599",
-    "summary": "Resposta/Entrega de saída (paraloom-labs/paraloom-core#1599) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_12/11/2026 17:50_Codeberg Forgejo Sincronizado (100 frentes...",
-    "timestamp": "12/11/2026 17:50",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (100 frentes...",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (100 frentes...) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_12/11/2026 17:20_Codeberg Forgejo Sincronizado (98 frentes)",
-    "timestamp": "12/11/2026 17:20",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (98 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (98 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_12/11/2026 16:50_Codeberg Forgejo Sincronizado (97 frentes)",
-    "timestamp": "12/11/2026 16:50",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (97 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (97 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_12/11/2026 16:50_GitLab API v4 Sincronizada (60 frentes)",
-    "timestamp": "12/11/2026 16:50",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (60 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (60 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_12/11/2026 16:20_Codeberg Forgejo Sincronizado (96 frentes)",
-    "timestamp": "12/11/2026 16:20",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (96 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (96 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_12/11/2026 15:50_limitlessprojects/Go-Hybrid#4416",
-    "timestamp": "12/11/2026 15:50",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4416",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4416) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_12/11/2026 15:19_Codeberg Forgejo Sincronizado (95 frentes)",
-    "timestamp": "12/11/2026 15:19",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (95 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (95 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_12/11/2026 13:59_limitlessprojects/Go-Hybrid#4414",
-    "timestamp": "12/11/2026 13:59",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4414",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4414) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_12/11/2026 13:49_Codeberg Forgejo Sincronizado (94 frentes)",
-    "timestamp": "12/11/2026 13:49",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (94 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (94 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_12/11/2026 13:49_GitLab API v4 Sincronizada (58 frentes)",
-    "timestamp": "12/11/2026 13:49",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (58 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (58 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_12/11/2026 13:19_GitLab API v4 Sincronizada (57 frentes)",
-    "timestamp": "12/11/2026 13:19",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (57 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (57 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_12/11/2026 12:53_limitlessprojects/Go-Hybrid#4412",
-    "timestamp": "12/11/2026 12:53",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4412",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4412) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 12:53_limitlessprojects/Go-Hybrid#4410",
-    "timestamp": "12/11/2026 12:53",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4410",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4410) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_12/11/2026 12:49_Codeberg Forgejo Sincronizado (93 frentes)",
-    "timestamp": "12/11/2026 12:49",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (93 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (93 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "in_12/11/2026 12:26_limitlessprojects/Go-Hybrid",
-    "timestamp": "12/11/2026 12:26",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#0284c7",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid",
-    "summary": "E-mail de entrada (limitlessprojects/Go-Hybrid) ➔ Analisado e Respondido"
-  },
-  {
-    "id": "out_12/11/2026 12:26_limitlessprojects/Go-Hybrid#4408",
-    "timestamp": "12/11/2026 12:26",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4408",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4408) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "map_12/11/2026 12:18_Codeberg Forgejo Sincronizado (91 frentes)",
-    "timestamp": "12/11/2026 12:18",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (91 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (91 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "map_12/11/2026 12:18_GitLab API v4 Sincronizada (56 frentes)",
-    "timestamp": "12/11/2026 12:18",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "GitLab",
-    "ref": "GitLab API v4 Sincronizada (56 frentes)",
-    "summary": "Novo serviço mapeado (GitLab API v4 Sincronizada (56 frentes)) ➔ Registrado no painel"
-  },
-  {
-    "id": "out_12/11/2026 11:54_limitlessprojects/Go-Hybrid#4407",
-    "timestamp": "12/11/2026 11:54",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4407",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4407) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 11:41_limitlessprojects/Go-Hybrid#4405",
-    "timestamp": "12/11/2026 11:41",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4405",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4405) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 11:35_limitlessprojects/Go-Hybrid#4403",
-    "timestamp": "12/11/2026 11:35",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4403",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4403) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "out_12/11/2026 11:34_limitlessprojects/Go-Hybrid#4401",
-    "timestamp": "12/11/2026 11:34",
-    "category": "DELIVERY_OUT",
-    "badge": "📤 RESPOSTA / ENTREGA",
-    "badge_color": "#10b981",
-    "platform": "GitHub",
-    "ref": "limitlessprojects/Go-Hybrid#4401",
-    "summary": "Resposta/Entrega de saída (limitlessprojects/Go-Hybrid#4401) ➔ Código e proposta enviados"
-  },
-  {
-    "id": "in_12/11/2026 10:53_paraloom-labs/paraloom-core",
-    "timestamp": "12/11/2026 10:53",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#475569",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core",
-    "summary": "E-mail de entrada (paraloom-labs/paraloom-core) ➔ Analisado: Sem necessidade de resposta"
-  },
-  {
-    "id": "in_12/11/2026 10:23_paraloom-labs/paraloom-core",
-    "timestamp": "12/11/2026 10:23",
-    "category": "EMAIL_IN",
-    "badge": "📩 E-MAIL ENTRADA",
-    "badge_color": "#475569",
-    "platform": "GitHub",
-    "ref": "paraloom-labs/paraloom-core",
-    "summary": "E-mail de entrada (paraloom-labs/paraloom-core) ➔ Analisado: Sem necessidade de resposta"
-  },
-  {
-    "id": "map_12/11/2026 10:17_Codeberg Forgejo Sincronizado (88 frentes)",
-    "timestamp": "12/11/2026 10:17",
-    "category": "SERVICE_MAPPED",
-    "badge": "🔍 SERVIÇO MAPEADO",
-    "badge_color": "#f59e0b",
-    "platform": "Codeberg",
-    "ref": "Codeberg Forgejo Sincronizado (88 frentes)",
-    "summary": "Novo serviço mapeado (Codeberg Forgejo Sincronizado (88 frentes)) ➔ Registrado no painel"
-  },
-  {
     "id": "hist_out_abby_215",
     "timestamp": "07/11/2026 11:20",
     "category": "EMAIL_OUT",
@@ -2998,5 +2838,165 @@
     "platform": "GitHub",
     "ref": "limitlessprojects/Go-Hybrid#4412",
     "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4412) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4410_13",
+    "timestamp": "12/11 12:53",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4410",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4410) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4408_14",
+    "timestamp": "12/11 12:26",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4408",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4408) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4407_15",
+    "timestamp": "12/11 11:54",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4407",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4407) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4405_16",
+    "timestamp": "12/11 11:41",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4405",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4405) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4403_17",
+    "timestamp": "12/11 11:35",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4403",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4403) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4401_18",
+    "timestamp": "12/11 11:34",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4401",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4401) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4399_19",
+    "timestamp": "12/11 07:55",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4399",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4399) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4391_20",
+    "timestamp": "12/11 05:00",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4391",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4391) ➔ Proposta e código registrados (Pool Wildcard compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_limitlessprojects/Go-Hybrid_4390_21",
+    "timestamp": "12/11 04:27",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "limitlessprojects/Go-Hybrid#4390",
+    "summary": "Serviço entregue (limitlessprojects/Go-Hybrid#4390) ➔ Proposta e código registrados (Pool Top-10 compartilhado ( ciclo))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1581_22",
+    "timestamp": "12/11 01:59",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1581",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1581) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1580_23",
+    "timestamp": "12/11 01:25",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1580",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1580) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1579_24",
+    "timestamp": "12/11 00:38",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1579",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1579) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1577_25",
+    "timestamp": "12/11 00:35",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1577",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1577) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1578_26",
+    "timestamp": "12/11 00:35",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1578",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1578) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1576_27",
+    "timestamp": "12/11 00:34",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1576",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1576) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
+  },
+  {
+    "id": "tl_paraloom-labs/paraloom-core_1575_28",
+    "timestamp": "12/11 00:33",
+    "category": "DELIVERY_OUT",
+    "badge": "⚡ ENTREGA / SUBMISSÃO",
+    "badge_color": "#059669",
+    "platform": "GitHub",
+    "ref": "paraloom-labs/paraloom-core#1575",
+    "summary": "Serviço entregue (paraloom-labs/paraloom-core#1575) ➔ Proposta e código registrados ($0.00 (Autoria de terceiro))"
   }
 ]
